@@ -1,0 +1,1518 @@
+{
+    "01001": {
+        "romaji": "Akan-Gun",
+        "kanji": "阿寒郡"
+    },
+    "01002": {
+        "romaji": "Ashoro-Gun",
+        "kanji": "足寄郡"
+    },
+    "01003": {
+        "romaji": "Atsukeshi-Gun",
+        "kanji": "厚岸郡"
+    },
+    "01005": {
+        "romaji": "Abashiri-Gun",
+        "kanji": "網走郡"
+    },
+    "01006": {
+        "romaji": "Abuta-gun(Shiribeshi)",
+        "kanji": "虻田郡(後志)"
+    },
+    "01007": {
+        "romaji": "Abuta-gun(Iburi)",
+        "kanji": "虻田郡(胆振)"
+    },
+    "01008": {
+        "romaji": "Ishikari-Gun",
+        "kanji": "石狩郡"
+    },
+    "01009": {
+        "romaji": "Isoya-Gun",
+        "kanji": "磯谷郡"
+    },
+    "01010": {
+        "romaji": "Iwanai-Gun",
+        "kanji": "岩内郡"
+    },
+    "01011": {
+        "romaji": "Usu-Gun",
+        "kanji": "有珠郡"
+    },
+    "01013": {
+        "romaji": "Urakawa-Gun",
+        "kanji": "浦河郡"
+    },
+    "01014": {
+        "romaji": "Uryu-gun(Sorachi)",
+        "kanji": "雨竜郡(空知)"
+    },
+    "01015": {
+        "romaji": "Esashi-Gun",
+        "kanji": "枝幸郡"
+    },
+    "01016": {
+        "romaji": "Okushiri-Gun",
+        "kanji": "奥尻郡"
+    },
+    "01018": {
+        "romaji": "Kasai-Gun",
+        "kanji": "河西郡"
+    },
+    "01019": {
+        "romaji": "Kato-Gun",
+        "kanji": "河東郡"
+    },
+    "01020": {
+        "romaji": "Kabato-Gun",
+        "kanji": "樺戸郡"
+    },
+    "01021": {
+        "romaji": "Kamiiso-Gun",
+        "kanji": "上磯郡"
+    },
+    "01022": {
+        "romaji": "Kamikawa-gun(Tokachi)",
+        "kanji": "上川郡(十勝)"
+    },
+    "01023": {
+        "romaji": "Kamikawa-gun(Kamikawa)",
+        "kanji": "上川郡(上川)"
+    },
+    "01024": {
+        "romaji": "Kameda-Gun",
+        "kanji": "亀田郡"
+    },
+    "01025": {
+        "romaji": "Kayabe-Gun",
+        "kanji": "茅部郡"
+    },
+    "01026": {
+        "romaji": "Kawakami-Gun",
+        "kanji": "川上郡"
+    },
+    "01027": {
+        "romaji": "Kushiro-Gun",
+        "kanji": "釧路郡"
+    },
+    "01028": {
+        "romaji": "Kudo-Gun",
+        "kanji": "久遠郡"
+    },
+    "01030": {
+        "romaji": "Samani-Gun",
+        "kanji": "様似郡"
+    },
+    "01031": {
+        "romaji": "Saru-Gun",
+        "kanji": "沙流郡"
+    },
+    "01033": {
+        "romaji": "Shibetsu-Gun",
+        "kanji": "標津郡"
+    },
+    "01034": {
+        "romaji": "Shimamaki-Gun",
+        "kanji": "島牧郡"
+    },
+    "01035": {
+        "romaji": "Shakotan-Gun",
+        "kanji": "積丹郡"
+    },
+    "01036": {
+        "romaji": "Shari-Gun",
+        "kanji": "斜里郡"
+    },
+    "01037": {
+        "romaji": "Shiraoi-Gun",
+        "kanji": "白老郡"
+    },
+    "01038": {
+        "romaji": "Shiranuka-Gun",
+        "kanji": "白糠郡"
+    },
+    "01039": {
+        "romaji": "Suttsu-Gun",
+        "kanji": "寿都郡"
+    },
+    "01040": {
+        "romaji": "Setana-Gun",
+        "kanji": "瀬棚郡"
+    },
+    "01041": {
+        "romaji": "Soya-Gun",
+        "kanji": "宗谷郡"
+    },
+    "01042": {
+        "romaji": "Sorachi-gun(Sorachi)",
+        "kanji": "空知郡(空知)"
+    },
+    "01043": {
+        "romaji": "Sorachi-gun(Kamikawa)",
+        "kanji": "空知郡(上川)"
+    },
+    "01045": {
+        "romaji": "Teshio-gun(Rumoi)",
+        "kanji": "天塩郡(留萌)"
+    },
+    "01046": {
+        "romaji": "Teshio-gun(Soya)",
+        "kanji": "天塩郡(宗谷)"
+    },
+    "01047": {
+        "romaji": "Tokachi-Gun",
+        "kanji": "十勝郡"
+    },
+    "01048": {
+        "romaji": "Tokoro-Gun",
+        "kanji": "常呂郡"
+    },
+    "01049": {
+        "romaji": "Tomamae-Gun",
+        "kanji": "苫前郡"
+    },
+    "01050": {
+        "romaji": "Nakagawa-gun(Kamikawa)",
+        "kanji": "中川郡(上川)"
+    },
+    "01051": {
+        "romaji": "Nakagawa-gun(Tokachi)",
+        "kanji": "中川郡(十勝)"
+    },
+    "01052": {
+        "romaji": "Niikappu-Gun",
+        "kanji": "新冠郡"
+    },
+    "01053": {
+        "romaji": "Nishi-Gun",
+        "kanji": "爾志郡"
+    },
+    "01055": {
+        "romaji": "Notsuke-Gun",
+        "kanji": "野付郡"
+    },
+    "01059": {
+        "romaji": "Hiyama-Gun",
+        "kanji": "檜山郡"
+    },
+    "01060": {
+        "romaji": "Hiroo-Gun",
+        "kanji": "広尾郡"
+    },
+    "01062": {
+        "romaji": "Furuu-Gun",
+        "kanji": "古宇郡"
+    },
+    "01063": {
+        "romaji": "Furubira-Gun",
+        "kanji": "古平郡"
+    },
+    "01064": {
+        "romaji": "Horoizumi-Gun",
+        "kanji": "幌泉郡"
+    },
+    "01066": {
+        "romaji": "Mashike-Gun",
+        "kanji": "増毛郡"
+    },
+    "01067": {
+        "romaji": "Matsumae-Gun",
+        "kanji": "松前郡"
+    },
+    "01069": {
+        "romaji": "Menashi-Gun",
+        "kanji": "目梨郡"
+    },
+    "01070": {
+        "romaji": "Mombetsu-Gun",
+        "kanji": "紋別郡"
+    },
+    "01071": {
+        "romaji": "Yamakoshi-Gun",
+        "kanji": "山越郡"
+    },
+    "01072": {
+        "romaji": "Yubari-Gun",
+        "kanji": "夕張郡"
+    },
+    "01073": {
+        "romaji": "Yufutsu-gun(Iburi)",
+        "kanji": "勇払郡(胆振)"
+    },
+    "01074": {
+        "romaji": "Yufutsu-gun(Kamikawa)",
+        "kanji": "勇払郡(上川)"
+    },
+    "01075": {
+        "romaji": "Yoichi-Gun",
+        "kanji": "余市郡"
+    },
+    "01076": {
+        "romaji": "Rishiri-Gun",
+        "kanji": "利尻郡"
+    },
+    "01077": {
+        "romaji": "Rumoi-Gun",
+        "kanji": "留萌郡"
+    },
+    "01078": {
+        "romaji": "Rebun-Gun",
+        "kanji": "礼文郡"
+    },
+    "01079": {
+        "romaji": "Futami-Gun",
+        "kanji": "二海郡"
+    },
+    "01080": {
+        "romaji": "Hidaka-Gun",
+        "kanji": "日高郡"
+    },
+    "01081": {
+        "romaji": "Uryu-gun(Kamikawa)",
+        "kanji": "雨竜郡(上川)"
+    },
+    "02001": {
+        "romaji": "Kamikita-Gun",
+        "kanji": "上北郡"
+    },
+    "02002": {
+        "romaji": "Kitatsugaru-Gun",
+        "kanji": "北津軽郡"
+    },
+    "02003": {
+        "romaji": "Sannohe-Gun",
+        "kanji": "三戸郡"
+    },
+    "02004": {
+        "romaji": "Shimokita-Gun",
+        "kanji": "下北郡"
+    },
+    "02005": {
+        "romaji": "Nakatsugaru-Gun",
+        "kanji": "中津軽郡"
+    },
+    "02006": {
+        "romaji": "Nishitsugaru-Gun",
+        "kanji": "西津軽郡"
+    },
+    "02007": {
+        "romaji": "Higashitsugaru-Gun",
+        "kanji": "東津軽郡"
+    },
+    "02008": {
+        "romaji": "Minamitsugaru-Gun",
+        "kanji": "南津軽郡"
+    },
+    "03001": {
+        "romaji": "Isawa-Gun",
+        "kanji": "胆沢郡"
+    },
+    "03002": {
+        "romaji": "Iwate-Gun",
+        "kanji": "岩手郡"
+    },
+    "03004": {
+        "romaji": "Kamihei-Gun",
+        "kanji": "上閉伊郡"
+    },
+    "03005": {
+        "romaji": "Kunohe-Gun",
+        "kanji": "九戸郡"
+    },
+    "03006": {
+        "romaji": "Kesen-Gun",
+        "kanji": "気仙郡"
+    },
+    "03007": {
+        "romaji": "Shimohei-Gun",
+        "kanji": "下閉伊郡"
+    },
+    "03008": {
+        "romaji": "Shiwa-Gun",
+        "kanji": "紫波郡"
+    },
+    "03009": {
+        "romaji": "Nishiiwai-Gun",
+        "kanji": "西磐井郡"
+    },
+    "03010": {
+        "romaji": "Ninohe-Gun",
+        "kanji": "二戸郡"
+    },
+    "03013": {
+        "romaji": "Waga-Gun",
+        "kanji": "和賀郡"
+    },
+    "04001": {
+        "romaji": "Ogachi-Gun",
+        "kanji": "雄勝郡"
+    },
+    "04002": {
+        "romaji": "Kazuno-Gun",
+        "kanji": "鹿角郡"
+    },
+    "04004": {
+        "romaji": "Kitaakita-Gun",
+        "kanji": "北秋田郡"
+    },
+    "04005": {
+        "romaji": "Semboku-Gun",
+        "kanji": "仙北郡"
+    },
+    "04007": {
+        "romaji": "Minamiakita-Gun",
+        "kanji": "南秋田郡"
+    },
+    "04008": {
+        "romaji": "Yamamoto-Gun",
+        "kanji": "山本郡"
+    },
+    "05001": {
+        "romaji": "Akumi-Gun",
+        "kanji": "飽海郡"
+    },
+    "05002": {
+        "romaji": "Kitamurayama-Gun",
+        "kanji": "北村山郡"
+    },
+    "05003": {
+        "romaji": "Nishiokitama-Gun",
+        "kanji": "西置賜郡"
+    },
+    "05005": {
+        "romaji": "Nishimurayama-Gun",
+        "kanji": "西村山郡"
+    },
+    "05006": {
+        "romaji": "Higashiokitama-Gun",
+        "kanji": "東置賜郡"
+    },
+    "05007": {
+        "romaji": "Higashitagawa-Gun",
+        "kanji": "東田川郡"
+    },
+    "05008": {
+        "romaji": "Higashimurayama-Gun",
+        "kanji": "東村山郡"
+    },
+    "05011": {
+        "romaji": "Mogami-Gun",
+        "kanji": "最上郡"
+    },
+    "06001": {
+        "romaji": "Igu-Gun",
+        "kanji": "伊具郡"
+    },
+    "06002": {
+        "romaji": "Oshika-Gun",
+        "kanji": "牡鹿郡"
+    },
+    "06003": {
+        "romaji": "Katta-Gun",
+        "kanji": "刈田郡"
+    },
+    "06004": {
+        "romaji": "Kami-Gun",
+        "kanji": "加美郡"
+    },
+    "06006": {
+        "romaji": "Kurokawa-Gun",
+        "kanji": "黒川郡"
+    },
+    "06008": {
+        "romaji": "Shibata-Gun",
+        "kanji": "柴田郡"
+    },
+    "06010": {
+        "romaji": "Toda-Gun",
+        "kanji": "遠田郡"
+    },
+    "06013": {
+        "romaji": "Miyagi-Gun",
+        "kanji": "宮城郡"
+    },
+    "06014": {
+        "romaji": "Motoyoshi-Gun",
+        "kanji": "本吉郡"
+    },
+    "06016": {
+        "romaji": "Watari-Gun",
+        "kanji": "亘理郡"
+    },
+    "07002": {
+        "romaji": "Adachi-Gun",
+        "kanji": "安達郡"
+    },
+    "07003": {
+        "romaji": "Ishikawa-Gun",
+        "kanji": "石川郡"
+    },
+    "07005": {
+        "romaji": "Iwase-Gun",
+        "kanji": "岩瀬郡"
+    },
+    "07006": {
+        "romaji": "Onuma-Gun",
+        "kanji": "大沼郡"
+    },
+    "07007": {
+        "romaji": "Kawanuma-Gun",
+        "kanji": "河沼郡"
+    },
+    "07010": {
+        "romaji": "Soma-Gun",
+        "kanji": "相馬郡"
+    },
+    "07011": {
+        "romaji": "Date-Gun",
+        "kanji": "伊達郡"
+    },
+    "07012": {
+        "romaji": "Tamura-Gun",
+        "kanji": "田村郡"
+    },
+    "07013": {
+        "romaji": "Nishishirakawa-Gun",
+        "kanji": "西白河郡"
+    },
+    "07014": {
+        "romaji": "Higashishirakawa-Gun",
+        "kanji": "東白川郡"
+    },
+    "07015": {
+        "romaji": "Futaba-Gun",
+        "kanji": "双葉郡"
+    },
+    "07016": {
+        "romaji": "Minamiaizu-Gun",
+        "kanji": "南会津郡"
+    },
+    "07017": {
+        "romaji": "Yama-Gun",
+        "kanji": "耶麻郡"
+    },
+    "08001": {
+        "romaji": "Iwafune-Gun",
+        "kanji": "岩船郡"
+    },
+    "08002": {
+        "romaji": "Kariwa-Gun",
+        "kanji": "刈羽郡"
+    },
+    "08004": {
+        "romaji": "Kitakambara-Gun",
+        "kanji": "北蒲原郡"
+    },
+    "08007": {
+        "romaji": "Santo-Gun",
+        "kanji": "三島郡"
+    },
+    "08008": {
+        "romaji": "Nakauonuma-Gun",
+        "kanji": "中魚沼郡"
+    },
+    "08011": {
+        "romaji": "Nishikambara-Gun",
+        "kanji": "西蒲原郡"
+    },
+    "08013": {
+        "romaji": "Higashikambara-Gun",
+        "kanji": "東蒲原郡"
+    },
+    "08015": {
+        "romaji": "Minamiuonuma-Gun",
+        "kanji": "南魚沼郡"
+    },
+    "08016": {
+        "romaji": "Minamikambara-Gun",
+        "kanji": "南蒲原郡"
+    },
+    "09001": {
+        "romaji": "Kamiina-Gun",
+        "kanji": "上伊那郡"
+    },
+    "09002": {
+        "romaji": "Kamitakai-Gun",
+        "kanji": "上高井郡"
+    },
+    "09003": {
+        "romaji": "Kamiminochi-Gun",
+        "kanji": "上水内郡"
+    },
+    "09004": {
+        "romaji": "Kiso-Gun",
+        "kanji": "木曽郡"
+    },
+    "09005": {
+        "romaji": "Kitaazumi-Gun",
+        "kanji": "北安曇郡"
+    },
+    "09006": {
+        "romaji": "Kitasaku-Gun",
+        "kanji": "北佐久郡"
+    },
+    "09008": {
+        "romaji": "Shimoina-Gun",
+        "kanji": "下伊那郡"
+    },
+    "09009": {
+        "romaji": "Shimotakai-Gun",
+        "kanji": "下高井郡"
+    },
+    "09010": {
+        "romaji": "Shimominochi-Gun",
+        "kanji": "下水内郡"
+    },
+    "09011": {
+        "romaji": "Suwa-Gun",
+        "kanji": "諏訪郡"
+    },
+    "09012": {
+        "romaji": "Chiisagata-Gun",
+        "kanji": "小県郡"
+    },
+    "09014": {
+        "romaji": "Hanishina-Gun",
+        "kanji": "埴科郡"
+    },
+    "09015": {
+        "romaji": "Higashichikuma-Gun",
+        "kanji": "東筑摩郡"
+    },
+    "09017": {
+        "romaji": "Minamisaku-Gun",
+        "kanji": "南佐久郡"
+    },
+    "10002": {
+        "romaji": "Nishitama-Gun",
+        "kanji": "西多摩郡"
+    },
+    "10004": {
+        "romaji": "Oshima-Shicho",
+        "kanji": "大島支庁"
+    },
+    "10005": {
+        "romaji": "Miyake-Shicho",
+        "kanji": "三宅支庁"
+    },
+    "10006": {
+        "romaji": "Hachijo-Shicho",
+        "kanji": "八丈支庁"
+    },
+    "10007": {
+        "romaji": "Ogasawara-Shicho",
+        "kanji": "小笠原支庁"
+    },
+    "11001": {
+        "romaji": "Aiko-Gun",
+        "kanji": "愛甲郡"
+    },
+    "11002": {
+        "romaji": "Ashigarakami-Gun",
+        "kanji": "足柄上郡"
+    },
+    "11003": {
+        "romaji": "Ashigarashimo-Gun",
+        "kanji": "足柄下郡"
+    },
+    "11004": {
+        "romaji": "Koza-Gun",
+        "kanji": "高座郡"
+    },
+    "11006": {
+        "romaji": "Naka-Gun",
+        "kanji": "中郡"
+    },
+    "11007": {
+        "romaji": "Miura-Gun",
+        "kanji": "三浦郡"
+    },
+    "12001": {
+        "romaji": "Awa-Gun",
+        "kanji": "安房郡"
+    },
+    "12002": {
+        "romaji": "Isumi-Gun",
+        "kanji": "夷隅郡"
+    },
+    "12004": {
+        "romaji": "Inba-Gun",
+        "kanji": "印旛郡"
+    },
+    "12006": {
+        "romaji": "Katori-Gun",
+        "kanji": "香取郡"
+    },
+    "12008": {
+        "romaji": "Sambu-Gun",
+        "kanji": "山武郡"
+    },
+    "12011": {
+        "romaji": "Chosei-Gun",
+        "kanji": "長生郡"
+    },
+    "13001": {
+        "romaji": "Iruma-Gun",
+        "kanji": "入間郡"
+    },
+    "13002": {
+        "romaji": "Osato-Gun",
+        "kanji": "大里郡"
+    },
+    "13003": {
+        "romaji": "Kitaadachi-Gun",
+        "kanji": "北足立郡"
+    },
+    "13004": {
+        "romaji": "Kitakatsushika-Gun",
+        "kanji": "北葛飾郡"
+    },
+    "13006": {
+        "romaji": "Kodama-Gun",
+        "kanji": "児玉郡"
+    },
+    "13007": {
+        "romaji": "Chichibu-Gun",
+        "kanji": "秩父郡"
+    },
+    "13008": {
+        "romaji": "Hiki-Gun",
+        "kanji": "比企郡"
+    },
+    "13009": {
+        "romaji": "Minamisaitama-Gun",
+        "kanji": "南埼玉郡"
+    },
+    "14001": {
+        "romaji": "Inashiki-Gun",
+        "kanji": "稲敷郡"
+    },
+    "14003": {
+        "romaji": "Kitasoma-Gun",
+        "kanji": "北相馬郡"
+    },
+    "14004": {
+        "romaji": "Kuji-Gun",
+        "kanji": "久慈郡"
+    },
+    "14005": {
+        "romaji": "Sashima-Gun",
+        "kanji": "猿島郡"
+    },
+    "14008": {
+        "romaji": "Naka-Gun",
+        "kanji": "那珂郡"
+    },
+    "14012": {
+        "romaji": "Higashiibaraki-Gun",
+        "kanji": "東茨城郡"
+    },
+    "14014": {
+        "romaji": "Yuki-Gun",
+        "kanji": "結城郡"
+    },
+    "15004": {
+        "romaji": "Kawachi-Gun",
+        "kanji": "河内郡"
+    },
+    "15005": {
+        "romaji": "Shioya-Gun",
+        "kanji": "塩谷郡"
+    },
+    "15006": {
+        "romaji": "Shimotsuga-Gun",
+        "kanji": "下都賀郡"
+    },
+    "15007": {
+        "romaji": "Nasu-Gun",
+        "kanji": "那須郡"
+    },
+    "15008": {
+        "romaji": "Haga-Gun",
+        "kanji": "芳賀郡"
+    },
+    "16001": {
+        "romaji": "Agatsuma-Gun",
+        "kanji": "吾妻郡"
+    },
+    "16003": {
+        "romaji": "Ora-Gun",
+        "kanji": "邑楽郡"
+    },
+    "16004": {
+        "romaji": "Kanra-Gun",
+        "kanji": "甘楽郡"
+    },
+    "16005": {
+        "romaji": "Kitagumma-Gun",
+        "kanji": "北群馬郡"
+    },
+    "16007": {
+        "romaji": "Sawa-Gun",
+        "kanji": "佐波郡"
+    },
+    "16009": {
+        "romaji": "Tano-Gun",
+        "kanji": "多野郡"
+    },
+    "16010": {
+        "romaji": "Tone-Gun",
+        "kanji": "利根郡"
+    },
+    "17002": {
+        "romaji": "Kitatsuru-Gun",
+        "kanji": "北都留郡"
+    },
+    "17003": {
+        "romaji": "Nakakoma-Gun",
+        "kanji": "中巨摩郡"
+    },
+    "17004": {
+        "romaji": "Nishiyatsushiro-Gun",
+        "kanji": "西八代郡"
+    },
+    "17007": {
+        "romaji": "Minamikoma-Gun",
+        "kanji": "南巨摩郡"
+    },
+    "17008": {
+        "romaji": "Minamitsuru-Gun",
+        "kanji": "南都留郡"
+    },
+    "18006": {
+        "romaji": "Kamo-Gun",
+        "kanji": "賀茂郡"
+    },
+    "18008": {
+        "romaji": "Shuchi-Gun",
+        "kanji": "周智郡"
+    },
+    "18009": {
+        "romaji": "Sunto-Gun",
+        "kanji": "駿東郡"
+    },
+    "18010": {
+        "romaji": "Tagata-Gun",
+        "kanji": "田方郡"
+    },
+    "18011": {
+        "romaji": "Haibara-Gun",
+        "kanji": "榛原郡"
+    },
+    "19001": {
+        "romaji": "Anpachi-Gun",
+        "kanji": "安八郡"
+    },
+    "19003": {
+        "romaji": "Ibi-Gun",
+        "kanji": "揖斐郡"
+    },
+    "19005": {
+        "romaji": "Ono-Gun",
+        "kanji": "大野郡"
+    },
+    "19007": {
+        "romaji": "Kani-Gun",
+        "kanji": "可児郡"
+    },
+    "19008": {
+        "romaji": "Kamo-Gun",
+        "kanji": "加茂郡"
+    },
+    "19011": {
+        "romaji": "Hashima-Gun",
+        "kanji": "羽島郡"
+    },
+    "19012": {
+        "romaji": "Fuwa-Gun",
+        "kanji": "不破郡"
+    },
+    "19015": {
+        "romaji": "Motosu-Gun",
+        "kanji": "本巣郡"
+    },
+    "19017": {
+        "romaji": "Yoro-Gun",
+        "kanji": "養老郡"
+    },
+    "20001": {
+        "romaji": "Aichi-Gun",
+        "kanji": "愛知郡"
+    },
+    "20003": {
+        "romaji": "Ama-Gun",
+        "kanji": "海部郡"
+    },
+    "20004": {
+        "romaji": "Kitashitara-Gun",
+        "kanji": "北設楽郡"
+    },
+    "20005": {
+        "romaji": "Chita-Gun",
+        "kanji": "知多郡"
+    },
+    "20007": {
+        "romaji": "Nishikasugai-Gun",
+        "kanji": "西春日井郡"
+    },
+    "20009": {
+        "romaji": "Niwa-Gun",
+        "kanji": "丹羽郡"
+    },
+    "20010": {
+        "romaji": "Nukata-Gun",
+        "kanji": "額田郡"
+    },
+    "21006": {
+        "romaji": "Inabe-Gun",
+        "kanji": "員弁郡"
+    },
+    "21008": {
+        "romaji": "Kitamuro-Gun",
+        "kanji": "北牟婁郡"
+    },
+    "21009": {
+        "romaji": "Kuwana-Gun",
+        "kanji": "桑名郡"
+    },
+    "21012": {
+        "romaji": "Taki-Gun",
+        "kanji": "多気郡"
+    },
+    "21014": {
+        "romaji": "Mie-Gun",
+        "kanji": "三重郡"
+    },
+    "21015": {
+        "romaji": "Minamimuro-Gun",
+        "kanji": "南牟婁郡"
+    },
+    "21016": {
+        "romaji": "Watarai-Gun",
+        "kanji": "度会郡"
+    },
+    "22003": {
+        "romaji": "Otokuni-Gun",
+        "kanji": "乙訓郡"
+    },
+    "22006": {
+        "romaji": "Kuse-Gun",
+        "kanji": "久世郡"
+    },
+    "22008": {
+        "romaji": "Soraku-Gun",
+        "kanji": "相楽郡"
+    },
+    "22010": {
+        "romaji": "Tsuzuki-Gun",
+        "kanji": "綴喜郡"
+    },
+    "22012": {
+        "romaji": "Funai-Gun",
+        "kanji": "船井郡"
+    },
+    "22014": {
+        "romaji": "Yoza-Gun",
+        "kanji": "与謝郡"
+    },
+    "23002": {
+        "romaji": "Inukami-Gun",
+        "kanji": "犬上郡"
+    },
+    "23003": {
+        "romaji": "Echi-Gun",
+        "kanji": "愛知郡"
+    },
+    "23004": {
+        "romaji": "Gamou-Gun",
+        "kanji": "蒲生郡"
+    },
+    "24001": {
+        "romaji": "Ikoma-Gun",
+        "kanji": "生駒郡"
+    },
+    "24002": {
+        "romaji": "Uda-Gun",
+        "kanji": "宇陀郡"
+    },
+    "24004": {
+        "romaji": "Kitakatsuragi-Gun",
+        "kanji": "北葛城郡"
+    },
+    "24005": {
+        "romaji": "Shiki-Gun",
+        "kanji": "磯城郡"
+    },
+    "24007": {
+        "romaji": "Takaichi-Gun",
+        "kanji": "高市郡"
+    },
+    "24009": {
+        "romaji": "Yamabe-Gun",
+        "kanji": "山辺郡"
+    },
+    "24010": {
+        "romaji": "Yoshino-Gun",
+        "kanji": "吉野郡"
+    },
+    "25002": {
+        "romaji": "Sennan-Gun",
+        "kanji": "泉南郡"
+    },
+    "25003": {
+        "romaji": "Senboku-Gun",
+        "kanji": "泉北郡"
+    },
+    "25004": {
+        "romaji": "Toyono-Gun",
+        "kanji": "豊能郡"
+    },
+    "25006": {
+        "romaji": "Mishima-Gun",
+        "kanji": "三島郡"
+    },
+    "25007": {
+        "romaji": "Minamikawachi-Gun",
+        "kanji": "南河内郡"
+    },
+    "26001": {
+        "romaji": "Arida-Gun",
+        "kanji": "有田郡"
+    },
+    "26002": {
+        "romaji": "Ito-Gun",
+        "kanji": "伊都郡"
+    },
+    "26003": {
+        "romaji": "Kaiso-Gun",
+        "kanji": "海草郡"
+    },
+    "26005": {
+        "romaji": "Nishimuro-Gun",
+        "kanji": "西牟婁郡"
+    },
+    "26006": {
+        "romaji": "Higashimuro-Gun",
+        "kanji": "東牟婁郡"
+    },
+    "26007": {
+        "romaji": "Hidaka-Gun",
+        "kanji": "日高郡"
+    },
+    "27001": {
+        "romaji": "Akou-Gun",
+        "kanji": "赤穂郡"
+    },
+    "27005": {
+        "romaji": "Ibo-Gun",
+        "kanji": "揖保郡"
+    },
+    "27007": {
+        "romaji": "Kako-Gun",
+        "kanji": "加古郡"
+    },
+    "27010": {
+        "romaji": "Kawabe-Gun",
+        "kanji": "川辺郡"
+    },
+    "27011": {
+        "romaji": "Kanzaki-Gun",
+        "kanji": "神崎郡"
+    },
+    "27013": {
+        "romaji": "Sayo-Gun",
+        "kanji": "佐用郡"
+    },
+    "27016": {
+        "romaji": "Taka-Gun",
+        "kanji": "多可郡"
+    },
+    "27020": {
+        "romaji": "Mikata-Gun",
+        "kanji": "美方郡"
+    },
+    "28003": {
+        "romaji": "Shimoniikawa-Gun",
+        "kanji": "下新川郡"
+    },
+    "28004": {
+        "romaji": "Nakaniikawa-Gun",
+        "kanji": "中新川郡"
+    },
+    "29002": {
+        "romaji": "Imadate-Gun",
+        "kanji": "今立郡"
+    },
+    "29003": {
+        "romaji": "Oi-Gun",
+        "kanji": "大飯郡"
+    },
+    "29008": {
+        "romaji": "Nanjo-Gun",
+        "kanji": "南条郡"
+    },
+    "29009": {
+        "romaji": "Nyuu-Gun",
+        "kanji": "丹生郡"
+    },
+    "29010": {
+        "romaji": "Mikata-Gun",
+        "kanji": "三方郡"
+    },
+    "29011": {
+        "romaji": "Yoshida-Gun",
+        "kanji": "吉田郡"
+    },
+    "29012": {
+        "romaji": "Mikatakaminaka-Gun",
+        "kanji": "三方上中郡"
+    },
+    "30003": {
+        "romaji": "Kashima-Gun",
+        "kanji": "鹿島郡"
+    },
+    "30004": {
+        "romaji": "Kahoku-Gun",
+        "kanji": "河北郡"
+    },
+    "30006": {
+        "romaji": "Nomi-Gun",
+        "kanji": "能美郡"
+    },
+    "30007": {
+        "romaji": "Hakui-Gun",
+        "kanji": "羽咋郡"
+    },
+    "30009": {
+        "romaji": "Housu-Gun",
+        "kanji": "鳳珠郡"
+    },
+    "31001": {
+        "romaji": "Aida-Gun",
+        "kanji": "英田郡"
+    },
+    "31003": {
+        "romaji": "Asakuchi-Gun",
+        "kanji": "浅口郡"
+    },
+    "31006": {
+        "romaji": "Oda-Gun",
+        "kanji": "小田郡"
+    },
+    "31007": {
+        "romaji": "Katsuta-Gun",
+        "kanji": "勝田郡"
+    },
+    "31010": {
+        "romaji": "Kume-Gun",
+        "kanji": "久米郡"
+    },
+    "31015": {
+        "romaji": "Tsukubo-Gun",
+        "kanji": "都窪郡"
+    },
+    "31016": {
+        "romaji": "Tomata-Gun",
+        "kanji": "苫田郡"
+    },
+    "31017": {
+        "romaji": "Maniwa-Gun",
+        "kanji": "真庭郡"
+    },
+    "31019": {
+        "romaji": "Wake-Gun",
+        "kanji": "和気郡"
+    },
+    "31020": {
+        "romaji": "Kaga-Gun",
+        "kanji": "加賀郡"
+    },
+    "32003": {
+        "romaji": "Iishi-Gun",
+        "kanji": "飯石郡"
+    },
+    "32004": {
+        "romaji": "Ochi-Gun",
+        "kanji": "邑智郡"
+    },
+    "32006": {
+        "romaji": "Oki-Gun",
+        "kanji": "隠岐郡"
+    },
+    "32008": {
+        "romaji": "Kanoashi-Gun",
+        "kanji": "鹿足郡"
+    },
+    "32012": {
+        "romaji": "Nita-Gun",
+        "kanji": "仁多郡"
+    },
+    "33002": {
+        "romaji": "Abu-Gun",
+        "kanji": "阿武郡"
+    },
+    "33003": {
+        "romaji": "Oshima-Gun",
+        "kanji": "大島郡"
+    },
+    "33005": {
+        "romaji": "Kuga-Gun",
+        "kanji": "玖珂郡"
+    },
+    "33006": {
+        "romaji": "Kumage-Gun",
+        "kanji": "熊毛郡"
+    },
+    "34001": {
+        "romaji": "Iwami-Gun",
+        "kanji": "岩美郡"
+    },
+    "34003": {
+        "romaji": "Saihaku-Gun",
+        "kanji": "西伯郡"
+    },
+    "34004": {
+        "romaji": "Tohaku-Gun",
+        "kanji": "東伯郡"
+    },
+    "34005": {
+        "romaji": "Hino-Gun",
+        "kanji": "日野郡"
+    },
+    "34006": {
+        "romaji": "Yazu-Gun",
+        "kanji": "八頭郡"
+    },
+    "35001": {
+        "romaji": "Aki-Gun",
+        "kanji": "安芸郡"
+    },
+    "35007": {
+        "romaji": "Jinseki-Gun",
+        "kanji": "神石郡"
+    },
+    "35008": {
+        "romaji": "Sera-Gun",
+        "kanji": "世羅郡"
+    },
+    "35010": {
+        "romaji": "Toyota-Gun",
+        "kanji": "豊田郡"
+    },
+    "35016": {
+        "romaji": "Yamagata-Gun",
+        "kanji": "山県郡"
+    },
+    "36001": {
+        "romaji": "Ayauta-Gun",
+        "kanji": "綾歌郡"
+    },
+    "36003": {
+        "romaji": "Kagawa-Gun",
+        "kanji": "香川郡"
+    },
+    "36004": {
+        "romaji": "Kita-Gun",
+        "kanji": "木田郡"
+    },
+    "36005": {
+        "romaji": "Syozu-Gun",
+        "kanji": "小豆郡"
+    },
+    "36006": {
+        "romaji": "Nakatado-Gun",
+        "kanji": "仲多度郡"
+    },
+    "37002": {
+        "romaji": "Itano-Gun",
+        "kanji": "板野郡"
+    },
+    "37004": {
+        "romaji": "Kaifu-Gun",
+        "kanji": "海部郡"
+    },
+    "37005": {
+        "romaji": "Katsuura-Gun",
+        "kanji": "勝浦郡"
+    },
+    "37006": {
+        "romaji": "Naka-Gun",
+        "kanji": "那賀郡"
+    },
+    "37007": {
+        "romaji": "Myozai-Gun",
+        "kanji": "名西郡"
+    },
+    "37008": {
+        "romaji": "Myodo-Gun",
+        "kanji": "名東郡"
+    },
+    "37009": {
+        "romaji": "Mima-Gun",
+        "kanji": "美馬郡"
+    },
+    "37010": {
+        "romaji": "Miyoshi-Gun",
+        "kanji": "三好郡"
+    },
+    "38001": {
+        "romaji": "Iyo-Gun",
+        "kanji": "伊予郡"
+    },
+    "38003": {
+        "romaji": "Ochi-Gun",
+        "kanji": "越智郡"
+    },
+    "38005": {
+        "romaji": "Kamiukena-Gun",
+        "kanji": "上浮穴郡"
+    },
+    "38006": {
+        "romaji": "Kita-Gun",
+        "kanji": "喜多郡"
+    },
+    "38007": {
+        "romaji": "Kitauwa-Gun",
+        "kanji": "北宇和郡"
+    },
+    "38010": {
+        "romaji": "Nishiuwa-Gun",
+        "kanji": "西宇和郡"
+    },
+    "38012": {
+        "romaji": "Minamiuwa-Gun",
+        "kanji": "南宇和郡"
+    },
+    "39001": {
+        "romaji": "Agawa-Gun",
+        "kanji": "吾川郡"
+    },
+    "39002": {
+        "romaji": "Aki-Gun",
+        "kanji": "安芸郡"
+    },
+    "39004": {
+        "romaji": "Takaoka-Gun",
+        "kanji": "高岡郡"
+    },
+    "39005": {
+        "romaji": "Tosa-Gun",
+        "kanji": "土佐郡"
+    },
+    "39006": {
+        "romaji": "Nagaoka-Gun",
+        "kanji": "長岡郡"
+    },
+    "39007": {
+        "romaji": "Hata-Gun",
+        "kanji": "幡多郡"
+    },
+    "40001": {
+        "romaji": "Asakura-Gun",
+        "kanji": "朝倉郡"
+    },
+    "40004": {
+        "romaji": "Onga-Gun",
+        "kanji": "遠賀郡"
+    },
+    "40005": {
+        "romaji": "Kasuya-Gun",
+        "kanji": "糟屋郡"
+    },
+    "40006": {
+        "romaji": "Kaho-Gun",
+        "kanji": "嘉穂郡"
+    },
+    "40007": {
+        "romaji": "Kurate-Gun",
+        "kanji": "鞍手郡"
+    },
+    "40009": {
+        "romaji": "Tagawa-Gun",
+        "kanji": "田川郡"
+    },
+    "40011": {
+        "romaji": "Chikujo-Gun",
+        "kanji": "築上郡"
+    },
+    "40012": {
+        "romaji": "Mii-Gun",
+        "kanji": "三井郡"
+    },
+    "40014": {
+        "romaji": "Mizuma-Gun",
+        "kanji": "三潴郡"
+    },
+    "40015": {
+        "romaji": "Miyako-Gun",
+        "kanji": "京都郡"
+    },
+    "40018": {
+        "romaji": "Yame-Gun",
+        "kanji": "八女郡"
+    },
+    "41002": {
+        "romaji": "Kanzaki-Gun",
+        "kanji": "神埼郡"
+    },
+    "41003": {
+        "romaji": "Kishima-Gun",
+        "kanji": "杵島郡"
+    },
+    "41005": {
+        "romaji": "Nishimatsuura-Gun",
+        "kanji": "西松浦郡"
+    },
+    "41006": {
+        "romaji": "Higashimatsuura-Gun",
+        "kanji": "東松浦郡"
+    },
+    "41007": {
+        "romaji": "Fujitsu-Gun",
+        "kanji": "藤津郡"
+    },
+    "41008": {
+        "romaji": "Miyaki-Gun",
+        "kanji": "三養基郡"
+    },
+    "42004": {
+        "romaji": "Kitamatsuura-Gun",
+        "kanji": "北松浦郡"
+    },
+    "42006": {
+        "romaji": "Nishisonogi-Gun",
+        "kanji": "西彼杵郡"
+    },
+    "42007": {
+        "romaji": "Higashisonogi-Gun",
+        "kanji": "東彼杵郡"
+    },
+    "42009": {
+        "romaji": "Minamimatsuura-Gun",
+        "kanji": "南松浦郡"
+    },
+    "43001": {
+        "romaji": "Ashikita-Gun",
+        "kanji": "葦北郡"
+    },
+    "43002": {
+        "romaji": "Aso-Gun",
+        "kanji": "阿蘇郡"
+    },
+    "43003": {
+        "romaji": "Amakusa-Gun",
+        "kanji": "天草郡"
+    },
+    "43005": {
+        "romaji": "Kamimashiki-Gun",
+        "kanji": "上益城郡"
+    },
+    "43007": {
+        "romaji": "Kikuchi-Gun",
+        "kanji": "菊池郡"
+    },
+    "43008": {
+        "romaji": "Kuma-Gun",
+        "kanji": "球磨郡"
+    },
+    "43009": {
+        "romaji": "Shimomashiki-Gun",
+        "kanji": "下益城郡"
+    },
+    "43010": {
+        "romaji": "Tamana-Gun",
+        "kanji": "玉名郡"
+    },
+    "43012": {
+        "romaji": "Yatsushiro-Gun",
+        "kanji": "八代郡"
+    },
+    "44005": {
+        "romaji": "kusu-Gun",
+        "kanji": "玖珠郡"
+    },
+    "44009": {
+        "romaji": "Hayami-Gun",
+        "kanji": "速見郡"
+    },
+    "44010": {
+        "romaji": "Higashikunisaki-Gun",
+        "kanji": "東国東郡"
+    },
+    "45001": {
+        "romaji": "Kitamorokata-Gun",
+        "kanji": "北諸県郡"
+    },
+    "45002": {
+        "romaji": "Koyu-Gun",
+        "kanji": "児湯郡"
+    },
+    "45003": {
+        "romaji": "Nishiusuki-Gun",
+        "kanji": "西臼杵郡"
+    },
+    "45004": {
+        "romaji": "Nishimorokata-Gun",
+        "kanji": "西諸県郡"
+    },
+    "45005": {
+        "romaji": "Higashiusuki-Gun",
+        "kanji": "東臼杵郡"
+    },
+    "45006": {
+        "romaji": "Higashimorokata-Gun",
+        "kanji": "東諸県郡"
+    },
+    "46001": {
+        "romaji": "Aira-Gun",
+        "kanji": "姶良郡"
+    },
+    "46003": {
+        "romaji": "Izumi-Gun",
+        "kanji": "出水郡"
+    },
+    "46005": {
+        "romaji": "Oshima-Gun",
+        "kanji": "大島郡"
+    },
+    "46006": {
+        "romaji": "Kagoshima-Gun",
+        "kanji": "鹿児島郡"
+    },
+    "46008": {
+        "romaji": "Kimotsuki-Gun",
+        "kanji": "肝属郡"
+    },
+    "46009": {
+        "romaji": "Kumage-Gun",
+        "kanji": "熊毛郡"
+    },
+    "46010": {
+        "romaji": "Satsuma-Gun",
+        "kanji": "薩摩郡"
+    },
+    "46011": {
+        "romaji": "Soo-Gun",
+        "kanji": "曽於郡"
+    },
+    "47001": {
+        "romaji": "Kunigami-Gun",
+        "kanji": "国頭郡"
+    },
+    "47002": {
+        "romaji": "Shimajiri-Gun",
+        "kanji": "島尻郡"
+    },
+    "47003": {
+        "romaji": "Nakagami-Gun",
+        "kanji": "中頭郡"
+    },
+    "47004": {
+        "romaji": "Miyako-Gun",
+        "kanji": "宮古郡"
+    },
+    "47005": {
+        "romaji": "Yaeyama-Gun",
+        "kanji": "八重山郡"
+    }
+}

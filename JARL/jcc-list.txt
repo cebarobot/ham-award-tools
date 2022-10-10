@@ -1,0 +1,1011 @@
+‚i‚b‚bƒŠƒXƒgi“Œ‹“s“Á•Ê‹æ‚ğŠÜ‚Şj    2019.5.1Œ»İ  Œ»‘¶815si¦j Á–Å99s
+
+¦JARL§’è‚Ìs”Ô†‚Å‚ÍAu23‚Ì“Œ‹“s“Á•Ê‹æv‚ğs‚Æ‚µ‚ÄƒJƒEƒ“ƒg‚µ‚Ä‚¢‚Ü‚·B
+
+  No.     s–¼(Û°Ïš)       s–¼(Š¿š)  Á–Å“ú
+
+–kŠC“¹ 01
+  0101    Sapporo             D–y
+  0102    Asahikawa           ˆ®ì
+  0103    Otaru               ¬’M
+  0104    Hakodate            ”ŸŠÙ
+  0105    Muroran             º—–
+  0106    Kushiro             ‹ú˜H
+  0107    Obihiro             ‘ÑL
+  0108    Kitami              –kŒ©
+  0109    Yubari              —[’£
+  0110    Iwamizawa           ŠâŒ©‘ò
+  0111    Abashiri            –Ô‘–
+  0112    Rumoi               —¯–G
+  0113    Tomakomai           “Ï¬–q
+  0114    Wakkanai            ’t“à
+  0115    Bibai               ”ü‰S
+  0116    Ashibetsu           ˆ°•Ê
+  0117    Ebetsu              ]•Ê
+  0118    Akabira             Ô•½
+  0119    Mombetsu            –ä•Ê
+  0120    Shibetsu            m•Ê
+  0121    Nayoro              –¼Šñ
+  0122    Mikasa              OŠ}
+  0123    Nemuro              ªº
+  0124    Chitose             çÎ
+  0125    Takikawa            ‘êì
+  0126    Sunagawa            »ì
+  0127    Utashinai           ‰Ìu“à
+  0128    Fukagawa            [ì
+  0129    Furano              •x—Ç–ì
+  0130    Noboribetsu         “o•Ê
+  0131    Eniwa               Œb’ë
+* 0132    Kameda              ‹T“c      "Nov. 30,1973"
+  0133    Date                ˆÉ’B
+  0134    Kitahiroshima       –kL“‡
+  0135    Ishikari            Îë
+  0136    Hokuto              –k“l
+
+Â X  02
+  0201   Aomori               ÂX
+  0202   Hirosaki             O‘O
+  0203   Hachinohe            ”ªŒË
+  0204   Kuroishi             •Î
+  0205   Goshogawara          ŒÜŠìŒ´
+  0206   Towada               \˜a“c
+  0207   Misawa               O‘ò
+  0208   Mutsu                ‚Ş‚Â
+  0209   Tsugaru              ‚Â‚ª‚é
+  0210   Hirakawa             •½ì
+
+Šâ è  03
+  0301   Morioka              ·‰ª
+  0302   Kamaishi             Š˜Î
+  0303   Miyako               ‹{ŒÃ
+  0304   Ichinoseki           ˆêŠÖ
+  0305   Ofunato              ‘å‘D“n
+* 0306   Mizusawa             …‘ò      "Feb.19,2006"
+  0307   Hanamaki             ‰ÔŠª
+  0308   Kitakami             –kã
+  0309   Kuji                 ‹vœ
+  0310   Tono                 ‰“–ì
+  0311   Rikuzentakata        —¤‘O‚“c
+* 0312   Esashi               ]h      "Feb.19,2006"
+  0313   Ninohe               “ñŒË
+  0314   Hachimantai          ”ª”¦•½
+  0315   Oshu                 ‰œB
+  0316   Takizawa             ‘ê‘ò
+
+H “c  04
+  0401   Akita                H“c
+  0402   Noshiro              ”\‘ã
+  0403   Odate                ‘åŠÙ
+  0404   Yokote               ‰¡è
+* 0405   Honjo                –{‘‘      "Mar.21,2005"
+  0406   Oga                  ’j­
+  0407   Yuzawa               “’‘ò
+* 0408   Omagari              ‘å‹È      "Mar.21,2005"
+  0409   Kazuno               ­Šp
+  0410   Yurihonjo            —R—˜–{‘‘
+  0411   Katagami             Šƒã
+  0412   Daisen               ‘åå
+  0413   Kitaakita            –kH“c
+  0414   Nikaho               ‚É‚©‚Ù
+  0415   Senboku              å–k
+
+R Œ`  05
+  0501   Yamagata             RŒ`
+  0502   Yonezawa             •Ä‘ò
+  0503   Tsuruoka             ’ß‰ª
+  0504   Sakata               ğ“c
+  0505   Shinjo               V¯
+  0506   Sagae                Š¦‰Í]
+  0507   Kaminoyama           ãR
+  0508   Murayama             ‘ºR
+  0509   Nagai                ’·ˆä
+  0510   Tendo                “V“¶
+  0511   Higashine            “Œª
+  0512   Obanazawa            ”ö‰Ô‘ò
+  0513   Nan'yo               “ì—z
+
+‹{ é  06
+  0601   Sendai               å‘ä
+  0602   Ishinomaki           ÎŠª
+  0603   Shiogama             ‰–â}
+* 0604   Furukawa             ŒÃì      "Mar.30,2006"
+  0605   Kesennuma            ‹CåÀ
+  0606   Shiroishi            ”’Î
+  0607   Natori               –¼æ
+  0608   Kakuda               Šp“c
+  0609   Tagajo               ‘½‰êé
+* 0610   Izumi                ò        "Feb.29,1988"
+  0611   Iwanuma              ŠâÀ
+  0612   Tome                 “o•Ä
+  0613   Kurihara             ŒIŒ´
+  0614   Higashimatsushima    “Œ¼“‡
+  0615   Osaki                ‘åè
+  0616   Tomiya               •x’J
+ 
+•Ÿ “‡  07
+  0701   Fukushima            •Ÿ“‡
+  0702   Aizuwakamatsu        ‰ï’Ãá¼
+  0703   Koriyama             ŒSR
+* 0704   Taira                •½        "Sep.30,1966"
+  0705   Shirakawa            ”’‰Í
+* 0706   Haramachi            Œ´’¬      "Dec.31,2005
+  0707   Sukagawa             {‰êì
+  0708   Kitakata             Šì‘½•û
+* 0709   Joban                í”Ö      "Sep.30,1966"
+* 0710   Iwaki                ”Öé      "Sep.30,1966"
+  0711   Soma                 ‘Š”n
+* 0712   Uchigo               “à‹½      "Sep.30,1966"
+* 0713   Nakoso               –Ü—ˆ      "Sep.30,1966"
+  0714   Nihonmatsu           “ñ–{¼
+  0715   Iwaki                ‚¢‚í‚«
+* 0716   Wakamatsu            á¼      "Dec.31,1954"
+  0717   Tamura               “c‘º
+  0718   Minamisoma           “ì‘Š”n
+  0719   Date                 ˆÉ’B
+  0720   Motomiya             –{‹{
+
+V Šƒ  08
+  0801   Niigata              VŠƒ
+  0802   Nagaoka              ’·‰ª
+* 0803   Takada               ‚“c      "Apr.28,1971"
+  0804   Sanjo                Oğ
+  0805   Kashiwazaki          ”è
+  0806   Shibata              V”­“c
+* 0807   Niitsu               V’Ã      "Mar.20,2005"
+  0808   Ojiya                ¬ç’J
+  0809   Kamo                 ‰Á–Î
+  0810   Tokamachi            \“ú’¬
+  0811   Mitsuke              Œ©•
+  0812   Murakami             ‘ºã
+  0813   Tsubame              ‰
+* 0814   Naoetsu              ’¼]’Ã    "Apr.28,1971"
+* 0815   Tochio               “È”ö      "Dec.31,2005
+  0816   Itoigawa             …‹›ì
+* 0817   Arai                 Vˆä      "Mar.31,2005"
+  0818   Gosen                ŒÜò
+* 0819   Ryotsu               —¼’Ã      "Feb.29,2004"
+* 0820   Shirone              ”’ª      "Mar.20,2005"
+* 0821   Toyosaka             –L‰h      "Mar.20,2005"
+  0822   Joetsu               ã‰z
+  0823   Agano                ˆ¢‰ê–ì
+  0824   Sado                 ²“n
+  0825   Uonuma               ‹›À
+  0826   Minamiuonuma         “ì‹›À
+  0827   Myoko                –­‚
+  0828   Tainai               ‘Ù“à
+
+’· –ì 09
+  0901   Nagano               ’·–ì
+  0902   Matsumoto            ¼–{
+  0903   Ueda                 ã“c
+  0904   Okaya                ‰ª’J
+  0905   Iida                 ”Ñ“c
+  0906   Suwa                 z–K
+  0907   Suzaka               {â
+  0908   Komoro               ¬”
+  0909   Ina                  ˆÉ“ß
+  0910   Komagane             ‹îƒ–ª
+  0911   Nakano               ’†–ì
+  0912   Omachi               ‘å’¬
+  0913   Iiyama               ”ÑR
+  0914   Chino                Š–ì
+  0915   Shiojiri             ‰–K
+* 0916   Shinonoi             Âƒmˆä    "Oct.15,1966"
+* 0917   Koshoku              Xû      "Aug.31,2003"
+  0918   Saku                 ²‹v
+  0919   Chikuma              ç‹È
+  0920   Toumi                “ŒŒä
+  0921   Azumino              ˆÀ“Ü–ì
+
+“Œ ‹  10
+  100101 Chiyoda         ç‘ã“c
+  100102 Chuo            ’†‰›
+  100103 Minato          `
+  100104 Shinjuku        Vh
+  100105 Bunkyo          •¶‹
+  100106 Taito           ‘ä“Œ
+  100107 Sumida          –n“c
+  100108 Koto            ]“Œ
+  100109 Shinagawa       •iì
+  100110 Meguro          –Ú•
+  100111 Ota             ‘å“c
+  100112 Setagaya        ¢“c’J
+  100113 Shibuya         a’J
+  100114 Nakano          ’†–ì
+  100115 Suginami        ™•À
+  100116 Toshima         –L“‡
+  100117 Kita            –k  
+  100118 Arakawa         rì
+  100119 Itabashi        ”Â‹´
+  100120 Nerima          —û”n
+  100121 Adachi          ‘«—§
+  100122 Katsushika      Š‹ü
+  100123 Edogawa         ]ŒËì
+* 1001   Tokyo 23-wards       “Œ‹23‹æ  "Mar.31,2010"
+  1002   Hachioji             ”ª‰¤q
+  1003   Tachikawa            —§ì
+  1004   Musashino            •‘ –ì
+  1005   Mitaka               O‘é
+  1006   Ome                  Â”~
+  1007   Fuchu                •{’†
+  1008   Akishima             º“‡
+  1009   Chofu                ’²•z
+  1010   Machida              ’¬“c
+  1011   Koganei              ¬‹àˆä
+  1012   Kodaira              ¬•½
+  1013   Hino                 “ú–ì
+  1014   Higashimurayama      “Œ‘ºR
+  1015   Kokubunji            ‘•ª›
+  1016   Kunitachi            ‘—§
+* 1017   Hoya                 •Û’J  @  "Jan.20,2001"
+* 1018   Tanashi              “c–³@    "Jan.20,2001"
+  1019   Fussa                •Ÿ¶
+  1020   Komae                ]
+  1021   Higashiyamato        “Œ‘å˜a
+  1022   Kiyose               ´£
+  1023   Higashikurume        “Œ‹v—¯•Ä
+  1024   Musashimurayama      •‘ ‘ºR
+  1025   Tama                 ‘½–€
+  1026   Inagi                ˆîé
+* 1027   Akigawa              Hì      "Aug.31,1995"
+  1028   Hamura               ‰H‘º
+  1029   Akiruno              ‚ ‚«‚é–ì
+  1030   Nishitokyo           ¼“Œ‹
+
+_“Şì 11
+  1101   Yokohama             ‰¡•l
+  1102   Yokosuka             ‰¡{‰ê
+  1103   Kawasaki             ìè
+  1104   Hiratsuka            •½’Ë
+  1105   Kamakura             Š™‘q
+  1106   Fujisawa             “¡‘ò
+  1107   Odawara              ¬“cŒ´
+  1108   Chigasaki            Šƒ–è
+  1109   Zushi                €q
+  1110   Sagamihara           ‘Š–ÍŒ´
+  1111   Miura                O‰Y
+  1112   Hadano               `–ì
+  1113   Atsugi               Œú–Ø
+  1114   Yamato               ‘å˜a
+  1115   Isehara              ˆÉ¨Œ´
+  1116   Ebina                ŠC˜V–¼
+  1117   Zama                 ÀŠÔ
+  1118   Minamiashigara       “ì‘«•¿
+  1119   Ayase                ˆ»£
+
+ç —t  12
+  1201   Chiba                ç—t
+  1202   Choshi               ’¶q
+  1203   Ichikawa             sì
+  1204   Funabashi            ‘D‹´
+  1205   Tateyama             ŠÙR
+  1206   Kisarazu             –ØX’Ã
+  1207   Matsudo              ¼ŒË
+  1208   Noda                 –ì“c
+* 1209   Sawara               ²Œ´      "Mar.26,2006"
+  1210   Mobara               –ÎŒ´
+  1211   Narita               ¬“c
+  1212   Sakura               ²‘q
+  1213   Togane               “Œ‹à
+* 1214   Yokaichiba           ”ª“úsê   "Jan.22,2006"
+  1215   Asahi                ˆ®
+  1216   Narashino            Ku–ì
+  1217   Kashiwa              ”
+  1218   Katsuura             Ÿ‰Y
+  1219   Ichihara             sŒ´
+  1220   Nagareyama           —¬R
+  1221   Yachiyo              ”ªç‘ã
+  1222   Abiko                ‰ä‘·q
+  1223   Kamogawa             Š›ì
+  1224   Kimitsu              ŒN’Ã
+  1225   Kamagaya             Š™ƒP’J
+  1226   Futtu                •x’Ã
+  1227   Urayasu              ‰YˆÀ
+  1228   Yotsukaido           lŠX“¹
+  1229   Sodegaura            ‘³ƒP‰Y
+  1230   Yachimata            ”ªŠX
+  1231   Inzai                ˆó¼
+  1232   Shiroi               ”’ˆä
+  1233   Tomisato             •x—¢
+  1234   Minamiboso           “ì–[‘
+  1235   Sosa                 ‘xº
+  1236   Katori               æ
+  1237   Sanmu                R•
+  1238   Isumi                ‚¢‚·‚İ
+  1239   Oamishirasato        ‘å–Ô”’—¢
+é ‹Ê  13
+* 1301   Urawa                ‰Y˜a      "Apr.30,2001"
+  1302   Kawagoe              ì‰z
+  1303   Kumagaya             ŒF’J
+  1304   Kawaguchi            ìŒû
+* 1305   Omiya                ‘å‹{      "Apr.30,2001"
+  1306   Gyoda                s“c
+  1307   Chichibu             ’•ƒ
+  1308   Tokorozawa           Š‘ò
+  1309   Hanno                ”Ñ”\
+  1310   Kazo                 ‰Á{
+  1311   Honjo                –{¯
+  1312   Higashimatsuyama     “Œ¼R
+* 1313   Iwatsuki             Šâ’Î      "Mar.31,2005"
+  1314   Kasukabe             t“ú•”
+  1315   Sayama               ‹·R
+  1316   Hanyu                ‰H¶
+  1317   Konosu               ƒ‘ƒ
+  1318   Fukaya               [’J
+  1319   Ageo                 ã”ö
+* 1320   Yono                 —^–ì      "Apr.30,2001"
+  1321   Soka                 ‘‰Á
+  1322   Koshigaya            ‰z’J
+  1323   Warabi               ˜n
+  1324   Toda                 ŒË“c
+  1325   Iruma                “üŠÔ
+* 1326   Hatogaya             ”µƒ–’J     "Oct.10,2011"
+  1327   Asaka                ’©‰à
+  1328   Shiki                u–Ø
+  1329   Wako                 ˜aŒõ
+  1330   Niiza                VÀ
+  1331   Okegawa              ‰±ì
+  1332   Kuki                 ‹vŠì
+  1333   Kitamoto             –k–{
+  1334   Yashio               ”ª’ª
+* 1335   Kamifukuoka          ã•Ÿ‰ª    "Sep.30,2005"
+  1336   Fujimi               •xmŒ©
+  1337   Misato               O‹½
+  1338   Hasuda               ˜@“c
+  1339   Sakado               âŒË
+  1340   Satte                Kè
+  1341   Tsurugashima         ’ßƒ–“‡
+  1342   Hidaka               “ú‚
+  1343   Yoshikawa            ‹gì
+  1344   Saitama              ‚³‚¢‚½‚Ü
+  1345   Fujimino             ‚Ó‚¶‚İ–ì
+  1346   Shiraoka             ”’‰ª
+
+ˆï é  14
+  1401   Mito                 …ŒË
+  1402   Hitachi              “ú—§
+  1403   Tsuchiura            “y‰Y
+  1404   Koga                 ŒÃ‰Í
+  1405   Ishioka              Î‰ª
+* 1406   Shimodate            ‰ºŠÙ      "Mar.27,2005"
+  1407   Yuki                 Œ‹é
+  1408   Ryugasaki            —´ƒPè
+* 1409   Nakaminato           “ß‰Ï–©    "Oct.31,1994"
+  1410   Shimotsuma           ‰ºÈ
+* 1411   Mitsukaido           …ŠC“¹    "Dec.31,2005
+  1412   Hitachiota           í—¤‘¾“c
+* 1413   Katsuta              Ÿ“c      "Oct.31,1994"
+  1414   Takahagi             ‚”‹
+  1415   Kitaibaraki          –kˆïé
+  1416   Kasama               Š}ŠÔ
+  1417   Toride               æè
+* 1418   Iwai                 Šâˆä      "Mar.21,2005"
+  1419   Ushiku               ‹‹v
+  1420   Tsukuba              ‚Â‚­‚Î
+  1421   Hitachinaka          ‚Ğ‚½‚¿‚È‚©
+  1422   Kashima              ­“ˆ
+  1423   Itako                ’ª—ˆ
+  1424   Moriya               ç’J
+  1425   Hitachiomiya         í—¤‘å‹{
+  1426   Naka                 “ß‰Ï
+  1427   Chikusei             ’}¼
+  1428   Bandou               â“Œ
+  1429   Inashiki             ˆî•~
+  1430   Kasumigaura          ‚©‚·‚İ‚ª‚¤‚ç
+  1431   Sakuragawa           ÷ì
+  1432   Kamisu               _²
+  1433   Namegata             s•û
+  1434   Hokota               –g“c
+  1435   Joso                 í‘
+  1436   Tsukubamirai         ‚Â‚­‚Î‚İ‚ç‚¢
+  1437   Omitama              ¬”ü‹Ê
+
+“È –Ø  15
+  1501   Utsunomiya           ‰F“s‹{
+  1502   Ashikaga             ‘«—˜
+  1503   Tochigi              “È–Ø
+  1504   Sano                 ²–ì
+  1505   Kanuma               ­À
+  1506   Nikko                “úŒõ
+* 1507   Imaichi              ¡s      "Mar.19,2006"
+  1508   Oyama                ¬R
+  1509   Mooka                ^‰ª
+  1510   Otawara              ‘å“cŒ´
+  1511   Yaita                –î”Â
+* 1512   Kuroiso              •ˆé      "Dec.31,2004"
+  1513   Nasushiobara         “ß{‰–Œ´
+  1514   Sakura               ‚³‚­‚ç
+  1515   Nasukarasuyama       “ß{‰GR
+  1516   Shimotsuke           ‰º–ì
+
+ŒQ ”n  16
+  1601   Maebashi             ‘O‹´
+  1602   Takasaki             ‚è
+  1603   Kiryu                ‹Ë¶
+  1604   Isesaki              ˆÉ¨è
+  1605   Ota                  ‘¾“c
+  1606   Numata               À“c
+  1607   Tatebayashi          ŠÙ—Ñ
+  1608   Shibukawa            aì
+  1609   Fujioka              “¡‰ª
+  1610   Tomioka              •x‰ª
+  1611   Annaka               ˆÀ’†
+  1612   Midori               ‚İ‚Ç‚è
+
+R —œ  17
+  1701   Kofu                 b•{
+  1702   Fujiyoshida          •xm‹g“c
+* 1703   Enzan                ‰–R       "Oct.31,2005"
+  1704   Tsuru                “s—¯
+  1705   Yamanashi            R—œ
+  1706   Otsuki               ‘åŒ
+  1707   Nirasaki             ”Bè
+  1708   Minami-Alps          “ìƒAƒ‹ƒvƒX
+  1709   Hokuto               –k“m
+  1710   Kai                  b”ã
+  1711   Fuefuki              “J
+  1712   Uenohara             ã–ìŒ´
+  1713   Koshu                bB
+  1714   Chuo                 ’†‰›
+
+Ã ‰ª  18
+  1801   Shizuoka             Ã‰ª
+  1802   Hamamatsu            •l¼
+  1803   Numazu               À’Ã
+* 1804   Shimizu              ´…      "Mar.31,2003"
+  1805   Atami                ”MŠC
+  1806   Mishima              O“‡
+  1807   Fujinomiya           •xm‹{
+  1808   Ito                  ˆÉ“Œ
+  1809   Shimada              “‡“c
+* 1810   Yoshiwara            ‹gŒ´      "Oct.31,1966"
+  1811   Iwata                ”Ö“c
+  1812   Yaizu                Ä’Ã
+  1813   Fuji                 •xm
+  1814   Kakegawa             Š|ì
+  1815   Fujieda              “¡}
+  1816   Gotemba              Œä“aê
+  1817   Fukuroi              ‘Üˆä
+* 1818   Tenryu               “V—³      "Jun.30,2005"
+* 1819   Hamakita             •l–k      "Jun.30,2005"
+  1820   Shimoda              ‰º“c
+  1821   Susono               –ì
+  1822   Kosai                ŒÎ¼
+  1823   Izu                  ˆÉ“¤
+  1824   Omaezaki             Œä‘Oè
+  1825   Kikugawa             ‹eì
+  1826   Izunokuni            ˆÉ“¤‚Ì‘
+  1827   Makinohara           –q”VŒ´
+
+Šò •Œ  19
+  1901   Gifu                 Šò•Œ
+  1902   Ogaki                ‘åŠ_
+  1903   Takayama             ‚R
+  1904   Tajimi               ‘½¡Œ©
+  1905   Seki                 ŠÖ
+  1906   Nakatsugawa          ’†’Ãì
+  1907   Mino                 ”ü”Z
+  1908   Mizunami             ˜Q
+  1909   Hashima              ‰H“‡
+  1910   Ena                  Œb“ß
+  1911   Minokamo             ”ü”Z‰Á–Î
+  1912   Toki                 “yŠò
+  1913   Kakamigahara         Še–±Œ´
+  1914   Kani                 ‰Â™
+  1915   Yamagata             RŒ§
+  1916   Mizuho               •ä
+  1917   Hida                 ”ò‘Ë
+  1918   Motosu               –{‘ƒ
+  1919   Gujo                 ŒSã
+  1920   Gero                 ‰º˜C
+  1921   Kaizu                ŠC’Ã
+
+ˆ¤ ’m  20
+  2001   Nagoya               –¼ŒÃ‰®
+  2002   Toyohashi            –L‹´
+  2003   Okazaki              ‰ªè
+  2004   Ichinomiya           ˆê‹{
+  2005   Seto                 £ŒË
+  2006   Handa                ”¼“c
+  2007   Kasugai              t“úˆä
+  2008   Toyokawa             –Lì
+  2009   Tsushima             ’Ã“‡
+  2010   Hekinan              •É“ì
+  2011   Kariya               Š ’J
+  2012   Toyota               –L“c
+  2013   Anjo                 ˆÀé
+  2014   Nishio               ¼”ö
+  2015   Gamagori             Š—ŒS
+  2016   Inuyama              Œ¢R
+  2017   Tokoname             íŠŠ
+* 2018   Moriyama             çR      "Feb.9,1963"
+  2019   Konan                ]“ì
+* 2020   Bisai                ”ö¼      "Mar.31,2005"
+  2021   Komaki               ¬–q
+  2022   Inazawa              ˆî‘ò
+  2023   Shinshiro            Vé
+  2024   Tokai                “ŒŠC
+  2025   Obu                  ‘å•{
+  2026   Chita                ’m‘½
+  2027   Takahama             ‚•l
+  2028   Chiryu               ’m—§
+  2029   Owariasahi           ”ö’£ˆ®
+  2030   Iwakura              Šâ‘q
+  2031   Toyoake              –L–¾
+  2032   Nissin               “úi
+  2033   Tahara               “cŒ´
+  2034   Aisai                ˆ¤¼
+  2035   Kiyosu               ´{
+  2036   Kitanagoya           –k–¼ŒÃ‰®
+  2037   Yatomi               –í•x
+  2038   Miyoshi              ‚İ‚æ‚µ
+  2039   Ama                  ‚ ‚Ü
+  2040   Nagakute             ’·‹vè
+
+O d  21
+  2101   Tsu                  ’Ã
+  2102   Yokkaichi            l“ús
+  2103   Ise                  ˆÉ¨
+  2104   Matsusaka            ¼ã
+  2105   Kuwana               ŒK–¼
+* 2106   Ueno                 ã–ì      "Oct.31,2004"
+  2107   Suzuka               —é­
+  2108   Nabari               –¼’£
+  2109   Owase                ”ö˜h
+  2110   Kameyama             ‹TR
+  2111   Toba                 ’¹‰H
+  2112   Kumano               ŒF–ì
+* 2113   Hisai                ‹v‹      "Dec.31,2005
+* 2114   Ujiyamada            ‰F¡R“c  "Dec.31,1954"
+  2115   Inabe                ‚¢‚È‚×
+  2116   Shima                u–€
+  2117   Iga                  ˆÉ‰ê
+
+‹ “s  22
+  2201   Kyoto                ‹“s
+  2202   Fukuchiyama          •Ÿ’mR
+  2203   Maizuru              •‘’ß
+  2204   Ayabe                ˆ»•”
+  2205   Uji                  ‰F¡
+  2206   Miyazu               ‹{’Ã
+  2207   Kameoka              ‹T‰ª
+  2208   Joyo                 é—z
+  2209   Nagaokakyo           ’·‰ª‹
+  2210   Muko                 Œü“ú
+  2211   Yawata               ”ª”¦
+  2212   Kyotanabe            ‹“c•Ó
+  2213   Kyotango             ‹’OŒã
+  2214   Nantan               “ì’O
+  2215   Kizugawa             –Ø’Ãì
+
+  ‰ê  23
+  2301   Otsu                 ‘å’Ã
+  2302   Hikone               •Fª
+  2303   Nagahama             ’·•l
+  2304   Omihachiman          ‹ß]”ª”¦
+* 2305   Yokaichi             ”ª“ús    "Feb.10,2005" 
+  2306   Kusatsu              ‘’Ã
+  2307   Moriyama             çR
+  2308   Ritto                ŒI“Œ
+  2309   Koka                 b‰ê
+  2310   Yasu                 –ìF
+  2311   Konan                ŒÎ“ì
+  2312   Takashima            ‚“‡
+  2313   Higashioumi          “Œ‹ß]
+  2314   Maibara              •ÄŒ´
+
+“Ş —Ç  24
+  2401   Nara                 “Ş—Ç
+  2402   Yamatotakada         ‘å˜a‚“c
+  2403   Yamatokoriyama       ‘å˜aŒSR
+  2404   Tenri                “V—
+  2405   Kashihara            Š€Œ´
+  2406   Sakurai              ÷ˆä
+  2407   Gojo                 ŒÜŠ
+  2408   Gose                 ŒäŠ
+  2409   Ikoma                ¶‹î
+  2410   Kashiba              Å
+  2411   Katsuragi            Š‹é
+  2412   Uda                  ‰F‘É
+
+‘å ã  25
+  2501   Osaka                ‘åã
+  2502   Sakai                ä
+  2503   Kishiwada            Šİ˜a“c
+  2504   Toyonaka             –L’†
+* 2505   Fuse                 •z{      "Jan.31.1967"
+  2506   Ikeda                ’r“c
+  2507   Suita                “c
+  2508   Izumiotsu            ò‘å’Ã
+  2509   Takatsuki            ‚’Î
+  2510   Kaizuka              ŠL’Ë
+  2511   Moriguchi            çŒû
+  2512   Hirakata             –‡•û
+  2513   Ibaraki              ˆï–Ø
+  2514   Yao                  ”ª”ö
+  2515   Izumisano            ò²–ì
+  2516   Tondabayashi         •x“c—Ñ
+  2517   Neyagawa             Q‰®ì
+  2518   Kawachinagano        ‰Í“à’·–ì
+* 2519   Hiraoka              –‡‰ª      "Jan.31,1967"
+* 2520   Kawachi              ‰Í“à      "Jan.31,1967"
+  2521   Matsubara            ¼Œ´
+  2522   Daito                ‘å“Œ
+  2523   Izumi                ˜aò
+  2524   Mino                 –¥–Ê
+  2525   Kashiwara            ”Œ´
+  2526   Habikino             ‰H‰g–ì
+  2527   Kadoma               –å^
+  2528   Settsu               Û’Ã
+  2529   Fujiidera            “¡ˆä›
+  2530   Takaishi             ‚Î
+  2531   Higashiosaka         “Œ‘åã
+  2532   Sennan               ò“ì
+  2533   Shijonawate          lŠ“ë
+  2534   Katano               Œğ–ì
+  2535   Osakasayama          ‘åã‹·R
+  2536   Hannan               ã“ì
+
+˜a‰ÌR 26
+  2601   Wakayama             ˜a‰ÌR
+  2602   Shingu               V‹{
+  2603   Kainan               ŠC“ì
+  2604   Tanabe               “c•Ó
+  2605   Gobo                 Œä–V
+  2606   Hashimoto            ‹´–{
+  2607   Arida                —L“c
+  2608   Kinokawa             ‹I‚Ìì
+  2609   Iwade                Šâo
+
+•º ŒÉ  27
+  2701   Kobe                 _ŒË
+  2702   Himeji               •P˜H
+  2703   Amagasaki            “òè
+  2704   Akashi               –¾Î
+  2705   Nishinomiya          ¼‹{
+  2706   Sumoto               F–{
+  2707   Ashiya               ˆ°‰®
+  2708   Itami                ˆÉ’O
+  2709   Aioi                 ‘Š¶
+  2710   Toyooka              –L‰ª
+  2711   Kakogawa             ‰ÁŒÃì
+* 2712   Tatsuno              —´–ì     "Sep.30,2005"
+  2713   Ako                  Ô•ä
+  2714   Nishiwaki            ¼˜e
+  2715   Takarazuka           •ó’Ë
+  2716   Miki                 O–Ø
+  2717   Takasago             ‚»
+  2718   Kawanishi            ì¼
+  2719   Ono                  ¬–ì
+  2720   Sanda                O“c
+  2721   Kasai                ‰Á¼
+* 2722   Sasayama             ÂR     "Apr.30,2019"
+  2723   Yabu                 —{•ƒ
+  2724   Tanba                ’O”g
+  2725   Minamiawaji          “ì‚ ‚í‚¶
+  2726   Asago                ’©—ˆ
+  2727   Awaji                ’W˜H
+  2728   Shiso                ³ˆ¾
+  2729   Kato                 ‰Á“Œ
+  2730   Tatsuno              ‚½‚Â‚Ì
+  2731   Tanbasasayama        ’O”gÂR
+
+•x R  28
+  2801   Toyama               •xR
+  2802   Takaoka              ‚‰ª
+* 2803   Shinminato           V–©     "Oct.31,2005"
+  2804   Uozu                 ‹›’Ã
+  2805   Himi                 •XŒ©
+  2806   Namerikawa           ŠŠì
+  2807   Kurobe               ••”
+  2808   Tonami               “v”g
+  2809   Oyabe                ¬–î•”
+  2810   Nanto                “ì“v
+  2811   Imizu                Ë…
+
+•Ÿ ˆä  29
+  2901   Fukui                •Ÿˆä
+  2902   Tsuruga              “Ö‰ê
+* 2903   Takefu               •¶     "Sep.30,2005"
+  2904   Obama                ¬•l
+  2905   Ono                  ‘å–ì
+  2906   Katsuyama            ŸR
+  2907   Sabae                I]
+  2908   Awara                ‚ ‚í‚ç
+  2909   Echizen              ‰z‘O
+  2910   Sakai                âˆä
+
+Î ì  30
+  3001   Kanazawa             ‹à‘ò
+  3002   Nanao                µ”ö
+  3003   Komatsu              ¬¼
+  3004   Wajima               —Ö“‡
+  3005   Suzu                 ìF
+  3006   Kaga                 ‰Á‰ê
+  3007   Hakui                ‰Hî
+* 3008   Matsuto              ¼”C      "Jan.31,2005"
+  3009   Kahoku               ‚©‚Ù‚­
+  3010   Hakusan              ”’R
+  3011   Nomi                 ”\”ü 
+  3012   Nonoichi             –ìXs
+
+‰ª R  31
+  3101   Okayama              ‰ªR
+  3102   Kurashiki            ‘q•~
+  3103   Tsuyama              ’ÃR
+  3104   Tamano               ‹Ê–ì
+* 3105   Kojima               ™“‡      "Jan.31,1967"
+* 3106   Tamashima            ‹Ê“‡      "Jan.31,1967"
+  3107   Kasaoka              Š}‰ª 
+* 3108   saidaiji             ¼‘å›    "Feb.16,1969"
+  3109   Ibara                ˆäŒ´
+  3110   Soja                 ‘Ğ
+  3111   Takahashi            ‚—À
+  3112   Niimi                VŒ©
+  3113   Bizen                ”õ‘O
+  3114   Setouchi             £ŒË“à
+  3115   Akaiwa               Ô”Ö
+  3116   Maniwa               ^’ë
+  3117   Mimasaka             ”üì
+  3118   Asakuchi             óŒû
+
+“‡ ª  32
+  3201   Matsue               ¼]
+  3202   Hamada               •l“c
+  3203   Izumo                o‰_
+  3204   Masuda               ‰v“c
+  3205   Oda                  ‘å“c
+  3206   Yasugi               ˆÀ—ˆ
+  3207   Gotsu                ]’Ã
+* 3208   Hirata               •½“c      "Mar.21,2005"
+  3209   Unnan                ‰_“ì
+
+R Œû  33
+  3301   Yamaguchi            RŒû
+  3302   Shimonoseki          ‰ºŠÖ
+  3303   Ube                  ‰F•”
+  3304   Hagi                 ”‹
+* 3305   Tokuyama             “¿R      "Apr.20,2003"
+  3306   Hofu                 –h•{
+  3307   Kudamatsu            ‰º¼
+  3308   Iwakuni              Šâ‘
+* 3309   Onoda                ¬–ì“c    "Mar.21,2005
+  3310   Hikari               Œõ
+  3311   Nagato               ’·–å
+  3312   Yanai                –öˆä
+  3313   Mine                 ”ü”I
+* 3314   Shinnan'yo           V“ì—z    "Apr.20,2003"
+  3315   Shunan               ü“ì
+  3316   San'yoonoda          R—z¬–ì“c
+
+’¹ æ  34
+  3401   Tottori              ’¹æ
+  3402   Kurayoshi            ‘q‹g
+  3403   Yonago               •Äq
+  3404   Sakaiminato          ‹«`
+
+L “‡  35
+  3501   Hiroshima            L“‡
+  3502   Kure                 Œà
+  3503   Takehara             ’|Œ´
+  3504   Mihara               OŒ´
+  3505   Onomichi             ”ö“¹
+* 3506   Innoshima            ˆö“‡      "Jan,9,2006"
+* 3507   Matsunaga            ¼‰i      "Apr.30,1966"
+  3508   Fukuyama             •ŸR
+  3509   Fuchu                •{’†
+  3510   Miyoshi              OŸ
+  3511   Syoubara             ¯Œ´
+  3512   Otake                ‘å’|
+  3513   Higashihiroshima     “ŒL“‡
+  3514   Hatsukaichi          “ù“ús
+  3515   Akitakata            ˆÀŒ|‚“c
+  3516   Etajima              ]“c“‡
+
+ ì  36
+  3601   Takamatsu            ‚¼
+  3602   Marugame             ŠÛ‹T
+  3603   Sakaide              âo
+  3604   Zentsuji             ‘P’Ê›
+  3605   Kan'onji             ŠÏ‰¹›
+  3606   Sanuki               ‚³‚Ê‚«
+  3607   Higashikagawa        “Œ‚©‚ª‚í
+  3608   Mitoyo               O–L
+
+“¿ “‡  37
+  3701   Tokushima            “¿“‡
+  3702   Naruto               –Â–å
+  3703   Komatsushima         ¬¼“‡
+  3704   Anan                 ˆ¢“ì
+  3705   Yoshinogawa          ‹g–ìì
+  3706   Awa                  ˆ¢”g
+  3707   Mima                 ”ü”n
+  3708   Miyoshi              OD
+
+ˆ¤ •Q  38
+  3801   Matsuyama            ¼R
+  3802   Imabari              ¡¡
+  3803   Uwajima              ‰F˜a“‡
+  3804   Yawatahama           ”ª”¦•l
+  3805   Niihama              V‹•l
+  3806   Saijo                ¼ğ
+  3807   Ozu                  ‘åF
+* 3808   Iyomishima           ˆÉ—\O“‡  "Mar.31,2004"
+* 3809   Kawanoe              ì”V]    "Mar.31,2004"
+  3810   Iyo                  ˆÉ—\
+* 3811   Hojo                 –kğ      "Dec.31,2004"
+* 3812   Toyo                 “Œ—\      "Oct.31,2004"
+  3813   Shikokuchuo          l‘’†‰›
+  3814   Seiyo                ¼—\
+  3815   Toon                 “Œ‰·
+
+‚ ’m  39
+  3901   Kochi                ‚’m
+  3902   Muroto               ºŒË
+  3903   Aki                  ˆÀŒ|
+  3904   Tosa                 “y²
+  3905   Susaki               {è
+* 3906   Nakamura             ’†‘º      "Apr.9,2005"
+  3907   Sukumo               h–Ñ
+  3908   Tosashimizu          “y²´…
+  3909   Nankoku              “ì‘
+  3910   Shimanto             l–œ\
+  3911   Konan                “ì
+  3912   Kami                 ”ü
+
+•Ÿ ‰ª  40
+  4001   Fukuoka              •Ÿ‰ª
+* 4002   Kokura               ¬‘q      "Feb.9,1963"
+* 4003   Moji                 –åi      "Feb.9,1963"
+* 4004   Yahata               ”ª”¦      "Feb.9,1963"
+* 4005   Tobata               ŒË”¨      "Feb.9,1963"
+* 4006   Wakamatsu            á¼      "Feb.9,1963"
+  4007   Kurume               ‹v—¯•Ä
+  4008   Omuta                ‘å–´“c
+  4009   Noogata              ’¼•û
+  4010   Iizuka               ”Ñ’Ë
+  4011   Tagawa               “cì
+  4012   Yanagawa             –öì
+* 4013   Amagi                ŠÃ–Ø      "Mar.19,2006"
+* 4014   Yamada               R“c      "Mar.26,2006"
+  4015   Yame                 ”ª—
+  4016   Chikugo              ’}Œã
+  4017   Okawa                ‘åì
+  4018   Yukuhashi            s‹´
+  4019   Buzen                –L‘O
+  4020   Nakama               ’†ŠÔ
+  4021   Kitakyushu           –k‹ãB
+  4022   Ogoori               ¬ŒS
+  4023   Kasuga               t“ú
+  4024   Chikushino           ’}‡–ì
+  4025   Onojo                ‘å–ìé
+  4026   Munakata             @‘œ
+  4027   Dazaifu              ‘¾É•{
+* 4028   Maebaru              ‘OŒ´    @ "Dec.31,2009"
+  4029   Koga                 ŒÃ‰ê
+  4030   Fukutsu              •Ÿ’Ã
+  4031   Ukiha                ‚¤‚«‚Í
+  4032   Miyawaka             ‹{á
+  4033   Kama                 ‰Ã–ƒ
+  4034   Asakura              ’©‘q
+  4035   Miyama               ‚İ‚â‚Ü
+  4036   Itoshima             …“‡
+  4037   nakagawa             “ß‰Ïì
+² ‰ê  41
+  4101   Saga                 ²‰ê
+  4102   Karatsu              “‚’Ã
+  4103   Tosu                 ’¹²
+  4104   Taku                 ‘½‹v
+  4105   Imari                ˆÉ–œ—¢
+  4106   Takeo                •—Y
+  4107   Kashima              ­“‡
+  4108   Ogi                  ¬é
+  4109   Ureshino             Šğ–ì
+  4110   Kanzaki              _é
+
+’· è  42
+  4201   Nagasaki             ’·è
+  4202   Sasebo               ²¢•Û
+  4203   Shimabara            “‡Œ´
+  4204   Isahaya              æ|‘
+  4205   Omura                ‘å‘º
+* 4206   Fukue                •Ÿ]      "Jul.31,2004"
+  4207   Hirado               •½ŒË
+  4208   Matsuura             ¼‰Y
+  4209   Tsushima             ‘Î”n
+  4210   Iki                  ˆëŠò
+  4211   Goto                 ŒÜ“‡
+  4212   Saikai               ¼ŠC
+  4213   Unzen                ‰_å
+  4214   Minamishimabara      “ì“‡Œ´
+
+ŒF –{  43
+  4301   Kumamoto             ŒF–{
+  4302   Yatsushiro           ”ª‘ã
+  4303   Hitoyoshi            l‹g
+  4304   Arao                 r”ö
+  4305   Minamata             …–“
+  4306   Tamana               ‹Ê–¼
+* 4307   Hondo                –{“n      "Mar.26,2006"
+  4308   Yamaga               R­
+* 4309   Ushibuka             ‹[      "Mar.26,2006"
+  4310   Kikuchi              ‹e’r
+  4311   Uto                  ‰F“y
+  4312   Kamiamakusa          ã“V‘
+  4313   Uki                  ‰Fé
+  4314   Aso                  ˆ¢‘h
+  4315   Amakusa              “V‘
+  4316   Koshi                ‡u
+
+‘å •ª  44
+  4401   Oita                 ‘å•ª
+  4402   Beppu                •Ê•{
+  4403   Nakatsu              ’†’Ã
+  4404   Hita                 “ú“c
+  4405   Saiki                ²”Œ
+  4406   Usuki                ‰P‹n
+  4407   Tsukumi              ’Ã‹vŒ©
+  4408   Taketa               ’|“c
+* 4409   Tsurusaki            ’ßè      "Mar.9,1963"
+  4410   Bungotakada          –LŒã‚“c
+  4411   Kitsuki              ‹n’z
+  4412   Usa                  ‰F²
+  4413   Bungoono             –LŒã‘å–ì
+  4414   Yufu                 —R•z
+  4415   Kunisaki             ‘“Œ
+
+‹{ è  45
+  4501   Miyazaki             ‹{è
+  4502   Miyakonojo           “sé
+  4503   Nobeoka              ‰„‰ª
+  4504   Nichinan             “ú“ì
+  4505   Kobayashi            ¬—Ñ
+  4506   Hyuga                “úŒü
+  4507   Kushima              ‹øŠÔ
+  4508   Saito                ¼“s
+  4509   Ebino                ‚¦‚Ñ‚Ì
+
+­™“‡ 46
+  4601   Kagoshima            ­™“‡
+* 4602   Sendai               ì“à      "Oct.11,2004"
+  4603   Kanoya               ­‰®
+  4604   Makurazaki           –è
+* 4605   Kushikino            ‹ø–Ø–ì    "Oct.10,2005"
+  4606   Akune                ˆ¢‹vª
+  4607   Izumi                o…
+* 4608   Naze                 –¼£      "Mar.19,2006"
+* 4609   Okuchi               ‘åŒû      "Oct.31,2008"
+  4610   Ibusuki              wh
+* 4611   Kaseda               ‰Á¢“c    "Nov.6,2005"
+* 4612   Kokubu               ‘•ª      "Nov.6,2005"
+* 4613   Taniyama             ’JR      "Apr.28,1967"
+  4614   Nishinoomote         ¼”V•\
+  4615   Tarumizu             ‚…
+  4616   Satsumasendai        F–€ì“à
+  4617   Hioki                “ú’u
+  4618   Soo                  ‘]‰—
+  4619   Kirishima            –¶“‡
+  4620   Ichikikushikino      ‚¢‚¿‚«‹ø–Ø–ì
+  4621   Minamisatsuma        “ì‚³‚Â‚Ü
+  4622   Shibushi             u•zu
+  4623   Amami                ‰‚”ü
+  4624   Minamikyushu         “ì‹ãB
+  4625   Isa                  ˆÉ²
+  4626   Aira                 ˆ¦—Ç
+
+‰« “ê  47
+  4701   Naha                 “ß”e
+* 4702   Ishikawa             Îì      "Mar.31,2005"
+* 4703   Hirara               •½—Ç      "Sep.30,2005"
+  4704   Ishigaki             ÎŠ_
+* 4705   Koza                 ƒRƒU      "Mar.31.1974"
+  4706   Ginowan              ‹X–ì˜p
+* 4707   Gushikawa            ‹ïuì    "Mar.31,2005"
+  4708   Nago                 –¼Œì
+  4709   Urasoe               ‰Y“Y
+  4710   Itoman               …–
+  4711   Okinawa              ‰«“ê
+  4712   Tomigusuku           –LŒ©é
+  4713   Uruma                ‚¤‚é‚Ü
+  4714   Miyakojima           ‹{ŒÃ“‡
+  4715   Nanjo                “ìé
