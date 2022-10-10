@@ -32,7 +32,6 @@ def get_district(no):
         return '6'
 
 def get_no_name(no):
-    print(no)
     if no not in no_list:
         return 'ERROR'
     no_info = no_list[no]
