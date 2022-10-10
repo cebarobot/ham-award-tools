@@ -1,0 +1,7082 @@
+{
+    "01": {
+        "type": "Prefecture",
+        "romaji": "Hokkaido",
+        "kanji": "北海道"
+    },
+    "02": {
+        "type": "Prefecture",
+        "romaji": "Aomori-Ken",
+        "kanji": "青森県"
+    },
+    "03": {
+        "type": "Prefecture",
+        "romaji": "Iwate-Ken",
+        "kanji": "岩手県"
+    },
+    "04": {
+        "type": "Prefecture",
+        "romaji": "Akita-Ken",
+        "kanji": "秋田県"
+    },
+    "05": {
+        "type": "Prefecture",
+        "romaji": "Yamagata-Ken",
+        "kanji": "山形県"
+    },
+    "06": {
+        "type": "Prefecture",
+        "romaji": "Miyagi-Ken",
+        "kanji": "宮城県"
+    },
+    "07": {
+        "type": "Prefecture",
+        "romaji": "Fukushima-Ken",
+        "kanji": "福島県"
+    },
+    "08": {
+        "type": "Prefecture",
+        "romaji": "Niigata-Ken",
+        "kanji": "新潟県"
+    },
+    "09": {
+        "type": "Prefecture",
+        "romaji": "Nagano-Ken",
+        "kanji": "長野県"
+    },
+    "10": {
+        "type": "Prefecture",
+        "romaji": "Tokyo-To",
+        "kanji": "東京都"
+    },
+    "11": {
+        "type": "Prefecture",
+        "romaji": "Kanagawa-Ken",
+        "kanji": "神奈川県"
+    },
+    "12": {
+        "type": "Prefecture",
+        "romaji": "Chiba-Ken",
+        "kanji": "千葉県"
+    },
+    "13": {
+        "type": "Prefecture",
+        "romaji": "Saitama-Ken",
+        "kanji": "埼玉県"
+    },
+    "14": {
+        "type": "Prefecture",
+        "romaji": "Ibaraki-Ken",
+        "kanji": "茨城県"
+    },
+    "15": {
+        "type": "Prefecture",
+        "romaji": "Tochigi-Ken",
+        "kanji": "栃木県"
+    },
+    "16": {
+        "type": "Prefecture",
+        "romaji": "Gunma-Ken",
+        "kanji": "群馬県"
+    },
+    "17": {
+        "type": "Prefecture",
+        "romaji": "Yamanashi-Ken",
+        "kanji": "山梨県"
+    },
+    "18": {
+        "type": "Prefecture",
+        "romaji": "Shizuoka-Ken",
+        "kanji": "静岡県"
+    },
+    "19": {
+        "type": "Prefecture",
+        "romaji": "Gifu-Ken",
+        "kanji": "岐阜県"
+    },
+    "20": {
+        "type": "Prefecture",
+        "romaji": "Aichi-Ken",
+        "kanji": "愛知県"
+    },
+    "21": {
+        "type": "Prefecture",
+        "romaji": "Mie-Ken",
+        "kanji": "三重県"
+    },
+    "22": {
+        "type": "Prefecture",
+        "romaji": "Kyoto-Fu",
+        "kanji": "京都府"
+    },
+    "23": {
+        "type": "Prefecture",
+        "romaji": "Shiga-Ken",
+        "kanji": "滋賀県"
+    },
+    "24": {
+        "type": "Prefecture",
+        "romaji": "Nara-Ken",
+        "kanji": "奈良県"
+    },
+    "25": {
+        "type": "Prefecture",
+        "romaji": "Osaka-Fu",
+        "kanji": "大阪府"
+    },
+    "26": {
+        "type": "Prefecture",
+        "romaji": "Wakayama-Ken",
+        "kanji": "和歌山県"
+    },
+    "27": {
+        "type": "Prefecture",
+        "romaji": "Hyogo-Ken",
+        "kanji": "兵庫県"
+    },
+    "28": {
+        "type": "Prefecture",
+        "romaji": "Toyama-Ken",
+        "kanji": "富山県"
+    },
+    "29": {
+        "type": "Prefecture",
+        "romaji": "Fukui-Ken",
+        "kanji": "福井県"
+    },
+    "30": {
+        "type": "Prefecture",
+        "romaji": "Ishikawa-Ken",
+        "kanji": "石川県"
+    },
+    "31": {
+        "type": "Prefecture",
+        "romaji": "Okayama-Ken",
+        "kanji": "岡山県"
+    },
+    "32": {
+        "type": "Prefecture",
+        "romaji": "Shimane-Ken",
+        "kanji": "島根県"
+    },
+    "33": {
+        "type": "Prefecture",
+        "romaji": "Yamaguchi-Ken",
+        "kanji": "山口県"
+    },
+    "34": {
+        "type": "Prefecture",
+        "romaji": "Tottori-Ken",
+        "kanji": "鳥取県"
+    },
+    "35": {
+        "type": "Prefecture",
+        "romaji": "Hiroshima-Ken",
+        "kanji": "広島県"
+    },
+    "36": {
+        "type": "Prefecture",
+        "romaji": "Kagawa-Ken",
+        "kanji": "香川県"
+    },
+    "37": {
+        "type": "Prefecture",
+        "romaji": "Tokushima-Ken",
+        "kanji": "徳島県"
+    },
+    "38": {
+        "type": "Prefecture",
+        "romaji": "Ehime-Ken",
+        "kanji": "愛媛県"
+    },
+    "39": {
+        "type": "Prefecture",
+        "romaji": "Kochi-Ken",
+        "kanji": "高知県"
+    },
+    "40": {
+        "type": "Prefecture",
+        "romaji": "Fukuoka-Ken",
+        "kanji": "福岡県"
+    },
+    "41": {
+        "type": "Prefecture",
+        "romaji": "Saga-Ken",
+        "kanji": "佐賀県"
+    },
+    "42": {
+        "type": "Prefecture",
+        "romaji": "Nagasaki-Ken",
+        "kanji": "長崎県"
+    },
+    "43": {
+        "type": "Prefecture",
+        "romaji": "Kumamoto-Ken",
+        "kanji": "熊本県"
+    },
+    "44": {
+        "type": "Prefecture",
+        "romaji": "Oita-Ken",
+        "kanji": "大分県"
+    },
+    "45": {
+        "type": "Prefecture",
+        "romaji": "Miyazaki-Ken",
+        "kanji": "宮崎県"
+    },
+    "46": {
+        "type": "Prefecture",
+        "romaji": "Kagoshima-Ken",
+        "kanji": "鹿児島県"
+    },
+    "47": {
+        "type": "Prefecture",
+        "romaji": "Okinawa-Ken",
+        "kanji": "沖縄県"
+    },
+    "0101": {
+        "type": "City",
+        "romaji": "Sapporo-Shi",
+        "kanji": "札幌市"
+    },
+    "0102": {
+        "type": "City",
+        "romaji": "Asahikawa-Shi",
+        "kanji": "旭川市"
+    },
+    "0103": {
+        "type": "City",
+        "romaji": "Otaru-Shi",
+        "kanji": "小樽市"
+    },
+    "0104": {
+        "type": "City",
+        "romaji": "Hakodate-Shi",
+        "kanji": "函館市"
+    },
+    "0105": {
+        "type": "City",
+        "romaji": "Muroran-Shi",
+        "kanji": "室蘭市"
+    },
+    "0106": {
+        "type": "City",
+        "romaji": "Kushiro-Shi",
+        "kanji": "釧路市"
+    },
+    "0107": {
+        "type": "City",
+        "romaji": "Obihiro-Shi",
+        "kanji": "帯広市"
+    },
+    "0108": {
+        "type": "City",
+        "romaji": "Kitami-Shi",
+        "kanji": "北見市"
+    },
+    "0109": {
+        "type": "City",
+        "romaji": "Yubari-Shi",
+        "kanji": "夕張市"
+    },
+    "0110": {
+        "type": "City",
+        "romaji": "Iwamizawa-Shi",
+        "kanji": "岩見沢市"
+    },
+    "0111": {
+        "type": "City",
+        "romaji": "Abashiri-Shi",
+        "kanji": "網走市"
+    },
+    "0112": {
+        "type": "City",
+        "romaji": "Rumoi-Shi",
+        "kanji": "留萌市"
+    },
+    "0113": {
+        "type": "City",
+        "romaji": "Tomakomai-Shi",
+        "kanji": "苫小牧市"
+    },
+    "0114": {
+        "type": "City",
+        "romaji": "Wakkanai-Shi",
+        "kanji": "稚内市"
+    },
+    "0115": {
+        "type": "City",
+        "romaji": "Bibai-Shi",
+        "kanji": "美唄市"
+    },
+    "0116": {
+        "type": "City",
+        "romaji": "Ashibetsu-Shi",
+        "kanji": "芦別市"
+    },
+    "0117": {
+        "type": "City",
+        "romaji": "Ebetsu-Shi",
+        "kanji": "江別市"
+    },
+    "0118": {
+        "type": "City",
+        "romaji": "Akabira-Shi",
+        "kanji": "赤平市"
+    },
+    "0119": {
+        "type": "City",
+        "romaji": "Mombetsu-Shi",
+        "kanji": "紋別市"
+    },
+    "0120": {
+        "type": "City",
+        "romaji": "Shibetsu-Shi",
+        "kanji": "士別市"
+    },
+    "0121": {
+        "type": "City",
+        "romaji": "Nayoro-Shi",
+        "kanji": "名寄市"
+    },
+    "0122": {
+        "type": "City",
+        "romaji": "Mikasa-Shi",
+        "kanji": "三笠市"
+    },
+    "0123": {
+        "type": "City",
+        "romaji": "Nemuro-Shi",
+        "kanji": "根室市"
+    },
+    "0124": {
+        "type": "City",
+        "romaji": "Chitose-Shi",
+        "kanji": "千歳市"
+    },
+    "0125": {
+        "type": "City",
+        "romaji": "Takikawa-Shi",
+        "kanji": "滝川市"
+    },
+    "0126": {
+        "type": "City",
+        "romaji": "Sunagawa-Shi",
+        "kanji": "砂川市"
+    },
+    "0127": {
+        "type": "City",
+        "romaji": "Utashinai-Shi",
+        "kanji": "歌志内市"
+    },
+    "0128": {
+        "type": "City",
+        "romaji": "Fukagawa-Shi",
+        "kanji": "深川市"
+    },
+    "0129": {
+        "type": "City",
+        "romaji": "Furano-Shi",
+        "kanji": "富良野市"
+    },
+    "0130": {
+        "type": "City",
+        "romaji": "Noboribetsu-Shi",
+        "kanji": "登別市"
+    },
+    "0131": {
+        "type": "City",
+        "romaji": "Eniwa-Shi",
+        "kanji": "恵庭市"
+    },
+    "0133": {
+        "type": "City",
+        "romaji": "Date-Shi",
+        "kanji": "伊達市"
+    },
+    "0134": {
+        "type": "City",
+        "romaji": "Kitahiroshima-Shi",
+        "kanji": "北広島市"
+    },
+    "0135": {
+        "type": "City",
+        "romaji": "Ishikari-Shi",
+        "kanji": "石狩市"
+    },
+    "0136": {
+        "type": "City",
+        "romaji": "Hokuto-Shi",
+        "kanji": "北斗市"
+    },
+    "0201": {
+        "type": "City",
+        "romaji": "Aomori-Shi",
+        "kanji": "青森市"
+    },
+    "0202": {
+        "type": "City",
+        "romaji": "Hirosaki-Shi",
+        "kanji": "弘前市"
+    },
+    "0203": {
+        "type": "City",
+        "romaji": "Hachinohe-Shi",
+        "kanji": "八戸市"
+    },
+    "0204": {
+        "type": "City",
+        "romaji": "Kuroishi-Shi",
+        "kanji": "黒石市"
+    },
+    "0205": {
+        "type": "City",
+        "romaji": "Goshogawara-Shi",
+        "kanji": "五所川原市"
+    },
+    "0206": {
+        "type": "City",
+        "romaji": "Towada-Shi",
+        "kanji": "十和田市"
+    },
+    "0207": {
+        "type": "City",
+        "romaji": "Misawa-Shi",
+        "kanji": "三沢市"
+    },
+    "0208": {
+        "type": "City",
+        "romaji": "Mutsu-Shi",
+        "kanji": "むつ市"
+    },
+    "0209": {
+        "type": "City",
+        "romaji": "Tsugaru-Shi",
+        "kanji": "つがる市"
+    },
+    "0210": {
+        "type": "City",
+        "romaji": "Hirakawa-Shi",
+        "kanji": "平川市"
+    },
+    "0301": {
+        "type": "City",
+        "romaji": "Morioka-Shi",
+        "kanji": "盛岡市"
+    },
+    "0302": {
+        "type": "City",
+        "romaji": "Kamaishi-Shi",
+        "kanji": "釜石市"
+    },
+    "0303": {
+        "type": "City",
+        "romaji": "Miyako-Shi",
+        "kanji": "宮古市"
+    },
+    "0304": {
+        "type": "City",
+        "romaji": "Ichinoseki-Shi",
+        "kanji": "一関市"
+    },
+    "0305": {
+        "type": "City",
+        "romaji": "Ofunato-Shi",
+        "kanji": "大船渡市"
+    },
+    "0307": {
+        "type": "City",
+        "romaji": "Hanamaki-Shi",
+        "kanji": "花巻市"
+    },
+    "0308": {
+        "type": "City",
+        "romaji": "Kitakami-Shi",
+        "kanji": "北上市"
+    },
+    "0309": {
+        "type": "City",
+        "romaji": "Kuji-Shi",
+        "kanji": "久慈市"
+    },
+    "0310": {
+        "type": "City",
+        "romaji": "Tono-Shi",
+        "kanji": "遠野市"
+    },
+    "0311": {
+        "type": "City",
+        "romaji": "Rikuzentakata-Shi",
+        "kanji": "陸前高田市"
+    },
+    "0313": {
+        "type": "City",
+        "romaji": "Ninohe-Shi",
+        "kanji": "二戸市"
+    },
+    "0314": {
+        "type": "City",
+        "romaji": "Hachimantai-Shi",
+        "kanji": "八幡平市"
+    },
+    "0315": {
+        "type": "City",
+        "romaji": "Oshu-Shi",
+        "kanji": "奥州市"
+    },
+    "0316": {
+        "type": "City",
+        "romaji": "Takizawa-Shi",
+        "kanji": "滝沢市"
+    },
+    "0401": {
+        "type": "City",
+        "romaji": "Akita-Shi",
+        "kanji": "秋田市"
+    },
+    "0402": {
+        "type": "City",
+        "romaji": "Noshiro-Shi",
+        "kanji": "能代市"
+    },
+    "0403": {
+        "type": "City",
+        "romaji": "Odate-Shi",
+        "kanji": "大館市"
+    },
+    "0404": {
+        "type": "City",
+        "romaji": "Yokote-Shi",
+        "kanji": "横手市"
+    },
+    "0406": {
+        "type": "City",
+        "romaji": "Oga-Shi",
+        "kanji": "男鹿市"
+    },
+    "0407": {
+        "type": "City",
+        "romaji": "Yuzawa-Shi",
+        "kanji": "湯沢市"
+    },
+    "0409": {
+        "type": "City",
+        "romaji": "Kazuno-Shi",
+        "kanji": "鹿角市"
+    },
+    "0410": {
+        "type": "City",
+        "romaji": "Yurihonjo-Shi",
+        "kanji": "由利本荘市"
+    },
+    "0411": {
+        "type": "City",
+        "romaji": "Katagami-Shi",
+        "kanji": "潟上市"
+    },
+    "0412": {
+        "type": "City",
+        "romaji": "Daisen-Shi",
+        "kanji": "大仙市"
+    },
+    "0413": {
+        "type": "City",
+        "romaji": "Kitaakita-Shi",
+        "kanji": "北秋田市"
+    },
+    "0414": {
+        "type": "City",
+        "romaji": "Nikaho-Shi",
+        "kanji": "にかほ市"
+    },
+    "0415": {
+        "type": "City",
+        "romaji": "Senboku-Shi",
+        "kanji": "仙北市"
+    },
+    "0501": {
+        "type": "City",
+        "romaji": "Yamagata-Shi",
+        "kanji": "山形市"
+    },
+    "0502": {
+        "type": "City",
+        "romaji": "Yonezawa-Shi",
+        "kanji": "米沢市"
+    },
+    "0503": {
+        "type": "City",
+        "romaji": "Tsuruoka-Shi",
+        "kanji": "鶴岡市"
+    },
+    "0504": {
+        "type": "City",
+        "romaji": "Sakata-Shi",
+        "kanji": "酒田市"
+    },
+    "0505": {
+        "type": "City",
+        "romaji": "Shinjo-Shi",
+        "kanji": "新庄市"
+    },
+    "0506": {
+        "type": "City",
+        "romaji": "Sagae-Shi",
+        "kanji": "寒河江市"
+    },
+    "0507": {
+        "type": "City",
+        "romaji": "Kaminoyama-Shi",
+        "kanji": "上山市"
+    },
+    "0508": {
+        "type": "City",
+        "romaji": "Murayama-Shi",
+        "kanji": "村山市"
+    },
+    "0509": {
+        "type": "City",
+        "romaji": "Nagai-Shi",
+        "kanji": "長井市"
+    },
+    "0510": {
+        "type": "City",
+        "romaji": "Tendo-Shi",
+        "kanji": "天童市"
+    },
+    "0511": {
+        "type": "City",
+        "romaji": "Higashine-Shi",
+        "kanji": "東根市"
+    },
+    "0512": {
+        "type": "City",
+        "romaji": "Obanazawa-Shi",
+        "kanji": "尾花沢市"
+    },
+    "0513": {
+        "type": "City",
+        "romaji": "-Shi",
+        "kanji": "Nan'yo市"
+    },
+    "0601": {
+        "type": "City",
+        "romaji": "Sendai-Shi",
+        "kanji": "仙台市"
+    },
+    "0602": {
+        "type": "City",
+        "romaji": "Ishinomaki-Shi",
+        "kanji": "石巻市"
+    },
+    "0603": {
+        "type": "City",
+        "romaji": "Shiogama-Shi",
+        "kanji": "塩竈市"
+    },
+    "0605": {
+        "type": "City",
+        "romaji": "Kesennuma-Shi",
+        "kanji": "気仙沼市"
+    },
+    "0606": {
+        "type": "City",
+        "romaji": "Shiroishi-Shi",
+        "kanji": "白石市"
+    },
+    "0607": {
+        "type": "City",
+        "romaji": "Natori-Shi",
+        "kanji": "名取市"
+    },
+    "0608": {
+        "type": "City",
+        "romaji": "Kakuda-Shi",
+        "kanji": "角田市"
+    },
+    "0609": {
+        "type": "City",
+        "romaji": "Tagajo-Shi",
+        "kanji": "多賀城市"
+    },
+    "0611": {
+        "type": "City",
+        "romaji": "Iwanuma-Shi",
+        "kanji": "岩沼市"
+    },
+    "0612": {
+        "type": "City",
+        "romaji": "Tome-Shi",
+        "kanji": "登米市"
+    },
+    "0613": {
+        "type": "City",
+        "romaji": "Kurihara-Shi",
+        "kanji": "栗原市"
+    },
+    "0614": {
+        "type": "City",
+        "romaji": "Higashimatsushima-Shi",
+        "kanji": "東松島市"
+    },
+    "0615": {
+        "type": "City",
+        "romaji": "Osaki-Shi",
+        "kanji": "大崎市"
+    },
+    "0616": {
+        "type": "City",
+        "romaji": "Tomiya-Shi",
+        "kanji": "富谷市"
+    },
+    "0701": {
+        "type": "City",
+        "romaji": "Fukushima-Shi",
+        "kanji": "福島市"
+    },
+    "0702": {
+        "type": "City",
+        "romaji": "Aizuwakamatsu-Shi",
+        "kanji": "会津若松市"
+    },
+    "0703": {
+        "type": "City",
+        "romaji": "Koriyama-Shi",
+        "kanji": "郡山市"
+    },
+    "0705": {
+        "type": "City",
+        "romaji": "Shirakawa-Shi",
+        "kanji": "白河市"
+    },
+    "0707": {
+        "type": "City",
+        "romaji": "Sukagawa-Shi",
+        "kanji": "須賀川市"
+    },
+    "0708": {
+        "type": "City",
+        "romaji": "Kitakata-Shi",
+        "kanji": "喜多方市"
+    },
+    "0711": {
+        "type": "City",
+        "romaji": "Soma-Shi",
+        "kanji": "相馬市"
+    },
+    "0714": {
+        "type": "City",
+        "romaji": "Nihonmatsu-Shi",
+        "kanji": "二本松市"
+    },
+    "0715": {
+        "type": "City",
+        "romaji": "Iwaki-Shi",
+        "kanji": "いわき市"
+    },
+    "0717": {
+        "type": "City",
+        "romaji": "Tamura-Shi",
+        "kanji": "田村市"
+    },
+    "0718": {
+        "type": "City",
+        "romaji": "Minamisoma-Shi",
+        "kanji": "南相馬市"
+    },
+    "0719": {
+        "type": "City",
+        "romaji": "Date-Shi",
+        "kanji": "伊達市"
+    },
+    "0720": {
+        "type": "City",
+        "romaji": "Motomiya-Shi",
+        "kanji": "本宮市"
+    },
+    "0801": {
+        "type": "City",
+        "romaji": "Niigata-Shi",
+        "kanji": "新潟市"
+    },
+    "0802": {
+        "type": "City",
+        "romaji": "Nagaoka-Shi",
+        "kanji": "長岡市"
+    },
+    "0804": {
+        "type": "City",
+        "romaji": "Sanjo-Shi",
+        "kanji": "三条市"
+    },
+    "0805": {
+        "type": "City",
+        "romaji": "Kashiwazaki-Shi",
+        "kanji": "柏崎市"
+    },
+    "0806": {
+        "type": "City",
+        "romaji": "Shibata-Shi",
+        "kanji": "新発田市"
+    },
+    "0808": {
+        "type": "City",
+        "romaji": "Ojiya-Shi",
+        "kanji": "小千谷市"
+    },
+    "0809": {
+        "type": "City",
+        "romaji": "Kamo-Shi",
+        "kanji": "加茂市"
+    },
+    "0810": {
+        "type": "City",
+        "romaji": "Tokamachi-Shi",
+        "kanji": "十日町市"
+    },
+    "0811": {
+        "type": "City",
+        "romaji": "Mitsuke-Shi",
+        "kanji": "見附市"
+    },
+    "0812": {
+        "type": "City",
+        "romaji": "Murakami-Shi",
+        "kanji": "村上市"
+    },
+    "0813": {
+        "type": "City",
+        "romaji": "Tsubame-Shi",
+        "kanji": "燕市"
+    },
+    "0816": {
+        "type": "City",
+        "romaji": "Itoigawa-Shi",
+        "kanji": "糸魚川市"
+    },
+    "0818": {
+        "type": "City",
+        "romaji": "Gosen-Shi",
+        "kanji": "五泉市"
+    },
+    "0822": {
+        "type": "City",
+        "romaji": "Joetsu-Shi",
+        "kanji": "上越市"
+    },
+    "0823": {
+        "type": "City",
+        "romaji": "Agano-Shi",
+        "kanji": "阿賀野市"
+    },
+    "0824": {
+        "type": "City",
+        "romaji": "Sado-Shi",
+        "kanji": "佐渡市"
+    },
+    "0825": {
+        "type": "City",
+        "romaji": "Uonuma-Shi",
+        "kanji": "魚沼市"
+    },
+    "0826": {
+        "type": "City",
+        "romaji": "Minamiuonuma-Shi",
+        "kanji": "南魚沼市"
+    },
+    "0827": {
+        "type": "City",
+        "romaji": "Myoko-Shi",
+        "kanji": "妙高市"
+    },
+    "0828": {
+        "type": "City",
+        "romaji": "Tainai-Shi",
+        "kanji": "胎内市"
+    },
+    "0901": {
+        "type": "City",
+        "romaji": "Nagano-Shi",
+        "kanji": "長野市"
+    },
+    "0902": {
+        "type": "City",
+        "romaji": "Matsumoto-Shi",
+        "kanji": "松本市"
+    },
+    "0903": {
+        "type": "City",
+        "romaji": "Ueda-Shi",
+        "kanji": "上田市"
+    },
+    "0904": {
+        "type": "City",
+        "romaji": "Okaya-Shi",
+        "kanji": "岡谷市"
+    },
+    "0905": {
+        "type": "City",
+        "romaji": "Iida-Shi",
+        "kanji": "飯田市"
+    },
+    "0906": {
+        "type": "City",
+        "romaji": "Suwa-Shi",
+        "kanji": "諏訪市"
+    },
+    "0907": {
+        "type": "City",
+        "romaji": "Suzaka-Shi",
+        "kanji": "須坂市"
+    },
+    "0908": {
+        "type": "City",
+        "romaji": "Komoro-Shi",
+        "kanji": "小諸市"
+    },
+    "0909": {
+        "type": "City",
+        "romaji": "Ina-Shi",
+        "kanji": "伊那市"
+    },
+    "0910": {
+        "type": "City",
+        "romaji": "Komagane-Shi",
+        "kanji": "駒ヶ根市"
+    },
+    "0911": {
+        "type": "City",
+        "romaji": "Nakano-Shi",
+        "kanji": "中野市"
+    },
+    "0912": {
+        "type": "City",
+        "romaji": "Omachi-Shi",
+        "kanji": "大町市"
+    },
+    "0913": {
+        "type": "City",
+        "romaji": "Iiyama-Shi",
+        "kanji": "飯山市"
+    },
+    "0914": {
+        "type": "City",
+        "romaji": "Chino-Shi",
+        "kanji": "茅野市"
+    },
+    "0915": {
+        "type": "City",
+        "romaji": "Shiojiri-Shi",
+        "kanji": "塩尻市"
+    },
+    "0918": {
+        "type": "City",
+        "romaji": "Saku-Shi",
+        "kanji": "佐久市"
+    },
+    "0919": {
+        "type": "City",
+        "romaji": "Chikuma-Shi",
+        "kanji": "千曲市"
+    },
+    "0920": {
+        "type": "City",
+        "romaji": "Toumi-Shi",
+        "kanji": "東御市"
+    },
+    "0921": {
+        "type": "City",
+        "romaji": "Azumino-Shi",
+        "kanji": "安曇野市"
+    },
+    "100101": {
+        "type": "City",
+        "romaji": "Chiyoda-Shi",
+        "kanji": "千代田市"
+    },
+    "100102": {
+        "type": "City",
+        "romaji": "Chuo-Shi",
+        "kanji": "中央市"
+    },
+    "100103": {
+        "type": "City",
+        "romaji": "Minato-Shi",
+        "kanji": "港市"
+    },
+    "100104": {
+        "type": "City",
+        "romaji": "Shinjuku-Shi",
+        "kanji": "新宿市"
+    },
+    "100105": {
+        "type": "City",
+        "romaji": "Bunkyo-Shi",
+        "kanji": "文京市"
+    },
+    "100106": {
+        "type": "City",
+        "romaji": "Taito-Shi",
+        "kanji": "台東市"
+    },
+    "100107": {
+        "type": "City",
+        "romaji": "Sumida-Shi",
+        "kanji": "墨田市"
+    },
+    "100108": {
+        "type": "City",
+        "romaji": "Koto-Shi",
+        "kanji": "江東市"
+    },
+    "100109": {
+        "type": "City",
+        "romaji": "Shinagawa-Shi",
+        "kanji": "品川市"
+    },
+    "100110": {
+        "type": "City",
+        "romaji": "Meguro-Shi",
+        "kanji": "目黒市"
+    },
+    "100111": {
+        "type": "City",
+        "romaji": "Ota-Shi",
+        "kanji": "大田市"
+    },
+    "100112": {
+        "type": "City",
+        "romaji": "Setagaya-Shi",
+        "kanji": "世田谷市"
+    },
+    "100113": {
+        "type": "City",
+        "romaji": "Shibuya-Shi",
+        "kanji": "渋谷市"
+    },
+    "100114": {
+        "type": "City",
+        "romaji": "Nakano-Shi",
+        "kanji": "中野市"
+    },
+    "100115": {
+        "type": "City",
+        "romaji": "Suginami-Shi",
+        "kanji": "杉並市"
+    },
+    "100116": {
+        "type": "City",
+        "romaji": "Toshima-Shi",
+        "kanji": "豊島市"
+    },
+    "100117": {
+        "type": "City",
+        "romaji": "Kita-Shi",
+        "kanji": "北市"
+    },
+    "100118": {
+        "type": "City",
+        "romaji": "Arakawa-Shi",
+        "kanji": "荒川市"
+    },
+    "100119": {
+        "type": "City",
+        "romaji": "Itabashi-Shi",
+        "kanji": "板橋市"
+    },
+    "100120": {
+        "type": "City",
+        "romaji": "Nerima-Shi",
+        "kanji": "練馬市"
+    },
+    "100121": {
+        "type": "City",
+        "romaji": "Adachi-Shi",
+        "kanji": "足立市"
+    },
+    "100122": {
+        "type": "City",
+        "romaji": "Katsushika-Shi",
+        "kanji": "葛飾市"
+    },
+    "100123": {
+        "type": "City",
+        "romaji": "Edogawa-Shi",
+        "kanji": "江戸川市"
+    },
+    "1002": {
+        "type": "City",
+        "romaji": "Hachioji-Shi",
+        "kanji": "八王子市"
+    },
+    "1003": {
+        "type": "City",
+        "romaji": "Tachikawa-Shi",
+        "kanji": "立川市"
+    },
+    "1004": {
+        "type": "City",
+        "romaji": "Musashino-Shi",
+        "kanji": "武蔵野市"
+    },
+    "1005": {
+        "type": "City",
+        "romaji": "Mitaka-Shi",
+        "kanji": "三鷹市"
+    },
+    "1006": {
+        "type": "City",
+        "romaji": "Ome-Shi",
+        "kanji": "青梅市"
+    },
+    "1007": {
+        "type": "City",
+        "romaji": "Fuchu-Shi",
+        "kanji": "府中市"
+    },
+    "1008": {
+        "type": "City",
+        "romaji": "Akishima-Shi",
+        "kanji": "昭島市"
+    },
+    "1009": {
+        "type": "City",
+        "romaji": "Chofu-Shi",
+        "kanji": "調布市"
+    },
+    "1010": {
+        "type": "City",
+        "romaji": "Machida-Shi",
+        "kanji": "町田市"
+    },
+    "1011": {
+        "type": "City",
+        "romaji": "Koganei-Shi",
+        "kanji": "小金井市"
+    },
+    "1012": {
+        "type": "City",
+        "romaji": "Kodaira-Shi",
+        "kanji": "小平市"
+    },
+    "1013": {
+        "type": "City",
+        "romaji": "Hino-Shi",
+        "kanji": "日野市"
+    },
+    "1014": {
+        "type": "City",
+        "romaji": "Higashimurayama-Shi",
+        "kanji": "東村山市"
+    },
+    "1015": {
+        "type": "City",
+        "romaji": "Kokubunji-Shi",
+        "kanji": "国分寺市"
+    },
+    "1016": {
+        "type": "City",
+        "romaji": "Kunitachi-Shi",
+        "kanji": "国立市"
+    },
+    "1019": {
+        "type": "City",
+        "romaji": "Fussa-Shi",
+        "kanji": "福生市"
+    },
+    "1020": {
+        "type": "City",
+        "romaji": "Komae-Shi",
+        "kanji": "狛江市"
+    },
+    "1021": {
+        "type": "City",
+        "romaji": "Higashiyamato-Shi",
+        "kanji": "東大和市"
+    },
+    "1022": {
+        "type": "City",
+        "romaji": "Kiyose-Shi",
+        "kanji": "清瀬市"
+    },
+    "1023": {
+        "type": "City",
+        "romaji": "Higashikurume-Shi",
+        "kanji": "東久留米市"
+    },
+    "1024": {
+        "type": "City",
+        "romaji": "Musashimurayama-Shi",
+        "kanji": "武蔵村山市"
+    },
+    "1025": {
+        "type": "City",
+        "romaji": "Tama-Shi",
+        "kanji": "多摩市"
+    },
+    "1026": {
+        "type": "City",
+        "romaji": "Inagi-Shi",
+        "kanji": "稲城市"
+    },
+    "1028": {
+        "type": "City",
+        "romaji": "Hamura-Shi",
+        "kanji": "羽村市"
+    },
+    "1029": {
+        "type": "City",
+        "romaji": "Akiruno-Shi",
+        "kanji": "あきる野市"
+    },
+    "1030": {
+        "type": "City",
+        "romaji": "Nishitokyo-Shi",
+        "kanji": "西東京市"
+    },
+    "1101": {
+        "type": "City",
+        "romaji": "Yokohama-Shi",
+        "kanji": "横浜市"
+    },
+    "1102": {
+        "type": "City",
+        "romaji": "Yokosuka-Shi",
+        "kanji": "横須賀市"
+    },
+    "1103": {
+        "type": "City",
+        "romaji": "Kawasaki-Shi",
+        "kanji": "川崎市"
+    },
+    "1104": {
+        "type": "City",
+        "romaji": "Hiratsuka-Shi",
+        "kanji": "平塚市"
+    },
+    "1105": {
+        "type": "City",
+        "romaji": "Kamakura-Shi",
+        "kanji": "鎌倉市"
+    },
+    "1106": {
+        "type": "City",
+        "romaji": "Fujisawa-Shi",
+        "kanji": "藤沢市"
+    },
+    "1107": {
+        "type": "City",
+        "romaji": "Odawara-Shi",
+        "kanji": "小田原市"
+    },
+    "1108": {
+        "type": "City",
+        "romaji": "Chigasaki-Shi",
+        "kanji": "茅ヶ崎市"
+    },
+    "1109": {
+        "type": "City",
+        "romaji": "Zushi-Shi",
+        "kanji": "逗子市"
+    },
+    "1110": {
+        "type": "City",
+        "romaji": "Sagamihara-Shi",
+        "kanji": "相模原市"
+    },
+    "1111": {
+        "type": "City",
+        "romaji": "Miura-Shi",
+        "kanji": "三浦市"
+    },
+    "1112": {
+        "type": "City",
+        "romaji": "Hadano-Shi",
+        "kanji": "秦野市"
+    },
+    "1113": {
+        "type": "City",
+        "romaji": "Atsugi-Shi",
+        "kanji": "厚木市"
+    },
+    "1114": {
+        "type": "City",
+        "romaji": "Yamato-Shi",
+        "kanji": "大和市"
+    },
+    "1115": {
+        "type": "City",
+        "romaji": "Isehara-Shi",
+        "kanji": "伊勢原市"
+    },
+    "1116": {
+        "type": "City",
+        "romaji": "Ebina-Shi",
+        "kanji": "海老名市"
+    },
+    "1117": {
+        "type": "City",
+        "romaji": "Zama-Shi",
+        "kanji": "座間市"
+    },
+    "1118": {
+        "type": "City",
+        "romaji": "Minamiashigara-Shi",
+        "kanji": "南足柄市"
+    },
+    "1119": {
+        "type": "City",
+        "romaji": "Ayase-Shi",
+        "kanji": "綾瀬市"
+    },
+    "1201": {
+        "type": "City",
+        "romaji": "Chiba-Shi",
+        "kanji": "千葉市"
+    },
+    "1202": {
+        "type": "City",
+        "romaji": "Choshi-Shi",
+        "kanji": "銚子市"
+    },
+    "1203": {
+        "type": "City",
+        "romaji": "Ichikawa-Shi",
+        "kanji": "市川市"
+    },
+    "1204": {
+        "type": "City",
+        "romaji": "Funabashi-Shi",
+        "kanji": "船橋市"
+    },
+    "1205": {
+        "type": "City",
+        "romaji": "Tateyama-Shi",
+        "kanji": "館山市"
+    },
+    "1206": {
+        "type": "City",
+        "romaji": "Kisarazu-Shi",
+        "kanji": "木更津市"
+    },
+    "1207": {
+        "type": "City",
+        "romaji": "Matsudo-Shi",
+        "kanji": "松戸市"
+    },
+    "1208": {
+        "type": "City",
+        "romaji": "Noda-Shi",
+        "kanji": "野田市"
+    },
+    "1210": {
+        "type": "City",
+        "romaji": "Mobara-Shi",
+        "kanji": "茂原市"
+    },
+    "1211": {
+        "type": "City",
+        "romaji": "Narita-Shi",
+        "kanji": "成田市"
+    },
+    "1212": {
+        "type": "City",
+        "romaji": "Sakura-Shi",
+        "kanji": "佐倉市"
+    },
+    "1213": {
+        "type": "City",
+        "romaji": "Togane-Shi",
+        "kanji": "東金市"
+    },
+    "1215": {
+        "type": "City",
+        "romaji": "Asahi-Shi",
+        "kanji": "旭市"
+    },
+    "1216": {
+        "type": "City",
+        "romaji": "Narashino-Shi",
+        "kanji": "習志野市"
+    },
+    "1217": {
+        "type": "City",
+        "romaji": "Kashiwa-Shi",
+        "kanji": "柏市"
+    },
+    "1218": {
+        "type": "City",
+        "romaji": "Katsuura-Shi",
+        "kanji": "勝浦市"
+    },
+    "1219": {
+        "type": "City",
+        "romaji": "Ichihara-Shi",
+        "kanji": "市原市"
+    },
+    "1220": {
+        "type": "City",
+        "romaji": "Nagareyama-Shi",
+        "kanji": "流山市"
+    },
+    "1221": {
+        "type": "City",
+        "romaji": "Yachiyo-Shi",
+        "kanji": "八千代市"
+    },
+    "1222": {
+        "type": "City",
+        "romaji": "Abiko-Shi",
+        "kanji": "我孫子市"
+    },
+    "1223": {
+        "type": "City",
+        "romaji": "Kamogawa-Shi",
+        "kanji": "鴨川市"
+    },
+    "1224": {
+        "type": "City",
+        "romaji": "Kimitsu-Shi",
+        "kanji": "君津市"
+    },
+    "1225": {
+        "type": "City",
+        "romaji": "Kamagaya-Shi",
+        "kanji": "鎌ケ谷市"
+    },
+    "1226": {
+        "type": "City",
+        "romaji": "Futtu-Shi",
+        "kanji": "富津市"
+    },
+    "1227": {
+        "type": "City",
+        "romaji": "Urayasu-Shi",
+        "kanji": "浦安市"
+    },
+    "1228": {
+        "type": "City",
+        "romaji": "Yotsukaido-Shi",
+        "kanji": "四街道市"
+    },
+    "1229": {
+        "type": "City",
+        "romaji": "Sodegaura-Shi",
+        "kanji": "袖ケ浦市"
+    },
+    "1230": {
+        "type": "City",
+        "romaji": "Yachimata-Shi",
+        "kanji": "八街市"
+    },
+    "1231": {
+        "type": "City",
+        "romaji": "Inzai-Shi",
+        "kanji": "印西市"
+    },
+    "1232": {
+        "type": "City",
+        "romaji": "Shiroi-Shi",
+        "kanji": "白井市"
+    },
+    "1233": {
+        "type": "City",
+        "romaji": "Tomisato-Shi",
+        "kanji": "富里市"
+    },
+    "1234": {
+        "type": "City",
+        "romaji": "Minamiboso-Shi",
+        "kanji": "南房総市"
+    },
+    "1235": {
+        "type": "City",
+        "romaji": "Sosa-Shi",
+        "kanji": "匝瑳市"
+    },
+    "1236": {
+        "type": "City",
+        "romaji": "Katori-Shi",
+        "kanji": "香取市"
+    },
+    "1237": {
+        "type": "City",
+        "romaji": "Sanmu-Shi",
+        "kanji": "山武市"
+    },
+    "1238": {
+        "type": "City",
+        "romaji": "Isumi-Shi",
+        "kanji": "いすみ市"
+    },
+    "1239": {
+        "type": "City",
+        "romaji": "Oamishirasato-Shi",
+        "kanji": "大網白里市"
+    },
+    "1302": {
+        "type": "City",
+        "romaji": "Kawagoe-Shi",
+        "kanji": "川越市"
+    },
+    "1303": {
+        "type": "City",
+        "romaji": "Kumagaya-Shi",
+        "kanji": "熊谷市"
+    },
+    "1304": {
+        "type": "City",
+        "romaji": "Kawaguchi-Shi",
+        "kanji": "川口市"
+    },
+    "1306": {
+        "type": "City",
+        "romaji": "Gyoda-Shi",
+        "kanji": "行田市"
+    },
+    "1307": {
+        "type": "City",
+        "romaji": "Chichibu-Shi",
+        "kanji": "秩父市"
+    },
+    "1308": {
+        "type": "City",
+        "romaji": "Tokorozawa-Shi",
+        "kanji": "所沢市"
+    },
+    "1309": {
+        "type": "City",
+        "romaji": "Hanno-Shi",
+        "kanji": "飯能市"
+    },
+    "1310": {
+        "type": "City",
+        "romaji": "Kazo-Shi",
+        "kanji": "加須市"
+    },
+    "1311": {
+        "type": "City",
+        "romaji": "Honjo-Shi",
+        "kanji": "本庄市"
+    },
+    "1312": {
+        "type": "City",
+        "romaji": "Higashimatsuyama-Shi",
+        "kanji": "東松山市"
+    },
+    "1314": {
+        "type": "City",
+        "romaji": "Kasukabe-Shi",
+        "kanji": "春日部市"
+    },
+    "1315": {
+        "type": "City",
+        "romaji": "Sayama-Shi",
+        "kanji": "狭山市"
+    },
+    "1316": {
+        "type": "City",
+        "romaji": "Hanyu-Shi",
+        "kanji": "羽生市"
+    },
+    "1317": {
+        "type": "City",
+        "romaji": "Konosu-Shi",
+        "kanji": "鴻巣市"
+    },
+    "1318": {
+        "type": "City",
+        "romaji": "Fukaya-Shi",
+        "kanji": "深谷市"
+    },
+    "1319": {
+        "type": "City",
+        "romaji": "Ageo-Shi",
+        "kanji": "上尾市"
+    },
+    "1321": {
+        "type": "City",
+        "romaji": "Soka-Shi",
+        "kanji": "草加市"
+    },
+    "1322": {
+        "type": "City",
+        "romaji": "Koshigaya-Shi",
+        "kanji": "越谷市"
+    },
+    "1323": {
+        "type": "City",
+        "romaji": "Warabi-Shi",
+        "kanji": "蕨市"
+    },
+    "1324": {
+        "type": "City",
+        "romaji": "Toda-Shi",
+        "kanji": "戸田市"
+    },
+    "1325": {
+        "type": "City",
+        "romaji": "Iruma-Shi",
+        "kanji": "入間市"
+    },
+    "1327": {
+        "type": "City",
+        "romaji": "Asaka-Shi",
+        "kanji": "朝霞市"
+    },
+    "1328": {
+        "type": "City",
+        "romaji": "Shiki-Shi",
+        "kanji": "志木市"
+    },
+    "1329": {
+        "type": "City",
+        "romaji": "Wako-Shi",
+        "kanji": "和光市"
+    },
+    "1330": {
+        "type": "City",
+        "romaji": "Niiza-Shi",
+        "kanji": "新座市"
+    },
+    "1331": {
+        "type": "City",
+        "romaji": "Okegawa-Shi",
+        "kanji": "桶川市"
+    },
+    "1332": {
+        "type": "City",
+        "romaji": "Kuki-Shi",
+        "kanji": "久喜市"
+    },
+    "1333": {
+        "type": "City",
+        "romaji": "Kitamoto-Shi",
+        "kanji": "北本市"
+    },
+    "1334": {
+        "type": "City",
+        "romaji": "Yashio-Shi",
+        "kanji": "八潮市"
+    },
+    "1336": {
+        "type": "City",
+        "romaji": "Fujimi-Shi",
+        "kanji": "富士見市"
+    },
+    "1337": {
+        "type": "City",
+        "romaji": "Misato-Shi",
+        "kanji": "三郷市"
+    },
+    "1338": {
+        "type": "City",
+        "romaji": "Hasuda-Shi",
+        "kanji": "蓮田市"
+    },
+    "1339": {
+        "type": "City",
+        "romaji": "Sakado-Shi",
+        "kanji": "坂戸市"
+    },
+    "1340": {
+        "type": "City",
+        "romaji": "Satte-Shi",
+        "kanji": "幸手市"
+    },
+    "1341": {
+        "type": "City",
+        "romaji": "Tsurugashima-Shi",
+        "kanji": "鶴ヶ島市"
+    },
+    "1342": {
+        "type": "City",
+        "romaji": "Hidaka-Shi",
+        "kanji": "日高市"
+    },
+    "1343": {
+        "type": "City",
+        "romaji": "Yoshikawa-Shi",
+        "kanji": "吉川市"
+    },
+    "1344": {
+        "type": "City",
+        "romaji": "Saitama-Shi",
+        "kanji": "さいたま市"
+    },
+    "1345": {
+        "type": "City",
+        "romaji": "Fujimino-Shi",
+        "kanji": "ふじみ野市"
+    },
+    "1346": {
+        "type": "City",
+        "romaji": "Shiraoka-Shi",
+        "kanji": "白岡市"
+    },
+    "1401": {
+        "type": "City",
+        "romaji": "Mito-Shi",
+        "kanji": "水戸市"
+    },
+    "1402": {
+        "type": "City",
+        "romaji": "Hitachi-Shi",
+        "kanji": "日立市"
+    },
+    "1403": {
+        "type": "City",
+        "romaji": "Tsuchiura-Shi",
+        "kanji": "土浦市"
+    },
+    "1404": {
+        "type": "City",
+        "romaji": "Koga-Shi",
+        "kanji": "古河市"
+    },
+    "1405": {
+        "type": "City",
+        "romaji": "Ishioka-Shi",
+        "kanji": "石岡市"
+    },
+    "1407": {
+        "type": "City",
+        "romaji": "Yuki-Shi",
+        "kanji": "結城市"
+    },
+    "1408": {
+        "type": "City",
+        "romaji": "Ryugasaki-Shi",
+        "kanji": "龍ケ崎市"
+    },
+    "1410": {
+        "type": "City",
+        "romaji": "Shimotsuma-Shi",
+        "kanji": "下妻市"
+    },
+    "1412": {
+        "type": "City",
+        "romaji": "Hitachiota-Shi",
+        "kanji": "常陸太田市"
+    },
+    "1414": {
+        "type": "City",
+        "romaji": "Takahagi-Shi",
+        "kanji": "高萩市"
+    },
+    "1415": {
+        "type": "City",
+        "romaji": "Kitaibaraki-Shi",
+        "kanji": "北茨城市"
+    },
+    "1416": {
+        "type": "City",
+        "romaji": "Kasama-Shi",
+        "kanji": "笠間市"
+    },
+    "1417": {
+        "type": "City",
+        "romaji": "Toride-Shi",
+        "kanji": "取手市"
+    },
+    "1419": {
+        "type": "City",
+        "romaji": "Ushiku-Shi",
+        "kanji": "牛久市"
+    },
+    "1420": {
+        "type": "City",
+        "romaji": "Tsukuba-Shi",
+        "kanji": "つくば市"
+    },
+    "1421": {
+        "type": "City",
+        "romaji": "Hitachinaka-Shi",
+        "kanji": "ひたちなか市"
+    },
+    "1422": {
+        "type": "City",
+        "romaji": "Kashima-Shi",
+        "kanji": "鹿嶋市"
+    },
+    "1423": {
+        "type": "City",
+        "romaji": "Itako-Shi",
+        "kanji": "潮来市"
+    },
+    "1424": {
+        "type": "City",
+        "romaji": "Moriya-Shi",
+        "kanji": "守谷市"
+    },
+    "1425": {
+        "type": "City",
+        "romaji": "Hitachiomiya-Shi",
+        "kanji": "常陸大宮市"
+    },
+    "1426": {
+        "type": "City",
+        "romaji": "Naka-Shi",
+        "kanji": "那珂市"
+    },
+    "1427": {
+        "type": "City",
+        "romaji": "Chikusei-Shi",
+        "kanji": "筑西市"
+    },
+    "1428": {
+        "type": "City",
+        "romaji": "Bandou-Shi",
+        "kanji": "坂東市"
+    },
+    "1429": {
+        "type": "City",
+        "romaji": "Inashiki-Shi",
+        "kanji": "稲敷市"
+    },
+    "1430": {
+        "type": "City",
+        "romaji": "Kasumigaura-Shi",
+        "kanji": "かすみがうら市"
+    },
+    "1431": {
+        "type": "City",
+        "romaji": "Sakuragawa-Shi",
+        "kanji": "桜川市"
+    },
+    "1432": {
+        "type": "City",
+        "romaji": "Kamisu-Shi",
+        "kanji": "神栖市"
+    },
+    "1433": {
+        "type": "City",
+        "romaji": "Namegata-Shi",
+        "kanji": "行方市"
+    },
+    "1434": {
+        "type": "City",
+        "romaji": "Hokota-Shi",
+        "kanji": "鉾田市"
+    },
+    "1435": {
+        "type": "City",
+        "romaji": "Joso-Shi",
+        "kanji": "常総市"
+    },
+    "1436": {
+        "type": "City",
+        "romaji": "Tsukubamirai-Shi",
+        "kanji": "つくばみらい市"
+    },
+    "1437": {
+        "type": "City",
+        "romaji": "Omitama-Shi",
+        "kanji": "小美玉市"
+    },
+    "1501": {
+        "type": "City",
+        "romaji": "Utsunomiya-Shi",
+        "kanji": "宇都宮市"
+    },
+    "1502": {
+        "type": "City",
+        "romaji": "Ashikaga-Shi",
+        "kanji": "足利市"
+    },
+    "1503": {
+        "type": "City",
+        "romaji": "Tochigi-Shi",
+        "kanji": "栃木市"
+    },
+    "1504": {
+        "type": "City",
+        "romaji": "Sano-Shi",
+        "kanji": "佐野市"
+    },
+    "1505": {
+        "type": "City",
+        "romaji": "Kanuma-Shi",
+        "kanji": "鹿沼市"
+    },
+    "1506": {
+        "type": "City",
+        "romaji": "Nikko-Shi",
+        "kanji": "日光市"
+    },
+    "1508": {
+        "type": "City",
+        "romaji": "Oyama-Shi",
+        "kanji": "小山市"
+    },
+    "1509": {
+        "type": "City",
+        "romaji": "Mooka-Shi",
+        "kanji": "真岡市"
+    },
+    "1510": {
+        "type": "City",
+        "romaji": "Otawara-Shi",
+        "kanji": "大田原市"
+    },
+    "1511": {
+        "type": "City",
+        "romaji": "Yaita-Shi",
+        "kanji": "矢板市"
+    },
+    "1513": {
+        "type": "City",
+        "romaji": "Nasushiobara-Shi",
+        "kanji": "那須塩原市"
+    },
+    "1514": {
+        "type": "City",
+        "romaji": "Sakura-Shi",
+        "kanji": "さくら市"
+    },
+    "1515": {
+        "type": "City",
+        "romaji": "Nasukarasuyama-Shi",
+        "kanji": "那須烏山市"
+    },
+    "1516": {
+        "type": "City",
+        "romaji": "Shimotsuke-Shi",
+        "kanji": "下野市"
+    },
+    "1601": {
+        "type": "City",
+        "romaji": "Maebashi-Shi",
+        "kanji": "前橋市"
+    },
+    "1602": {
+        "type": "City",
+        "romaji": "Takasaki-Shi",
+        "kanji": "高崎市"
+    },
+    "1603": {
+        "type": "City",
+        "romaji": "Kiryu-Shi",
+        "kanji": "桐生市"
+    },
+    "1604": {
+        "type": "City",
+        "romaji": "Isesaki-Shi",
+        "kanji": "伊勢崎市"
+    },
+    "1605": {
+        "type": "City",
+        "romaji": "Ota-Shi",
+        "kanji": "太田市"
+    },
+    "1606": {
+        "type": "City",
+        "romaji": "Numata-Shi",
+        "kanji": "沼田市"
+    },
+    "1607": {
+        "type": "City",
+        "romaji": "Tatebayashi-Shi",
+        "kanji": "館林市"
+    },
+    "1608": {
+        "type": "City",
+        "romaji": "Shibukawa-Shi",
+        "kanji": "渋川市"
+    },
+    "1609": {
+        "type": "City",
+        "romaji": "Fujioka-Shi",
+        "kanji": "藤岡市"
+    },
+    "1610": {
+        "type": "City",
+        "romaji": "Tomioka-Shi",
+        "kanji": "富岡市"
+    },
+    "1611": {
+        "type": "City",
+        "romaji": "Annaka-Shi",
+        "kanji": "安中市"
+    },
+    "1612": {
+        "type": "City",
+        "romaji": "Midori-Shi",
+        "kanji": "みどり市"
+    },
+    "1701": {
+        "type": "City",
+        "romaji": "Kofu-Shi",
+        "kanji": "甲府市"
+    },
+    "1702": {
+        "type": "City",
+        "romaji": "Fujiyoshida-Shi",
+        "kanji": "富士吉田市"
+    },
+    "1704": {
+        "type": "City",
+        "romaji": "Tsuru-Shi",
+        "kanji": "都留市"
+    },
+    "1705": {
+        "type": "City",
+        "romaji": "Yamanashi-Shi",
+        "kanji": "山梨市"
+    },
+    "1706": {
+        "type": "City",
+        "romaji": "Otsuki-Shi",
+        "kanji": "大月市"
+    },
+    "1707": {
+        "type": "City",
+        "romaji": "Nirasaki-Shi",
+        "kanji": "韮崎市"
+    },
+    "1708": {
+        "type": "City",
+        "romaji": "-Shi",
+        "kanji": "Minami-Alps市"
+    },
+    "1709": {
+        "type": "City",
+        "romaji": "Hokuto-Shi",
+        "kanji": "北杜市"
+    },
+    "1710": {
+        "type": "City",
+        "romaji": "Kai-Shi",
+        "kanji": "甲斐市"
+    },
+    "1711": {
+        "type": "City",
+        "romaji": "Fuefuki-Shi",
+        "kanji": "笛吹市"
+    },
+    "1712": {
+        "type": "City",
+        "romaji": "Uenohara-Shi",
+        "kanji": "上野原市"
+    },
+    "1713": {
+        "type": "City",
+        "romaji": "Koshu-Shi",
+        "kanji": "甲州市"
+    },
+    "1714": {
+        "type": "City",
+        "romaji": "Chuo-Shi",
+        "kanji": "中央市"
+    },
+    "1801": {
+        "type": "City",
+        "romaji": "Shizuoka-Shi",
+        "kanji": "静岡市"
+    },
+    "1802": {
+        "type": "City",
+        "romaji": "Hamamatsu-Shi",
+        "kanji": "浜松市"
+    },
+    "1803": {
+        "type": "City",
+        "romaji": "Numazu-Shi",
+        "kanji": "沼津市"
+    },
+    "1805": {
+        "type": "City",
+        "romaji": "Atami-Shi",
+        "kanji": "熱海市"
+    },
+    "1806": {
+        "type": "City",
+        "romaji": "Mishima-Shi",
+        "kanji": "三島市"
+    },
+    "1807": {
+        "type": "City",
+        "romaji": "Fujinomiya-Shi",
+        "kanji": "富士宮市"
+    },
+    "1808": {
+        "type": "City",
+        "romaji": "Ito-Shi",
+        "kanji": "伊東市"
+    },
+    "1809": {
+        "type": "City",
+        "romaji": "Shimada-Shi",
+        "kanji": "島田市"
+    },
+    "1811": {
+        "type": "City",
+        "romaji": "Iwata-Shi",
+        "kanji": "磐田市"
+    },
+    "1812": {
+        "type": "City",
+        "romaji": "Yaizu-Shi",
+        "kanji": "焼津市"
+    },
+    "1813": {
+        "type": "City",
+        "romaji": "Fuji-Shi",
+        "kanji": "富士市"
+    },
+    "1814": {
+        "type": "City",
+        "romaji": "Kakegawa-Shi",
+        "kanji": "掛川市"
+    },
+    "1815": {
+        "type": "City",
+        "romaji": "Fujieda-Shi",
+        "kanji": "藤枝市"
+    },
+    "1816": {
+        "type": "City",
+        "romaji": "Gotemba-Shi",
+        "kanji": "御殿場市"
+    },
+    "1817": {
+        "type": "City",
+        "romaji": "Fukuroi-Shi",
+        "kanji": "袋井市"
+    },
+    "1820": {
+        "type": "City",
+        "romaji": "Shimoda-Shi",
+        "kanji": "下田市"
+    },
+    "1821": {
+        "type": "City",
+        "romaji": "Susono-Shi",
+        "kanji": "裾野市"
+    },
+    "1822": {
+        "type": "City",
+        "romaji": "Kosai-Shi",
+        "kanji": "湖西市"
+    },
+    "1823": {
+        "type": "City",
+        "romaji": "Izu-Shi",
+        "kanji": "伊豆市"
+    },
+    "1824": {
+        "type": "City",
+        "romaji": "Omaezaki-Shi",
+        "kanji": "御前崎市"
+    },
+    "1825": {
+        "type": "City",
+        "romaji": "Kikugawa-Shi",
+        "kanji": "菊川市"
+    },
+    "1826": {
+        "type": "City",
+        "romaji": "Izunokuni-Shi",
+        "kanji": "伊豆の国市"
+    },
+    "1827": {
+        "type": "City",
+        "romaji": "Makinohara-Shi",
+        "kanji": "牧之原市"
+    },
+    "1901": {
+        "type": "City",
+        "romaji": "Gifu-Shi",
+        "kanji": "岐阜市"
+    },
+    "1902": {
+        "type": "City",
+        "romaji": "Ogaki-Shi",
+        "kanji": "大垣市"
+    },
+    "1903": {
+        "type": "City",
+        "romaji": "Takayama-Shi",
+        "kanji": "高山市"
+    },
+    "1904": {
+        "type": "City",
+        "romaji": "Tajimi-Shi",
+        "kanji": "多治見市"
+    },
+    "1905": {
+        "type": "City",
+        "romaji": "Seki-Shi",
+        "kanji": "関市"
+    },
+    "1906": {
+        "type": "City",
+        "romaji": "Nakatsugawa-Shi",
+        "kanji": "中津川市"
+    },
+    "1907": {
+        "type": "City",
+        "romaji": "Mino-Shi",
+        "kanji": "美濃市"
+    },
+    "1908": {
+        "type": "City",
+        "romaji": "Mizunami-Shi",
+        "kanji": "瑞浪市"
+    },
+    "1909": {
+        "type": "City",
+        "romaji": "Hashima-Shi",
+        "kanji": "羽島市"
+    },
+    "1910": {
+        "type": "City",
+        "romaji": "Ena-Shi",
+        "kanji": "恵那市"
+    },
+    "1911": {
+        "type": "City",
+        "romaji": "Minokamo-Shi",
+        "kanji": "美濃加茂市"
+    },
+    "1912": {
+        "type": "City",
+        "romaji": "Toki-Shi",
+        "kanji": "土岐市"
+    },
+    "1913": {
+        "type": "City",
+        "romaji": "Kakamigahara-Shi",
+        "kanji": "各務原市"
+    },
+    "1914": {
+        "type": "City",
+        "romaji": "Kani-Shi",
+        "kanji": "可児市"
+    },
+    "1915": {
+        "type": "City",
+        "romaji": "Yamagata-Shi",
+        "kanji": "山県市"
+    },
+    "1916": {
+        "type": "City",
+        "romaji": "Mizuho-Shi",
+        "kanji": "瑞穂市"
+    },
+    "1917": {
+        "type": "City",
+        "romaji": "Hida-Shi",
+        "kanji": "飛騨市"
+    },
+    "1918": {
+        "type": "City",
+        "romaji": "Motosu-Shi",
+        "kanji": "本巣市"
+    },
+    "1919": {
+        "type": "City",
+        "romaji": "Gujo-Shi",
+        "kanji": "郡上市"
+    },
+    "1920": {
+        "type": "City",
+        "romaji": "Gero-Shi",
+        "kanji": "下呂市"
+    },
+    "1921": {
+        "type": "City",
+        "romaji": "Kaizu-Shi",
+        "kanji": "海津市"
+    },
+    "2001": {
+        "type": "City",
+        "romaji": "Nagoya-Shi",
+        "kanji": "名古屋市"
+    },
+    "2002": {
+        "type": "City",
+        "romaji": "Toyohashi-Shi",
+        "kanji": "豊橋市"
+    },
+    "2003": {
+        "type": "City",
+        "romaji": "Okazaki-Shi",
+        "kanji": "岡崎市"
+    },
+    "2004": {
+        "type": "City",
+        "romaji": "Ichinomiya-Shi",
+        "kanji": "一宮市"
+    },
+    "2005": {
+        "type": "City",
+        "romaji": "Seto-Shi",
+        "kanji": "瀬戸市"
+    },
+    "2006": {
+        "type": "City",
+        "romaji": "Handa-Shi",
+        "kanji": "半田市"
+    },
+    "2007": {
+        "type": "City",
+        "romaji": "Kasugai-Shi",
+        "kanji": "春日井市"
+    },
+    "2008": {
+        "type": "City",
+        "romaji": "Toyokawa-Shi",
+        "kanji": "豊川市"
+    },
+    "2009": {
+        "type": "City",
+        "romaji": "Tsushima-Shi",
+        "kanji": "津島市"
+    },
+    "2010": {
+        "type": "City",
+        "romaji": "Hekinan-Shi",
+        "kanji": "碧南市"
+    },
+    "2011": {
+        "type": "City",
+        "romaji": "Kariya-Shi",
+        "kanji": "刈谷市"
+    },
+    "2012": {
+        "type": "City",
+        "romaji": "Toyota-Shi",
+        "kanji": "豊田市"
+    },
+    "2013": {
+        "type": "City",
+        "romaji": "Anjo-Shi",
+        "kanji": "安城市"
+    },
+    "2014": {
+        "type": "City",
+        "romaji": "Nishio-Shi",
+        "kanji": "西尾市"
+    },
+    "2015": {
+        "type": "City",
+        "romaji": "Gamagori-Shi",
+        "kanji": "蒲郡市"
+    },
+    "2016": {
+        "type": "City",
+        "romaji": "Inuyama-Shi",
+        "kanji": "犬山市"
+    },
+    "2017": {
+        "type": "City",
+        "romaji": "Tokoname-Shi",
+        "kanji": "常滑市"
+    },
+    "2019": {
+        "type": "City",
+        "romaji": "Konan-Shi",
+        "kanji": "江南市"
+    },
+    "2021": {
+        "type": "City",
+        "romaji": "Komaki-Shi",
+        "kanji": "小牧市"
+    },
+    "2022": {
+        "type": "City",
+        "romaji": "Inazawa-Shi",
+        "kanji": "稲沢市"
+    },
+    "2023": {
+        "type": "City",
+        "romaji": "Shinshiro-Shi",
+        "kanji": "新城市"
+    },
+    "2024": {
+        "type": "City",
+        "romaji": "Tokai-Shi",
+        "kanji": "東海市"
+    },
+    "2025": {
+        "type": "City",
+        "romaji": "Obu-Shi",
+        "kanji": "大府市"
+    },
+    "2026": {
+        "type": "City",
+        "romaji": "Chita-Shi",
+        "kanji": "知多市"
+    },
+    "2027": {
+        "type": "City",
+        "romaji": "Takahama-Shi",
+        "kanji": "高浜市"
+    },
+    "2028": {
+        "type": "City",
+        "romaji": "Chiryu-Shi",
+        "kanji": "知立市"
+    },
+    "2029": {
+        "type": "City",
+        "romaji": "Owariasahi-Shi",
+        "kanji": "尾張旭市"
+    },
+    "2030": {
+        "type": "City",
+        "romaji": "Iwakura-Shi",
+        "kanji": "岩倉市"
+    },
+    "2031": {
+        "type": "City",
+        "romaji": "Toyoake-Shi",
+        "kanji": "豊明市"
+    },
+    "2032": {
+        "type": "City",
+        "romaji": "Nissin-Shi",
+        "kanji": "日進市"
+    },
+    "2033": {
+        "type": "City",
+        "romaji": "Tahara-Shi",
+        "kanji": "田原市"
+    },
+    "2034": {
+        "type": "City",
+        "romaji": "Aisai-Shi",
+        "kanji": "愛西市"
+    },
+    "2035": {
+        "type": "City",
+        "romaji": "Kiyosu-Shi",
+        "kanji": "清須市"
+    },
+    "2036": {
+        "type": "City",
+        "romaji": "Kitanagoya-Shi",
+        "kanji": "北名古屋市"
+    },
+    "2037": {
+        "type": "City",
+        "romaji": "Yatomi-Shi",
+        "kanji": "弥富市"
+    },
+    "2038": {
+        "type": "City",
+        "romaji": "Miyoshi-Shi",
+        "kanji": "みよし市"
+    },
+    "2039": {
+        "type": "City",
+        "romaji": "Ama-Shi",
+        "kanji": "あま市"
+    },
+    "2040": {
+        "type": "City",
+        "romaji": "Nagakute-Shi",
+        "kanji": "長久手市"
+    },
+    "2101": {
+        "type": "City",
+        "romaji": "Tsu-Shi",
+        "kanji": "津市"
+    },
+    "2102": {
+        "type": "City",
+        "romaji": "Yokkaichi-Shi",
+        "kanji": "四日市市"
+    },
+    "2103": {
+        "type": "City",
+        "romaji": "Ise-Shi",
+        "kanji": "伊勢市"
+    },
+    "2104": {
+        "type": "City",
+        "romaji": "Matsusaka-Shi",
+        "kanji": "松阪市"
+    },
+    "2105": {
+        "type": "City",
+        "romaji": "Kuwana-Shi",
+        "kanji": "桑名市"
+    },
+    "2107": {
+        "type": "City",
+        "romaji": "Suzuka-Shi",
+        "kanji": "鈴鹿市"
+    },
+    "2108": {
+        "type": "City",
+        "romaji": "Nabari-Shi",
+        "kanji": "名張市"
+    },
+    "2109": {
+        "type": "City",
+        "romaji": "Owase-Shi",
+        "kanji": "尾鷲市"
+    },
+    "2110": {
+        "type": "City",
+        "romaji": "Kameyama-Shi",
+        "kanji": "亀山市"
+    },
+    "2111": {
+        "type": "City",
+        "romaji": "Toba-Shi",
+        "kanji": "鳥羽市"
+    },
+    "2112": {
+        "type": "City",
+        "romaji": "Kumano-Shi",
+        "kanji": "熊野市"
+    },
+    "2115": {
+        "type": "City",
+        "romaji": "Inabe-Shi",
+        "kanji": "いなべ市"
+    },
+    "2116": {
+        "type": "City",
+        "romaji": "Shima-Shi",
+        "kanji": "志摩市"
+    },
+    "2117": {
+        "type": "City",
+        "romaji": "Iga-Shi",
+        "kanji": "伊賀市"
+    },
+    "2201": {
+        "type": "City",
+        "romaji": "Kyoto-Shi",
+        "kanji": "京都市"
+    },
+    "2202": {
+        "type": "City",
+        "romaji": "Fukuchiyama-Shi",
+        "kanji": "福知山市"
+    },
+    "2203": {
+        "type": "City",
+        "romaji": "Maizuru-Shi",
+        "kanji": "舞鶴市"
+    },
+    "2204": {
+        "type": "City",
+        "romaji": "Ayabe-Shi",
+        "kanji": "綾部市"
+    },
+    "2205": {
+        "type": "City",
+        "romaji": "Uji-Shi",
+        "kanji": "宇治市"
+    },
+    "2206": {
+        "type": "City",
+        "romaji": "Miyazu-Shi",
+        "kanji": "宮津市"
+    },
+    "2207": {
+        "type": "City",
+        "romaji": "Kameoka-Shi",
+        "kanji": "亀岡市"
+    },
+    "2208": {
+        "type": "City",
+        "romaji": "Joyo-Shi",
+        "kanji": "城陽市"
+    },
+    "2209": {
+        "type": "City",
+        "romaji": "Nagaokakyo-Shi",
+        "kanji": "長岡京市"
+    },
+    "2210": {
+        "type": "City",
+        "romaji": "Muko-Shi",
+        "kanji": "向日市"
+    },
+    "2211": {
+        "type": "City",
+        "romaji": "Yawata-Shi",
+        "kanji": "八幡市"
+    },
+    "2212": {
+        "type": "City",
+        "romaji": "Kyotanabe-Shi",
+        "kanji": "京田辺市"
+    },
+    "2213": {
+        "type": "City",
+        "romaji": "Kyotango-Shi",
+        "kanji": "京丹後市"
+    },
+    "2214": {
+        "type": "City",
+        "romaji": "Nantan-Shi",
+        "kanji": "南丹市"
+    },
+    "2215": {
+        "type": "City",
+        "romaji": "Kizugawa-Shi",
+        "kanji": "木津川市"
+    },
+    "2301": {
+        "type": "City",
+        "romaji": "Otsu-Shi",
+        "kanji": "大津市"
+    },
+    "2302": {
+        "type": "City",
+        "romaji": "Hikone-Shi",
+        "kanji": "彦根市"
+    },
+    "2303": {
+        "type": "City",
+        "romaji": "Nagahama-Shi",
+        "kanji": "長浜市"
+    },
+    "2304": {
+        "type": "City",
+        "romaji": "Omihachiman-Shi",
+        "kanji": "近江八幡市"
+    },
+    "2306": {
+        "type": "City",
+        "romaji": "Kusatsu-Shi",
+        "kanji": "草津市"
+    },
+    "2307": {
+        "type": "City",
+        "romaji": "Moriyama-Shi",
+        "kanji": "守山市"
+    },
+    "2308": {
+        "type": "City",
+        "romaji": "Ritto-Shi",
+        "kanji": "栗東市"
+    },
+    "2309": {
+        "type": "City",
+        "romaji": "Koka-Shi",
+        "kanji": "甲賀市"
+    },
+    "2310": {
+        "type": "City",
+        "romaji": "Yasu-Shi",
+        "kanji": "野洲市"
+    },
+    "2311": {
+        "type": "City",
+        "romaji": "Konan-Shi",
+        "kanji": "湖南市"
+    },
+    "2312": {
+        "type": "City",
+        "romaji": "Takashima-Shi",
+        "kanji": "高島市"
+    },
+    "2313": {
+        "type": "City",
+        "romaji": "Higashioumi-Shi",
+        "kanji": "東近江市"
+    },
+    "2314": {
+        "type": "City",
+        "romaji": "Maibara-Shi",
+        "kanji": "米原市"
+    },
+    "2401": {
+        "type": "City",
+        "romaji": "Nara-Shi",
+        "kanji": "奈良市"
+    },
+    "2402": {
+        "type": "City",
+        "romaji": "Yamatotakada-Shi",
+        "kanji": "大和高田市"
+    },
+    "2403": {
+        "type": "City",
+        "romaji": "Yamatokoriyama-Shi",
+        "kanji": "大和郡山市"
+    },
+    "2404": {
+        "type": "City",
+        "romaji": "Tenri-Shi",
+        "kanji": "天理市"
+    },
+    "2405": {
+        "type": "City",
+        "romaji": "Kashihara-Shi",
+        "kanji": "橿原市"
+    },
+    "2406": {
+        "type": "City",
+        "romaji": "Sakurai-Shi",
+        "kanji": "桜井市"
+    },
+    "2407": {
+        "type": "City",
+        "romaji": "Gojo-Shi",
+        "kanji": "五條市"
+    },
+    "2408": {
+        "type": "City",
+        "romaji": "Gose-Shi",
+        "kanji": "御所市"
+    },
+    "2409": {
+        "type": "City",
+        "romaji": "Ikoma-Shi",
+        "kanji": "生駒市"
+    },
+    "2410": {
+        "type": "City",
+        "romaji": "Kashiba-Shi",
+        "kanji": "香芝市"
+    },
+    "2411": {
+        "type": "City",
+        "romaji": "Katsuragi-Shi",
+        "kanji": "葛城市"
+    },
+    "2412": {
+        "type": "City",
+        "romaji": "Uda-Shi",
+        "kanji": "宇陀市"
+    },
+    "2501": {
+        "type": "City",
+        "romaji": "Osaka-Shi",
+        "kanji": "大阪市"
+    },
+    "2502": {
+        "type": "City",
+        "romaji": "Sakai-Shi",
+        "kanji": "堺市"
+    },
+    "2503": {
+        "type": "City",
+        "romaji": "Kishiwada-Shi",
+        "kanji": "岸和田市"
+    },
+    "2504": {
+        "type": "City",
+        "romaji": "Toyonaka-Shi",
+        "kanji": "豊中市"
+    },
+    "2506": {
+        "type": "City",
+        "romaji": "Ikeda-Shi",
+        "kanji": "池田市"
+    },
+    "2507": {
+        "type": "City",
+        "romaji": "Suita-Shi",
+        "kanji": "吹田市"
+    },
+    "2508": {
+        "type": "City",
+        "romaji": "Izumiotsu-Shi",
+        "kanji": "泉大津市"
+    },
+    "2509": {
+        "type": "City",
+        "romaji": "Takatsuki-Shi",
+        "kanji": "高槻市"
+    },
+    "2510": {
+        "type": "City",
+        "romaji": "Kaizuka-Shi",
+        "kanji": "貝塚市"
+    },
+    "2511": {
+        "type": "City",
+        "romaji": "Moriguchi-Shi",
+        "kanji": "守口市"
+    },
+    "2512": {
+        "type": "City",
+        "romaji": "Hirakata-Shi",
+        "kanji": "枚方市"
+    },
+    "2513": {
+        "type": "City",
+        "romaji": "Ibaraki-Shi",
+        "kanji": "茨木市"
+    },
+    "2514": {
+        "type": "City",
+        "romaji": "Yao-Shi",
+        "kanji": "八尾市"
+    },
+    "2515": {
+        "type": "City",
+        "romaji": "Izumisano-Shi",
+        "kanji": "泉佐野市"
+    },
+    "2516": {
+        "type": "City",
+        "romaji": "Tondabayashi-Shi",
+        "kanji": "富田林市"
+    },
+    "2517": {
+        "type": "City",
+        "romaji": "Neyagawa-Shi",
+        "kanji": "寝屋川市"
+    },
+    "2518": {
+        "type": "City",
+        "romaji": "Kawachinagano-Shi",
+        "kanji": "河内長野市"
+    },
+    "2521": {
+        "type": "City",
+        "romaji": "Matsubara-Shi",
+        "kanji": "松原市"
+    },
+    "2522": {
+        "type": "City",
+        "romaji": "Daito-Shi",
+        "kanji": "大東市"
+    },
+    "2523": {
+        "type": "City",
+        "romaji": "Izumi-Shi",
+        "kanji": "和泉市"
+    },
+    "2524": {
+        "type": "City",
+        "romaji": "Mino-Shi",
+        "kanji": "箕面市"
+    },
+    "2525": {
+        "type": "City",
+        "romaji": "Kashiwara-Shi",
+        "kanji": "柏原市"
+    },
+    "2526": {
+        "type": "City",
+        "romaji": "Habikino-Shi",
+        "kanji": "羽曳野市"
+    },
+    "2527": {
+        "type": "City",
+        "romaji": "Kadoma-Shi",
+        "kanji": "門真市"
+    },
+    "2528": {
+        "type": "City",
+        "romaji": "Settsu-Shi",
+        "kanji": "摂津市"
+    },
+    "2529": {
+        "type": "City",
+        "romaji": "Fujiidera-Shi",
+        "kanji": "藤井寺市"
+    },
+    "2530": {
+        "type": "City",
+        "romaji": "Takaishi-Shi",
+        "kanji": "高石市"
+    },
+    "2531": {
+        "type": "City",
+        "romaji": "Higashiosaka-Shi",
+        "kanji": "東大阪市"
+    },
+    "2532": {
+        "type": "City",
+        "romaji": "Sennan-Shi",
+        "kanji": "泉南市"
+    },
+    "2533": {
+        "type": "City",
+        "romaji": "Shijonawate-Shi",
+        "kanji": "四條畷市"
+    },
+    "2534": {
+        "type": "City",
+        "romaji": "Katano-Shi",
+        "kanji": "交野市"
+    },
+    "2535": {
+        "type": "City",
+        "romaji": "Osakasayama-Shi",
+        "kanji": "大阪狭山市"
+    },
+    "2536": {
+        "type": "City",
+        "romaji": "Hannan-Shi",
+        "kanji": "阪南市"
+    },
+    "2601": {
+        "type": "City",
+        "romaji": "Wakayama-Shi",
+        "kanji": "和歌山市"
+    },
+    "2602": {
+        "type": "City",
+        "romaji": "Shingu-Shi",
+        "kanji": "新宮市"
+    },
+    "2603": {
+        "type": "City",
+        "romaji": "Kainan-Shi",
+        "kanji": "海南市"
+    },
+    "2604": {
+        "type": "City",
+        "romaji": "Tanabe-Shi",
+        "kanji": "田辺市"
+    },
+    "2605": {
+        "type": "City",
+        "romaji": "Gobo-Shi",
+        "kanji": "御坊市"
+    },
+    "2606": {
+        "type": "City",
+        "romaji": "Hashimoto-Shi",
+        "kanji": "橋本市"
+    },
+    "2607": {
+        "type": "City",
+        "romaji": "Arida-Shi",
+        "kanji": "有田市"
+    },
+    "2608": {
+        "type": "City",
+        "romaji": "Kinokawa-Shi",
+        "kanji": "紀の川市"
+    },
+    "2609": {
+        "type": "City",
+        "romaji": "Iwade-Shi",
+        "kanji": "岩出市"
+    },
+    "2701": {
+        "type": "City",
+        "romaji": "Kobe-Shi",
+        "kanji": "神戸市"
+    },
+    "2702": {
+        "type": "City",
+        "romaji": "Himeji-Shi",
+        "kanji": "姫路市"
+    },
+    "2703": {
+        "type": "City",
+        "romaji": "Amagasaki-Shi",
+        "kanji": "尼崎市"
+    },
+    "2704": {
+        "type": "City",
+        "romaji": "Akashi-Shi",
+        "kanji": "明石市"
+    },
+    "2705": {
+        "type": "City",
+        "romaji": "Nishinomiya-Shi",
+        "kanji": "西宮市"
+    },
+    "2706": {
+        "type": "City",
+        "romaji": "Sumoto-Shi",
+        "kanji": "洲本市"
+    },
+    "2707": {
+        "type": "City",
+        "romaji": "Ashiya-Shi",
+        "kanji": "芦屋市"
+    },
+    "2708": {
+        "type": "City",
+        "romaji": "Itami-Shi",
+        "kanji": "伊丹市"
+    },
+    "2709": {
+        "type": "City",
+        "romaji": "Aioi-Shi",
+        "kanji": "相生市"
+    },
+    "2710": {
+        "type": "City",
+        "romaji": "Toyooka-Shi",
+        "kanji": "豊岡市"
+    },
+    "2711": {
+        "type": "City",
+        "romaji": "Kakogawa-Shi",
+        "kanji": "加古川市"
+    },
+    "2713": {
+        "type": "City",
+        "romaji": "Ako-Shi",
+        "kanji": "赤穂市"
+    },
+    "2714": {
+        "type": "City",
+        "romaji": "Nishiwaki-Shi",
+        "kanji": "西脇市"
+    },
+    "2715": {
+        "type": "City",
+        "romaji": "Takarazuka-Shi",
+        "kanji": "宝塚市"
+    },
+    "2716": {
+        "type": "City",
+        "romaji": "Miki-Shi",
+        "kanji": "三木市"
+    },
+    "2717": {
+        "type": "City",
+        "romaji": "Takasago-Shi",
+        "kanji": "高砂市"
+    },
+    "2718": {
+        "type": "City",
+        "romaji": "Kawanishi-Shi",
+        "kanji": "川西市"
+    },
+    "2719": {
+        "type": "City",
+        "romaji": "Ono-Shi",
+        "kanji": "小野市"
+    },
+    "2720": {
+        "type": "City",
+        "romaji": "Sanda-Shi",
+        "kanji": "三田市"
+    },
+    "2721": {
+        "type": "City",
+        "romaji": "Kasai-Shi",
+        "kanji": "加西市"
+    },
+    "2723": {
+        "type": "City",
+        "romaji": "Yabu-Shi",
+        "kanji": "養父市"
+    },
+    "2724": {
+        "type": "City",
+        "romaji": "Tanba-Shi",
+        "kanji": "丹波市"
+    },
+    "2725": {
+        "type": "City",
+        "romaji": "Minamiawaji-Shi",
+        "kanji": "南あわじ市"
+    },
+    "2726": {
+        "type": "City",
+        "romaji": "Asago-Shi",
+        "kanji": "朝来市"
+    },
+    "2727": {
+        "type": "City",
+        "romaji": "Awaji-Shi",
+        "kanji": "淡路市"
+    },
+    "2728": {
+        "type": "City",
+        "romaji": "Shiso-Shi",
+        "kanji": "宍粟市"
+    },
+    "2729": {
+        "type": "City",
+        "romaji": "Kato-Shi",
+        "kanji": "加東市"
+    },
+    "2730": {
+        "type": "City",
+        "romaji": "Tatsuno-Shi",
+        "kanji": "たつの市"
+    },
+    "2731": {
+        "type": "City",
+        "romaji": "Tanbasasayama-Shi",
+        "kanji": "丹波篠山市"
+    },
+    "2801": {
+        "type": "City",
+        "romaji": "Toyama-Shi",
+        "kanji": "富山市"
+    },
+    "2802": {
+        "type": "City",
+        "romaji": "Takaoka-Shi",
+        "kanji": "高岡市"
+    },
+    "2804": {
+        "type": "City",
+        "romaji": "Uozu-Shi",
+        "kanji": "魚津市"
+    },
+    "2805": {
+        "type": "City",
+        "romaji": "Himi-Shi",
+        "kanji": "氷見市"
+    },
+    "2806": {
+        "type": "City",
+        "romaji": "Namerikawa-Shi",
+        "kanji": "滑川市"
+    },
+    "2807": {
+        "type": "City",
+        "romaji": "Kurobe-Shi",
+        "kanji": "黒部市"
+    },
+    "2808": {
+        "type": "City",
+        "romaji": "Tonami-Shi",
+        "kanji": "砺波市"
+    },
+    "2809": {
+        "type": "City",
+        "romaji": "Oyabe-Shi",
+        "kanji": "小矢部市"
+    },
+    "2810": {
+        "type": "City",
+        "romaji": "Nanto-Shi",
+        "kanji": "南砺市"
+    },
+    "2811": {
+        "type": "City",
+        "romaji": "Imizu-Shi",
+        "kanji": "射水市"
+    },
+    "2901": {
+        "type": "City",
+        "romaji": "Fukui-Shi",
+        "kanji": "福井市"
+    },
+    "2902": {
+        "type": "City",
+        "romaji": "Tsuruga-Shi",
+        "kanji": "敦賀市"
+    },
+    "2904": {
+        "type": "City",
+        "romaji": "Obama-Shi",
+        "kanji": "小浜市"
+    },
+    "2905": {
+        "type": "City",
+        "romaji": "Ono-Shi",
+        "kanji": "大野市"
+    },
+    "2906": {
+        "type": "City",
+        "romaji": "Katsuyama-Shi",
+        "kanji": "勝山市"
+    },
+    "2907": {
+        "type": "City",
+        "romaji": "Sabae-Shi",
+        "kanji": "鯖江市"
+    },
+    "2908": {
+        "type": "City",
+        "romaji": "Awara-Shi",
+        "kanji": "あわら市"
+    },
+    "2909": {
+        "type": "City",
+        "romaji": "Echizen-Shi",
+        "kanji": "越前市"
+    },
+    "2910": {
+        "type": "City",
+        "romaji": "Sakai-Shi",
+        "kanji": "坂井市"
+    },
+    "3001": {
+        "type": "City",
+        "romaji": "Kanazawa-Shi",
+        "kanji": "金沢市"
+    },
+    "3002": {
+        "type": "City",
+        "romaji": "Nanao-Shi",
+        "kanji": "七尾市"
+    },
+    "3003": {
+        "type": "City",
+        "romaji": "Komatsu-Shi",
+        "kanji": "小松市"
+    },
+    "3004": {
+        "type": "City",
+        "romaji": "Wajima-Shi",
+        "kanji": "輪島市"
+    },
+    "3005": {
+        "type": "City",
+        "romaji": "Suzu-Shi",
+        "kanji": "珠洲市"
+    },
+    "3006": {
+        "type": "City",
+        "romaji": "Kaga-Shi",
+        "kanji": "加賀市"
+    },
+    "3007": {
+        "type": "City",
+        "romaji": "Hakui-Shi",
+        "kanji": "羽咋市"
+    },
+    "3009": {
+        "type": "City",
+        "romaji": "Kahoku-Shi",
+        "kanji": "かほく市"
+    },
+    "3010": {
+        "type": "City",
+        "romaji": "Hakusan-Shi",
+        "kanji": "白山市"
+    },
+    "3011": {
+        "type": "City",
+        "romaji": "Nomi-Shi",
+        "kanji": "能美市"
+    },
+    "3012": {
+        "type": "City",
+        "romaji": "Nonoichi-Shi",
+        "kanji": "野々市市"
+    },
+    "3101": {
+        "type": "City",
+        "romaji": "Okayama-Shi",
+        "kanji": "岡山市"
+    },
+    "3102": {
+        "type": "City",
+        "romaji": "Kurashiki-Shi",
+        "kanji": "倉敷市"
+    },
+    "3103": {
+        "type": "City",
+        "romaji": "Tsuyama-Shi",
+        "kanji": "津山市"
+    },
+    "3104": {
+        "type": "City",
+        "romaji": "Tamano-Shi",
+        "kanji": "玉野市"
+    },
+    "3107": {
+        "type": "City",
+        "romaji": "Kasaoka-Shi",
+        "kanji": "笠岡市"
+    },
+    "3109": {
+        "type": "City",
+        "romaji": "Ibara-Shi",
+        "kanji": "井原市"
+    },
+    "3110": {
+        "type": "City",
+        "romaji": "Soja-Shi",
+        "kanji": "総社市"
+    },
+    "3111": {
+        "type": "City",
+        "romaji": "Takahashi-Shi",
+        "kanji": "高梁市"
+    },
+    "3112": {
+        "type": "City",
+        "romaji": "Niimi-Shi",
+        "kanji": "新見市"
+    },
+    "3113": {
+        "type": "City",
+        "romaji": "Bizen-Shi",
+        "kanji": "備前市"
+    },
+    "3114": {
+        "type": "City",
+        "romaji": "Setouchi-Shi",
+        "kanji": "瀬戸内市"
+    },
+    "3115": {
+        "type": "City",
+        "romaji": "Akaiwa-Shi",
+        "kanji": "赤磐市"
+    },
+    "3116": {
+        "type": "City",
+        "romaji": "Maniwa-Shi",
+        "kanji": "真庭市"
+    },
+    "3117": {
+        "type": "City",
+        "romaji": "Mimasaka-Shi",
+        "kanji": "美作市"
+    },
+    "3118": {
+        "type": "City",
+        "romaji": "Asakuchi-Shi",
+        "kanji": "浅口市"
+    },
+    "3201": {
+        "type": "City",
+        "romaji": "Matsue-Shi",
+        "kanji": "松江市"
+    },
+    "3202": {
+        "type": "City",
+        "romaji": "Hamada-Shi",
+        "kanji": "浜田市"
+    },
+    "3203": {
+        "type": "City",
+        "romaji": "Izumo-Shi",
+        "kanji": "出雲市"
+    },
+    "3204": {
+        "type": "City",
+        "romaji": "Masuda-Shi",
+        "kanji": "益田市"
+    },
+    "3205": {
+        "type": "City",
+        "romaji": "Oda-Shi",
+        "kanji": "大田市"
+    },
+    "3206": {
+        "type": "City",
+        "romaji": "Yasugi-Shi",
+        "kanji": "安来市"
+    },
+    "3207": {
+        "type": "City",
+        "romaji": "Gotsu-Shi",
+        "kanji": "江津市"
+    },
+    "3209": {
+        "type": "City",
+        "romaji": "Unnan-Shi",
+        "kanji": "雲南市"
+    },
+    "3301": {
+        "type": "City",
+        "romaji": "Yamaguchi-Shi",
+        "kanji": "山口市"
+    },
+    "3302": {
+        "type": "City",
+        "romaji": "Shimonoseki-Shi",
+        "kanji": "下関市"
+    },
+    "3303": {
+        "type": "City",
+        "romaji": "Ube-Shi",
+        "kanji": "宇部市"
+    },
+    "3304": {
+        "type": "City",
+        "romaji": "Hagi-Shi",
+        "kanji": "萩市"
+    },
+    "3306": {
+        "type": "City",
+        "romaji": "Hofu-Shi",
+        "kanji": "防府市"
+    },
+    "3307": {
+        "type": "City",
+        "romaji": "Kudamatsu-Shi",
+        "kanji": "下松市"
+    },
+    "3308": {
+        "type": "City",
+        "romaji": "Iwakuni-Shi",
+        "kanji": "岩国市"
+    },
+    "3310": {
+        "type": "City",
+        "romaji": "Hikari-Shi",
+        "kanji": "光市"
+    },
+    "3311": {
+        "type": "City",
+        "romaji": "Nagato-Shi",
+        "kanji": "長門市"
+    },
+    "3312": {
+        "type": "City",
+        "romaji": "Yanai-Shi",
+        "kanji": "柳井市"
+    },
+    "3313": {
+        "type": "City",
+        "romaji": "Mine-Shi",
+        "kanji": "美祢市"
+    },
+    "3315": {
+        "type": "City",
+        "romaji": "Shunan-Shi",
+        "kanji": "周南市"
+    },
+    "3316": {
+        "type": "City",
+        "romaji": "-Shi",
+        "kanji": "San'yoonoda市"
+    },
+    "3401": {
+        "type": "City",
+        "romaji": "Tottori-Shi",
+        "kanji": "鳥取市"
+    },
+    "3402": {
+        "type": "City",
+        "romaji": "Kurayoshi-Shi",
+        "kanji": "倉吉市"
+    },
+    "3403": {
+        "type": "City",
+        "romaji": "Yonago-Shi",
+        "kanji": "米子市"
+    },
+    "3404": {
+        "type": "City",
+        "romaji": "Sakaiminato-Shi",
+        "kanji": "境港市"
+    },
+    "3501": {
+        "type": "City",
+        "romaji": "Hiroshima-Shi",
+        "kanji": "広島市"
+    },
+    "3502": {
+        "type": "City",
+        "romaji": "Kure-Shi",
+        "kanji": "呉市"
+    },
+    "3503": {
+        "type": "City",
+        "romaji": "Takehara-Shi",
+        "kanji": "竹原市"
+    },
+    "3504": {
+        "type": "City",
+        "romaji": "Mihara-Shi",
+        "kanji": "三原市"
+    },
+    "3505": {
+        "type": "City",
+        "romaji": "Onomichi-Shi",
+        "kanji": "尾道市"
+    },
+    "3508": {
+        "type": "City",
+        "romaji": "Fukuyama-Shi",
+        "kanji": "福山市"
+    },
+    "3509": {
+        "type": "City",
+        "romaji": "Fuchu-Shi",
+        "kanji": "府中市"
+    },
+    "3510": {
+        "type": "City",
+        "romaji": "Miyoshi-Shi",
+        "kanji": "三次市"
+    },
+    "3511": {
+        "type": "City",
+        "romaji": "Syoubara-Shi",
+        "kanji": "庄原市"
+    },
+    "3512": {
+        "type": "City",
+        "romaji": "Otake-Shi",
+        "kanji": "大竹市"
+    },
+    "3513": {
+        "type": "City",
+        "romaji": "Higashihiroshima-Shi",
+        "kanji": "東広島市"
+    },
+    "3514": {
+        "type": "City",
+        "romaji": "Hatsukaichi-Shi",
+        "kanji": "廿日市市"
+    },
+    "3515": {
+        "type": "City",
+        "romaji": "Akitakata-Shi",
+        "kanji": "安芸高田市"
+    },
+    "3516": {
+        "type": "City",
+        "romaji": "Etajima-Shi",
+        "kanji": "江田島市"
+    },
+    "3601": {
+        "type": "City",
+        "romaji": "Takamatsu-Shi",
+        "kanji": "高松市"
+    },
+    "3602": {
+        "type": "City",
+        "romaji": "Marugame-Shi",
+        "kanji": "丸亀市"
+    },
+    "3603": {
+        "type": "City",
+        "romaji": "Sakaide-Shi",
+        "kanji": "坂出市"
+    },
+    "3604": {
+        "type": "City",
+        "romaji": "Zentsuji-Shi",
+        "kanji": "善通寺市"
+    },
+    "3605": {
+        "type": "City",
+        "romaji": "-Shi",
+        "kanji": "Kan'onji市"
+    },
+    "3606": {
+        "type": "City",
+        "romaji": "Sanuki-Shi",
+        "kanji": "さぬき市"
+    },
+    "3607": {
+        "type": "City",
+        "romaji": "Higashikagawa-Shi",
+        "kanji": "東かがわ市"
+    },
+    "3608": {
+        "type": "City",
+        "romaji": "Mitoyo-Shi",
+        "kanji": "三豊市"
+    },
+    "3701": {
+        "type": "City",
+        "romaji": "Tokushima-Shi",
+        "kanji": "徳島市"
+    },
+    "3702": {
+        "type": "City",
+        "romaji": "Naruto-Shi",
+        "kanji": "鳴門市"
+    },
+    "3703": {
+        "type": "City",
+        "romaji": "Komatsushima-Shi",
+        "kanji": "小松島市"
+    },
+    "3704": {
+        "type": "City",
+        "romaji": "Anan-Shi",
+        "kanji": "阿南市"
+    },
+    "3705": {
+        "type": "City",
+        "romaji": "Yoshinogawa-Shi",
+        "kanji": "吉野川市"
+    },
+    "3706": {
+        "type": "City",
+        "romaji": "Awa-Shi",
+        "kanji": "阿波市"
+    },
+    "3707": {
+        "type": "City",
+        "romaji": "Mima-Shi",
+        "kanji": "美馬市"
+    },
+    "3708": {
+        "type": "City",
+        "romaji": "Miyoshi-Shi",
+        "kanji": "三好市"
+    },
+    "3801": {
+        "type": "City",
+        "romaji": "Matsuyama-Shi",
+        "kanji": "松山市"
+    },
+    "3802": {
+        "type": "City",
+        "romaji": "Imabari-Shi",
+        "kanji": "今治市"
+    },
+    "3803": {
+        "type": "City",
+        "romaji": "Uwajima-Shi",
+        "kanji": "宇和島市"
+    },
+    "3804": {
+        "type": "City",
+        "romaji": "Yawatahama-Shi",
+        "kanji": "八幡浜市"
+    },
+    "3805": {
+        "type": "City",
+        "romaji": "Niihama-Shi",
+        "kanji": "新居浜市"
+    },
+    "3806": {
+        "type": "City",
+        "romaji": "Saijo-Shi",
+        "kanji": "西条市"
+    },
+    "3807": {
+        "type": "City",
+        "romaji": "Ozu-Shi",
+        "kanji": "大洲市"
+    },
+    "3810": {
+        "type": "City",
+        "romaji": "Iyo-Shi",
+        "kanji": "伊予市"
+    },
+    "3813": {
+        "type": "City",
+        "romaji": "Shikokuchuo-Shi",
+        "kanji": "四国中央市"
+    },
+    "3814": {
+        "type": "City",
+        "romaji": "Seiyo-Shi",
+        "kanji": "西予市"
+    },
+    "3815": {
+        "type": "City",
+        "romaji": "Toon-Shi",
+        "kanji": "東温市"
+    },
+    "3901": {
+        "type": "City",
+        "romaji": "Kochi-Shi",
+        "kanji": "高知市"
+    },
+    "3902": {
+        "type": "City",
+        "romaji": "Muroto-Shi",
+        "kanji": "室戸市"
+    },
+    "3903": {
+        "type": "City",
+        "romaji": "Aki-Shi",
+        "kanji": "安芸市"
+    },
+    "3904": {
+        "type": "City",
+        "romaji": "Tosa-Shi",
+        "kanji": "土佐市"
+    },
+    "3905": {
+        "type": "City",
+        "romaji": "Susaki-Shi",
+        "kanji": "須崎市"
+    },
+    "3907": {
+        "type": "City",
+        "romaji": "Sukumo-Shi",
+        "kanji": "宿毛市"
+    },
+    "3908": {
+        "type": "City",
+        "romaji": "Tosashimizu-Shi",
+        "kanji": "土佐清水市"
+    },
+    "3909": {
+        "type": "City",
+        "romaji": "Nankoku-Shi",
+        "kanji": "南国市"
+    },
+    "3910": {
+        "type": "City",
+        "romaji": "Shimanto-Shi",
+        "kanji": "四万十市"
+    },
+    "3911": {
+        "type": "City",
+        "romaji": "Konan-Shi",
+        "kanji": "香南市"
+    },
+    "3912": {
+        "type": "City",
+        "romaji": "Kami-Shi",
+        "kanji": "香美市"
+    },
+    "4001": {
+        "type": "City",
+        "romaji": "Fukuoka-Shi",
+        "kanji": "福岡市"
+    },
+    "4007": {
+        "type": "City",
+        "romaji": "Kurume-Shi",
+        "kanji": "久留米市"
+    },
+    "4008": {
+        "type": "City",
+        "romaji": "Omuta-Shi",
+        "kanji": "大牟田市"
+    },
+    "4009": {
+        "type": "City",
+        "romaji": "Noogata-Shi",
+        "kanji": "直方市"
+    },
+    "4010": {
+        "type": "City",
+        "romaji": "Iizuka-Shi",
+        "kanji": "飯塚市"
+    },
+    "4011": {
+        "type": "City",
+        "romaji": "Tagawa-Shi",
+        "kanji": "田川市"
+    },
+    "4012": {
+        "type": "City",
+        "romaji": "Yanagawa-Shi",
+        "kanji": "柳川市"
+    },
+    "4015": {
+        "type": "City",
+        "romaji": "Yame-Shi",
+        "kanji": "八女市"
+    },
+    "4016": {
+        "type": "City",
+        "romaji": "Chikugo-Shi",
+        "kanji": "筑後市"
+    },
+    "4017": {
+        "type": "City",
+        "romaji": "Okawa-Shi",
+        "kanji": "大川市"
+    },
+    "4018": {
+        "type": "City",
+        "romaji": "Yukuhashi-Shi",
+        "kanji": "行橋市"
+    },
+    "4019": {
+        "type": "City",
+        "romaji": "Buzen-Shi",
+        "kanji": "豊前市"
+    },
+    "4020": {
+        "type": "City",
+        "romaji": "Nakama-Shi",
+        "kanji": "中間市"
+    },
+    "4021": {
+        "type": "City",
+        "romaji": "Kitakyushu-Shi",
+        "kanji": "北九州市"
+    },
+    "4022": {
+        "type": "City",
+        "romaji": "Ogoori-Shi",
+        "kanji": "小郡市"
+    },
+    "4023": {
+        "type": "City",
+        "romaji": "Kasuga-Shi",
+        "kanji": "春日市"
+    },
+    "4024": {
+        "type": "City",
+        "romaji": "Chikushino-Shi",
+        "kanji": "筑紫野市"
+    },
+    "4025": {
+        "type": "City",
+        "romaji": "Onojo-Shi",
+        "kanji": "大野城市"
+    },
+    "4026": {
+        "type": "City",
+        "romaji": "Munakata-Shi",
+        "kanji": "宗像市"
+    },
+    "4027": {
+        "type": "City",
+        "romaji": "Dazaifu-Shi",
+        "kanji": "太宰府市"
+    },
+    "4029": {
+        "type": "City",
+        "romaji": "Koga-Shi",
+        "kanji": "古賀市"
+    },
+    "4030": {
+        "type": "City",
+        "romaji": "Fukutsu-Shi",
+        "kanji": "福津市"
+    },
+    "4031": {
+        "type": "City",
+        "romaji": "Ukiha-Shi",
+        "kanji": "うきは市"
+    },
+    "4032": {
+        "type": "City",
+        "romaji": "Miyawaka-Shi",
+        "kanji": "宮若市"
+    },
+    "4033": {
+        "type": "City",
+        "romaji": "Kama-Shi",
+        "kanji": "嘉麻市"
+    },
+    "4034": {
+        "type": "City",
+        "romaji": "Asakura-Shi",
+        "kanji": "朝倉市"
+    },
+    "4035": {
+        "type": "City",
+        "romaji": "Miyama-Shi",
+        "kanji": "みやま市"
+    },
+    "4036": {
+        "type": "City",
+        "romaji": "Itoshima-Shi",
+        "kanji": "糸島市"
+    },
+    "4037": {
+        "type": "City",
+        "romaji": "nakagawa-Shi",
+        "kanji": "那珂川市"
+    },
+    "4101": {
+        "type": "City",
+        "romaji": "Saga-Shi",
+        "kanji": "佐賀市"
+    },
+    "4102": {
+        "type": "City",
+        "romaji": "Karatsu-Shi",
+        "kanji": "唐津市"
+    },
+    "4103": {
+        "type": "City",
+        "romaji": "Tosu-Shi",
+        "kanji": "鳥栖市"
+    },
+    "4104": {
+        "type": "City",
+        "romaji": "Taku-Shi",
+        "kanji": "多久市"
+    },
+    "4105": {
+        "type": "City",
+        "romaji": "Imari-Shi",
+        "kanji": "伊万里市"
+    },
+    "4106": {
+        "type": "City",
+        "romaji": "Takeo-Shi",
+        "kanji": "武雄市"
+    },
+    "4107": {
+        "type": "City",
+        "romaji": "Kashima-Shi",
+        "kanji": "鹿島市"
+    },
+    "4108": {
+        "type": "City",
+        "romaji": "Ogi-Shi",
+        "kanji": "小城市"
+    },
+    "4109": {
+        "type": "City",
+        "romaji": "Ureshino-Shi",
+        "kanji": "嬉野市"
+    },
+    "4110": {
+        "type": "City",
+        "romaji": "Kanzaki-Shi",
+        "kanji": "神埼市"
+    },
+    "4201": {
+        "type": "City",
+        "romaji": "Nagasaki-Shi",
+        "kanji": "長崎市"
+    },
+    "4202": {
+        "type": "City",
+        "romaji": "Sasebo-Shi",
+        "kanji": "佐世保市"
+    },
+    "4203": {
+        "type": "City",
+        "romaji": "Shimabara-Shi",
+        "kanji": "島原市"
+    },
+    "4204": {
+        "type": "City",
+        "romaji": "Isahaya-Shi",
+        "kanji": "諫早市"
+    },
+    "4205": {
+        "type": "City",
+        "romaji": "Omura-Shi",
+        "kanji": "大村市"
+    },
+    "4207": {
+        "type": "City",
+        "romaji": "Hirado-Shi",
+        "kanji": "平戸市"
+    },
+    "4208": {
+        "type": "City",
+        "romaji": "Matsuura-Shi",
+        "kanji": "松浦市"
+    },
+    "4209": {
+        "type": "City",
+        "romaji": "Tsushima-Shi",
+        "kanji": "対馬市"
+    },
+    "4210": {
+        "type": "City",
+        "romaji": "Iki-Shi",
+        "kanji": "壱岐市"
+    },
+    "4211": {
+        "type": "City",
+        "romaji": "Goto-Shi",
+        "kanji": "五島市"
+    },
+    "4212": {
+        "type": "City",
+        "romaji": "Saikai-Shi",
+        "kanji": "西海市"
+    },
+    "4213": {
+        "type": "City",
+        "romaji": "Unzen-Shi",
+        "kanji": "雲仙市"
+    },
+    "4214": {
+        "type": "City",
+        "romaji": "Minamishimabara-Shi",
+        "kanji": "南島原市"
+    },
+    "4301": {
+        "type": "City",
+        "romaji": "Kumamoto-Shi",
+        "kanji": "熊本市"
+    },
+    "4302": {
+        "type": "City",
+        "romaji": "Yatsushiro-Shi",
+        "kanji": "八代市"
+    },
+    "4303": {
+        "type": "City",
+        "romaji": "Hitoyoshi-Shi",
+        "kanji": "人吉市"
+    },
+    "4304": {
+        "type": "City",
+        "romaji": "Arao-Shi",
+        "kanji": "荒尾市"
+    },
+    "4305": {
+        "type": "City",
+        "romaji": "Minamata-Shi",
+        "kanji": "水俣市"
+    },
+    "4306": {
+        "type": "City",
+        "romaji": "Tamana-Shi",
+        "kanji": "玉名市"
+    },
+    "4308": {
+        "type": "City",
+        "romaji": "Yamaga-Shi",
+        "kanji": "山鹿市"
+    },
+    "4310": {
+        "type": "City",
+        "romaji": "Kikuchi-Shi",
+        "kanji": "菊池市"
+    },
+    "4311": {
+        "type": "City",
+        "romaji": "Uto-Shi",
+        "kanji": "宇土市"
+    },
+    "4312": {
+        "type": "City",
+        "romaji": "Kamiamakusa-Shi",
+        "kanji": "上天草市"
+    },
+    "4313": {
+        "type": "City",
+        "romaji": "Uki-Shi",
+        "kanji": "宇城市"
+    },
+    "4314": {
+        "type": "City",
+        "romaji": "Aso-Shi",
+        "kanji": "阿蘇市"
+    },
+    "4315": {
+        "type": "City",
+        "romaji": "Amakusa-Shi",
+        "kanji": "天草市"
+    },
+    "4316": {
+        "type": "City",
+        "romaji": "Koshi-Shi",
+        "kanji": "合志市"
+    },
+    "4401": {
+        "type": "City",
+        "romaji": "Oita-Shi",
+        "kanji": "大分市"
+    },
+    "4402": {
+        "type": "City",
+        "romaji": "Beppu-Shi",
+        "kanji": "別府市"
+    },
+    "4403": {
+        "type": "City",
+        "romaji": "Nakatsu-Shi",
+        "kanji": "中津市"
+    },
+    "4404": {
+        "type": "City",
+        "romaji": "Hita-Shi",
+        "kanji": "日田市"
+    },
+    "4405": {
+        "type": "City",
+        "romaji": "Saiki-Shi",
+        "kanji": "佐伯市"
+    },
+    "4406": {
+        "type": "City",
+        "romaji": "Usuki-Shi",
+        "kanji": "臼杵市"
+    },
+    "4407": {
+        "type": "City",
+        "romaji": "Tsukumi-Shi",
+        "kanji": "津久見市"
+    },
+    "4408": {
+        "type": "City",
+        "romaji": "Taketa-Shi",
+        "kanji": "竹田市"
+    },
+    "4410": {
+        "type": "City",
+        "romaji": "Bungotakada-Shi",
+        "kanji": "豊後高田市"
+    },
+    "4411": {
+        "type": "City",
+        "romaji": "Kitsuki-Shi",
+        "kanji": "杵築市"
+    },
+    "4412": {
+        "type": "City",
+        "romaji": "Usa-Shi",
+        "kanji": "宇佐市"
+    },
+    "4413": {
+        "type": "City",
+        "romaji": "Bungoono-Shi",
+        "kanji": "豊後大野市"
+    },
+    "4414": {
+        "type": "City",
+        "romaji": "Yufu-Shi",
+        "kanji": "由布市"
+    },
+    "4415": {
+        "type": "City",
+        "romaji": "Kunisaki-Shi",
+        "kanji": "国東市"
+    },
+    "4501": {
+        "type": "City",
+        "romaji": "Miyazaki-Shi",
+        "kanji": "宮崎市"
+    },
+    "4502": {
+        "type": "City",
+        "romaji": "Miyakonojo-Shi",
+        "kanji": "都城市"
+    },
+    "4503": {
+        "type": "City",
+        "romaji": "Nobeoka-Shi",
+        "kanji": "延岡市"
+    },
+    "4504": {
+        "type": "City",
+        "romaji": "Nichinan-Shi",
+        "kanji": "日南市"
+    },
+    "4505": {
+        "type": "City",
+        "romaji": "Kobayashi-Shi",
+        "kanji": "小林市"
+    },
+    "4506": {
+        "type": "City",
+        "romaji": "Hyuga-Shi",
+        "kanji": "日向市"
+    },
+    "4507": {
+        "type": "City",
+        "romaji": "Kushima-Shi",
+        "kanji": "串間市"
+    },
+    "4508": {
+        "type": "City",
+        "romaji": "Saito-Shi",
+        "kanji": "西都市"
+    },
+    "4509": {
+        "type": "City",
+        "romaji": "Ebino-Shi",
+        "kanji": "えびの市"
+    },
+    "4601": {
+        "type": "City",
+        "romaji": "Kagoshima-Shi",
+        "kanji": "鹿児島市"
+    },
+    "4603": {
+        "type": "City",
+        "romaji": "Kanoya-Shi",
+        "kanji": "鹿屋市"
+    },
+    "4604": {
+        "type": "City",
+        "romaji": "Makurazaki-Shi",
+        "kanji": "枕崎市"
+    },
+    "4606": {
+        "type": "City",
+        "romaji": "Akune-Shi",
+        "kanji": "阿久根市"
+    },
+    "4607": {
+        "type": "City",
+        "romaji": "Izumi-Shi",
+        "kanji": "出水市"
+    },
+    "4610": {
+        "type": "City",
+        "romaji": "Ibusuki-Shi",
+        "kanji": "指宿市"
+    },
+    "4614": {
+        "type": "City",
+        "romaji": "Nishinoomote-Shi",
+        "kanji": "西之表市"
+    },
+    "4615": {
+        "type": "City",
+        "romaji": "Tarumizu-Shi",
+        "kanji": "垂水市"
+    },
+    "4616": {
+        "type": "City",
+        "romaji": "Satsumasendai-Shi",
+        "kanji": "薩摩川内市"
+    },
+    "4617": {
+        "type": "City",
+        "romaji": "Hioki-Shi",
+        "kanji": "日置市"
+    },
+    "4618": {
+        "type": "City",
+        "romaji": "Soo-Shi",
+        "kanji": "曽於市"
+    },
+    "4619": {
+        "type": "City",
+        "romaji": "Kirishima-Shi",
+        "kanji": "霧島市"
+    },
+    "4620": {
+        "type": "City",
+        "romaji": "Ichikikushikino-Shi",
+        "kanji": "いちき串木野市"
+    },
+    "4621": {
+        "type": "City",
+        "romaji": "Minamisatsuma-Shi",
+        "kanji": "南さつま市"
+    },
+    "4622": {
+        "type": "City",
+        "romaji": "Shibushi-Shi",
+        "kanji": "志布志市"
+    },
+    "4623": {
+        "type": "City",
+        "romaji": "Amami-Shi",
+        "kanji": "奄美市"
+    },
+    "4624": {
+        "type": "City",
+        "romaji": "Minamikyushu-Shi",
+        "kanji": "南九州市"
+    },
+    "4625": {
+        "type": "City",
+        "romaji": "Isa-Shi",
+        "kanji": "伊佐市"
+    },
+    "4626": {
+        "type": "City",
+        "romaji": "Aira-Shi",
+        "kanji": "姶良市"
+    },
+    "4701": {
+        "type": "City",
+        "romaji": "Naha-Shi",
+        "kanji": "那覇市"
+    },
+    "4704": {
+        "type": "City",
+        "romaji": "Ishigaki-Shi",
+        "kanji": "石垣市"
+    },
+    "4706": {
+        "type": "City",
+        "romaji": "Ginowan-Shi",
+        "kanji": "宜野湾市"
+    },
+    "4708": {
+        "type": "City",
+        "romaji": "Nago-Shi",
+        "kanji": "名護市"
+    },
+    "4709": {
+        "type": "City",
+        "romaji": "Urasoe-Shi",
+        "kanji": "浦添市"
+    },
+    "4710": {
+        "type": "City",
+        "romaji": "Itoman-Shi",
+        "kanji": "糸満市"
+    },
+    "4711": {
+        "type": "City",
+        "romaji": "Okinawa-Shi",
+        "kanji": "沖縄市"
+    },
+    "4712": {
+        "type": "City",
+        "romaji": "Tomigusuku-Shi",
+        "kanji": "豊見城市"
+    },
+    "4713": {
+        "type": "City",
+        "romaji": "Uruma-Shi",
+        "kanji": "うるま市"
+    },
+    "4714": {
+        "type": "City",
+        "romaji": "Miyakojima-Shi",
+        "kanji": "宮古島市"
+    },
+    "4715": {
+        "type": "City",
+        "romaji": "Nanjo-Shi",
+        "kanji": "南城市"
+    },
+    "01001": {
+        "type": "Gun",
+        "romaji": "Akan-Gun",
+        "kanji": "阿寒郡"
+    },
+    "01002": {
+        "type": "Gun",
+        "romaji": "Ashoro-Gun",
+        "kanji": "足寄郡"
+    },
+    "01003": {
+        "type": "Gun",
+        "romaji": "Atsukeshi-Gun",
+        "kanji": "厚岸郡"
+    },
+    "01005": {
+        "type": "Gun",
+        "romaji": "Abashiri-Gun",
+        "kanji": "網走郡"
+    },
+    "01006": {
+        "type": "Gun",
+        "romaji": "Abuta-gun(Shiribeshi)",
+        "kanji": "虻田郡(後志)"
+    },
+    "01007": {
+        "type": "Gun",
+        "romaji": "Abuta-gun(Iburi)",
+        "kanji": "虻田郡(胆振)"
+    },
+    "01008": {
+        "type": "Gun",
+        "romaji": "Ishikari-Gun",
+        "kanji": "石狩郡"
+    },
+    "01009": {
+        "type": "Gun",
+        "romaji": "Isoya-Gun",
+        "kanji": "磯谷郡"
+    },
+    "01010": {
+        "type": "Gun",
+        "romaji": "Iwanai-Gun",
+        "kanji": "岩内郡"
+    },
+    "01011": {
+        "type": "Gun",
+        "romaji": "Usu-Gun",
+        "kanji": "有珠郡"
+    },
+    "01013": {
+        "type": "Gun",
+        "romaji": "Urakawa-Gun",
+        "kanji": "浦河郡"
+    },
+    "01014": {
+        "type": "Gun",
+        "romaji": "Uryu-gun(Sorachi)",
+        "kanji": "雨竜郡(空知)"
+    },
+    "01015": {
+        "type": "Gun",
+        "romaji": "Esashi-Gun",
+        "kanji": "枝幸郡"
+    },
+    "01016": {
+        "type": "Gun",
+        "romaji": "Okushiri-Gun",
+        "kanji": "奥尻郡"
+    },
+    "01018": {
+        "type": "Gun",
+        "romaji": "Kasai-Gun",
+        "kanji": "河西郡"
+    },
+    "01019": {
+        "type": "Gun",
+        "romaji": "Kato-Gun",
+        "kanji": "河東郡"
+    },
+    "01020": {
+        "type": "Gun",
+        "romaji": "Kabato-Gun",
+        "kanji": "樺戸郡"
+    },
+    "01021": {
+        "type": "Gun",
+        "romaji": "Kamiiso-Gun",
+        "kanji": "上磯郡"
+    },
+    "01022": {
+        "type": "Gun",
+        "romaji": "Kamikawa-gun(Tokachi)",
+        "kanji": "上川郡(十勝)"
+    },
+    "01023": {
+        "type": "Gun",
+        "romaji": "Kamikawa-gun(Kamikawa)",
+        "kanji": "上川郡(上川)"
+    },
+    "01024": {
+        "type": "Gun",
+        "romaji": "Kameda-Gun",
+        "kanji": "亀田郡"
+    },
+    "01025": {
+        "type": "Gun",
+        "romaji": "Kayabe-Gun",
+        "kanji": "茅部郡"
+    },
+    "01026": {
+        "type": "Gun",
+        "romaji": "Kawakami-Gun",
+        "kanji": "川上郡"
+    },
+    "01027": {
+        "type": "Gun",
+        "romaji": "Kushiro-Gun",
+        "kanji": "釧路郡"
+    },
+    "01028": {
+        "type": "Gun",
+        "romaji": "Kudo-Gun",
+        "kanji": "久遠郡"
+    },
+    "01030": {
+        "type": "Gun",
+        "romaji": "Samani-Gun",
+        "kanji": "様似郡"
+    },
+    "01031": {
+        "type": "Gun",
+        "romaji": "Saru-Gun",
+        "kanji": "沙流郡"
+    },
+    "01033": {
+        "type": "Gun",
+        "romaji": "Shibetsu-Gun",
+        "kanji": "標津郡"
+    },
+    "01034": {
+        "type": "Gun",
+        "romaji": "Shimamaki-Gun",
+        "kanji": "島牧郡"
+    },
+    "01035": {
+        "type": "Gun",
+        "romaji": "Shakotan-Gun",
+        "kanji": "積丹郡"
+    },
+    "01036": {
+        "type": "Gun",
+        "romaji": "Shari-Gun",
+        "kanji": "斜里郡"
+    },
+    "01037": {
+        "type": "Gun",
+        "romaji": "Shiraoi-Gun",
+        "kanji": "白老郡"
+    },
+    "01038": {
+        "type": "Gun",
+        "romaji": "Shiranuka-Gun",
+        "kanji": "白糠郡"
+    },
+    "01039": {
+        "type": "Gun",
+        "romaji": "Suttsu-Gun",
+        "kanji": "寿都郡"
+    },
+    "01040": {
+        "type": "Gun",
+        "romaji": "Setana-Gun",
+        "kanji": "瀬棚郡"
+    },
+    "01041": {
+        "type": "Gun",
+        "romaji": "Soya-Gun",
+        "kanji": "宗谷郡"
+    },
+    "01042": {
+        "type": "Gun",
+        "romaji": "Sorachi-gun(Sorachi)",
+        "kanji": "空知郡(空知)"
+    },
+    "01043": {
+        "type": "Gun",
+        "romaji": "Sorachi-gun(Kamikawa)",
+        "kanji": "空知郡(上川)"
+    },
+    "01045": {
+        "type": "Gun",
+        "romaji": "Teshio-gun(Rumoi)",
+        "kanji": "天塩郡(留萌)"
+    },
+    "01046": {
+        "type": "Gun",
+        "romaji": "Teshio-gun(Soya)",
+        "kanji": "天塩郡(宗谷)"
+    },
+    "01047": {
+        "type": "Gun",
+        "romaji": "Tokachi-Gun",
+        "kanji": "十勝郡"
+    },
+    "01048": {
+        "type": "Gun",
+        "romaji": "Tokoro-Gun",
+        "kanji": "常呂郡"
+    },
+    "01049": {
+        "type": "Gun",
+        "romaji": "Tomamae-Gun",
+        "kanji": "苫前郡"
+    },
+    "01050": {
+        "type": "Gun",
+        "romaji": "Nakagawa-gun(Kamikawa)",
+        "kanji": "中川郡(上川)"
+    },
+    "01051": {
+        "type": "Gun",
+        "romaji": "Nakagawa-gun(Tokachi)",
+        "kanji": "中川郡(十勝)"
+    },
+    "01052": {
+        "type": "Gun",
+        "romaji": "Niikappu-Gun",
+        "kanji": "新冠郡"
+    },
+    "01053": {
+        "type": "Gun",
+        "romaji": "Nishi-Gun",
+        "kanji": "爾志郡"
+    },
+    "01055": {
+        "type": "Gun",
+        "romaji": "Notsuke-Gun",
+        "kanji": "野付郡"
+    },
+    "01059": {
+        "type": "Gun",
+        "romaji": "Hiyama-Gun",
+        "kanji": "檜山郡"
+    },
+    "01060": {
+        "type": "Gun",
+        "romaji": "Hiroo-Gun",
+        "kanji": "広尾郡"
+    },
+    "01062": {
+        "type": "Gun",
+        "romaji": "Furuu-Gun",
+        "kanji": "古宇郡"
+    },
+    "01063": {
+        "type": "Gun",
+        "romaji": "Furubira-Gun",
+        "kanji": "古平郡"
+    },
+    "01064": {
+        "type": "Gun",
+        "romaji": "Horoizumi-Gun",
+        "kanji": "幌泉郡"
+    },
+    "01066": {
+        "type": "Gun",
+        "romaji": "Mashike-Gun",
+        "kanji": "増毛郡"
+    },
+    "01067": {
+        "type": "Gun",
+        "romaji": "Matsumae-Gun",
+        "kanji": "松前郡"
+    },
+    "01069": {
+        "type": "Gun",
+        "romaji": "Menashi-Gun",
+        "kanji": "目梨郡"
+    },
+    "01070": {
+        "type": "Gun",
+        "romaji": "Mombetsu-Gun",
+        "kanji": "紋別郡"
+    },
+    "01071": {
+        "type": "Gun",
+        "romaji": "Yamakoshi-Gun",
+        "kanji": "山越郡"
+    },
+    "01072": {
+        "type": "Gun",
+        "romaji": "Yubari-Gun",
+        "kanji": "夕張郡"
+    },
+    "01073": {
+        "type": "Gun",
+        "romaji": "Yufutsu-gun(Iburi)",
+        "kanji": "勇払郡(胆振)"
+    },
+    "01074": {
+        "type": "Gun",
+        "romaji": "Yufutsu-gun(Kamikawa)",
+        "kanji": "勇払郡(上川)"
+    },
+    "01075": {
+        "type": "Gun",
+        "romaji": "Yoichi-Gun",
+        "kanji": "余市郡"
+    },
+    "01076": {
+        "type": "Gun",
+        "romaji": "Rishiri-Gun",
+        "kanji": "利尻郡"
+    },
+    "01077": {
+        "type": "Gun",
+        "romaji": "Rumoi-Gun",
+        "kanji": "留萌郡"
+    },
+    "01078": {
+        "type": "Gun",
+        "romaji": "Rebun-Gun",
+        "kanji": "礼文郡"
+    },
+    "01079": {
+        "type": "Gun",
+        "romaji": "Futami-Gun",
+        "kanji": "二海郡"
+    },
+    "01080": {
+        "type": "Gun",
+        "romaji": "Hidaka-Gun",
+        "kanji": "日高郡"
+    },
+    "01081": {
+        "type": "Gun",
+        "romaji": "Uryu-gun(Kamikawa)",
+        "kanji": "雨竜郡(上川)"
+    },
+    "02001": {
+        "type": "Gun",
+        "romaji": "Kamikita-Gun",
+        "kanji": "上北郡"
+    },
+    "02002": {
+        "type": "Gun",
+        "romaji": "Kitatsugaru-Gun",
+        "kanji": "北津軽郡"
+    },
+    "02003": {
+        "type": "Gun",
+        "romaji": "Sannohe-Gun",
+        "kanji": "三戸郡"
+    },
+    "02004": {
+        "type": "Gun",
+        "romaji": "Shimokita-Gun",
+        "kanji": "下北郡"
+    },
+    "02005": {
+        "type": "Gun",
+        "romaji": "Nakatsugaru-Gun",
+        "kanji": "中津軽郡"
+    },
+    "02006": {
+        "type": "Gun",
+        "romaji": "Nishitsugaru-Gun",
+        "kanji": "西津軽郡"
+    },
+    "02007": {
+        "type": "Gun",
+        "romaji": "Higashitsugaru-Gun",
+        "kanji": "東津軽郡"
+    },
+    "02008": {
+        "type": "Gun",
+        "romaji": "Minamitsugaru-Gun",
+        "kanji": "南津軽郡"
+    },
+    "03001": {
+        "type": "Gun",
+        "romaji": "Isawa-Gun",
+        "kanji": "胆沢郡"
+    },
+    "03002": {
+        "type": "Gun",
+        "romaji": "Iwate-Gun",
+        "kanji": "岩手郡"
+    },
+    "03004": {
+        "type": "Gun",
+        "romaji": "Kamihei-Gun",
+        "kanji": "上閉伊郡"
+    },
+    "03005": {
+        "type": "Gun",
+        "romaji": "Kunohe-Gun",
+        "kanji": "九戸郡"
+    },
+    "03006": {
+        "type": "Gun",
+        "romaji": "Kesen-Gun",
+        "kanji": "気仙郡"
+    },
+    "03007": {
+        "type": "Gun",
+        "romaji": "Shimohei-Gun",
+        "kanji": "下閉伊郡"
+    },
+    "03008": {
+        "type": "Gun",
+        "romaji": "Shiwa-Gun",
+        "kanji": "紫波郡"
+    },
+    "03009": {
+        "type": "Gun",
+        "romaji": "Nishiiwai-Gun",
+        "kanji": "西磐井郡"
+    },
+    "03010": {
+        "type": "Gun",
+        "romaji": "Ninohe-Gun",
+        "kanji": "二戸郡"
+    },
+    "03013": {
+        "type": "Gun",
+        "romaji": "Waga-Gun",
+        "kanji": "和賀郡"
+    },
+    "04001": {
+        "type": "Gun",
+        "romaji": "Ogachi-Gun",
+        "kanji": "雄勝郡"
+    },
+    "04002": {
+        "type": "Gun",
+        "romaji": "Kazuno-Gun",
+        "kanji": "鹿角郡"
+    },
+    "04004": {
+        "type": "Gun",
+        "romaji": "Kitaakita-Gun",
+        "kanji": "北秋田郡"
+    },
+    "04005": {
+        "type": "Gun",
+        "romaji": "Semboku-Gun",
+        "kanji": "仙北郡"
+    },
+    "04007": {
+        "type": "Gun",
+        "romaji": "Minamiakita-Gun",
+        "kanji": "南秋田郡"
+    },
+    "04008": {
+        "type": "Gun",
+        "romaji": "Yamamoto-Gun",
+        "kanji": "山本郡"
+    },
+    "05001": {
+        "type": "Gun",
+        "romaji": "Akumi-Gun",
+        "kanji": "飽海郡"
+    },
+    "05002": {
+        "type": "Gun",
+        "romaji": "Kitamurayama-Gun",
+        "kanji": "北村山郡"
+    },
+    "05003": {
+        "type": "Gun",
+        "romaji": "Nishiokitama-Gun",
+        "kanji": "西置賜郡"
+    },
+    "05005": {
+        "type": "Gun",
+        "romaji": "Nishimurayama-Gun",
+        "kanji": "西村山郡"
+    },
+    "05006": {
+        "type": "Gun",
+        "romaji": "Higashiokitama-Gun",
+        "kanji": "東置賜郡"
+    },
+    "05007": {
+        "type": "Gun",
+        "romaji": "Higashitagawa-Gun",
+        "kanji": "東田川郡"
+    },
+    "05008": {
+        "type": "Gun",
+        "romaji": "Higashimurayama-Gun",
+        "kanji": "東村山郡"
+    },
+    "05011": {
+        "type": "Gun",
+        "romaji": "Mogami-Gun",
+        "kanji": "最上郡"
+    },
+    "06001": {
+        "type": "Gun",
+        "romaji": "Igu-Gun",
+        "kanji": "伊具郡"
+    },
+    "06002": {
+        "type": "Gun",
+        "romaji": "Oshika-Gun",
+        "kanji": "牡鹿郡"
+    },
+    "06003": {
+        "type": "Gun",
+        "romaji": "Katta-Gun",
+        "kanji": "刈田郡"
+    },
+    "06004": {
+        "type": "Gun",
+        "romaji": "Kami-Gun",
+        "kanji": "加美郡"
+    },
+    "06006": {
+        "type": "Gun",
+        "romaji": "Kurokawa-Gun",
+        "kanji": "黒川郡"
+    },
+    "06008": {
+        "type": "Gun",
+        "romaji": "Shibata-Gun",
+        "kanji": "柴田郡"
+    },
+    "06010": {
+        "type": "Gun",
+        "romaji": "Toda-Gun",
+        "kanji": "遠田郡"
+    },
+    "06013": {
+        "type": "Gun",
+        "romaji": "Miyagi-Gun",
+        "kanji": "宮城郡"
+    },
+    "06014": {
+        "type": "Gun",
+        "romaji": "Motoyoshi-Gun",
+        "kanji": "本吉郡"
+    },
+    "06016": {
+        "type": "Gun",
+        "romaji": "Watari-Gun",
+        "kanji": "亘理郡"
+    },
+    "07002": {
+        "type": "Gun",
+        "romaji": "Adachi-Gun",
+        "kanji": "安達郡"
+    },
+    "07003": {
+        "type": "Gun",
+        "romaji": "Ishikawa-Gun",
+        "kanji": "石川郡"
+    },
+    "07005": {
+        "type": "Gun",
+        "romaji": "Iwase-Gun",
+        "kanji": "岩瀬郡"
+    },
+    "07006": {
+        "type": "Gun",
+        "romaji": "Onuma-Gun",
+        "kanji": "大沼郡"
+    },
+    "07007": {
+        "type": "Gun",
+        "romaji": "Kawanuma-Gun",
+        "kanji": "河沼郡"
+    },
+    "07010": {
+        "type": "Gun",
+        "romaji": "Soma-Gun",
+        "kanji": "相馬郡"
+    },
+    "07011": {
+        "type": "Gun",
+        "romaji": "Date-Gun",
+        "kanji": "伊達郡"
+    },
+    "07012": {
+        "type": "Gun",
+        "romaji": "Tamura-Gun",
+        "kanji": "田村郡"
+    },
+    "07013": {
+        "type": "Gun",
+        "romaji": "Nishishirakawa-Gun",
+        "kanji": "西白河郡"
+    },
+    "07014": {
+        "type": "Gun",
+        "romaji": "Higashishirakawa-Gun",
+        "kanji": "東白川郡"
+    },
+    "07015": {
+        "type": "Gun",
+        "romaji": "Futaba-Gun",
+        "kanji": "双葉郡"
+    },
+    "07016": {
+        "type": "Gun",
+        "romaji": "Minamiaizu-Gun",
+        "kanji": "南会津郡"
+    },
+    "07017": {
+        "type": "Gun",
+        "romaji": "Yama-Gun",
+        "kanji": "耶麻郡"
+    },
+    "08001": {
+        "type": "Gun",
+        "romaji": "Iwafune-Gun",
+        "kanji": "岩船郡"
+    },
+    "08002": {
+        "type": "Gun",
+        "romaji": "Kariwa-Gun",
+        "kanji": "刈羽郡"
+    },
+    "08004": {
+        "type": "Gun",
+        "romaji": "Kitakambara-Gun",
+        "kanji": "北蒲原郡"
+    },
+    "08007": {
+        "type": "Gun",
+        "romaji": "Santo-Gun",
+        "kanji": "三島郡"
+    },
+    "08008": {
+        "type": "Gun",
+        "romaji": "Nakauonuma-Gun",
+        "kanji": "中魚沼郡"
+    },
+    "08011": {
+        "type": "Gun",
+        "romaji": "Nishikambara-Gun",
+        "kanji": "西蒲原郡"
+    },
+    "08013": {
+        "type": "Gun",
+        "romaji": "Higashikambara-Gun",
+        "kanji": "東蒲原郡"
+    },
+    "08015": {
+        "type": "Gun",
+        "romaji": "Minamiuonuma-Gun",
+        "kanji": "南魚沼郡"
+    },
+    "08016": {
+        "type": "Gun",
+        "romaji": "Minamikambara-Gun",
+        "kanji": "南蒲原郡"
+    },
+    "09001": {
+        "type": "Gun",
+        "romaji": "Kamiina-Gun",
+        "kanji": "上伊那郡"
+    },
+    "09002": {
+        "type": "Gun",
+        "romaji": "Kamitakai-Gun",
+        "kanji": "上高井郡"
+    },
+    "09003": {
+        "type": "Gun",
+        "romaji": "Kamiminochi-Gun",
+        "kanji": "上水内郡"
+    },
+    "09004": {
+        "type": "Gun",
+        "romaji": "Kiso-Gun",
+        "kanji": "木曽郡"
+    },
+    "09005": {
+        "type": "Gun",
+        "romaji": "Kitaazumi-Gun",
+        "kanji": "北安曇郡"
+    },
+    "09006": {
+        "type": "Gun",
+        "romaji": "Kitasaku-Gun",
+        "kanji": "北佐久郡"
+    },
+    "09008": {
+        "type": "Gun",
+        "romaji": "Shimoina-Gun",
+        "kanji": "下伊那郡"
+    },
+    "09009": {
+        "type": "Gun",
+        "romaji": "Shimotakai-Gun",
+        "kanji": "下高井郡"
+    },
+    "09010": {
+        "type": "Gun",
+        "romaji": "Shimominochi-Gun",
+        "kanji": "下水内郡"
+    },
+    "09011": {
+        "type": "Gun",
+        "romaji": "Suwa-Gun",
+        "kanji": "諏訪郡"
+    },
+    "09012": {
+        "type": "Gun",
+        "romaji": "Chiisagata-Gun",
+        "kanji": "小県郡"
+    },
+    "09014": {
+        "type": "Gun",
+        "romaji": "Hanishina-Gun",
+        "kanji": "埴科郡"
+    },
+    "09015": {
+        "type": "Gun",
+        "romaji": "Higashichikuma-Gun",
+        "kanji": "東筑摩郡"
+    },
+    "09017": {
+        "type": "Gun",
+        "romaji": "Minamisaku-Gun",
+        "kanji": "南佐久郡"
+    },
+    "10002": {
+        "type": "Gun",
+        "romaji": "Nishitama-Gun",
+        "kanji": "西多摩郡"
+    },
+    "10004": {
+        "type": "Gun",
+        "romaji": "Oshima-Shicho",
+        "kanji": "大島支庁"
+    },
+    "10005": {
+        "type": "Gun",
+        "romaji": "Miyake-Shicho",
+        "kanji": "三宅支庁"
+    },
+    "10006": {
+        "type": "Gun",
+        "romaji": "Hachijo-Shicho",
+        "kanji": "八丈支庁"
+    },
+    "10007": {
+        "type": "Gun",
+        "romaji": "Ogasawara-Shicho",
+        "kanji": "小笠原支庁"
+    },
+    "11001": {
+        "type": "Gun",
+        "romaji": "Aiko-Gun",
+        "kanji": "愛甲郡"
+    },
+    "11002": {
+        "type": "Gun",
+        "romaji": "Ashigarakami-Gun",
+        "kanji": "足柄上郡"
+    },
+    "11003": {
+        "type": "Gun",
+        "romaji": "Ashigarashimo-Gun",
+        "kanji": "足柄下郡"
+    },
+    "11004": {
+        "type": "Gun",
+        "romaji": "Koza-Gun",
+        "kanji": "高座郡"
+    },
+    "11006": {
+        "type": "Gun",
+        "romaji": "Naka-Gun",
+        "kanji": "中郡"
+    },
+    "11007": {
+        "type": "Gun",
+        "romaji": "Miura-Gun",
+        "kanji": "三浦郡"
+    },
+    "12001": {
+        "type": "Gun",
+        "romaji": "Awa-Gun",
+        "kanji": "安房郡"
+    },
+    "12002": {
+        "type": "Gun",
+        "romaji": "Isumi-Gun",
+        "kanji": "夷隅郡"
+    },
+    "12004": {
+        "type": "Gun",
+        "romaji": "Inba-Gun",
+        "kanji": "印旛郡"
+    },
+    "12006": {
+        "type": "Gun",
+        "romaji": "Katori-Gun",
+        "kanji": "香取郡"
+    },
+    "12008": {
+        "type": "Gun",
+        "romaji": "Sambu-Gun",
+        "kanji": "山武郡"
+    },
+    "12011": {
+        "type": "Gun",
+        "romaji": "Chosei-Gun",
+        "kanji": "長生郡"
+    },
+    "13001": {
+        "type": "Gun",
+        "romaji": "Iruma-Gun",
+        "kanji": "入間郡"
+    },
+    "13002": {
+        "type": "Gun",
+        "romaji": "Osato-Gun",
+        "kanji": "大里郡"
+    },
+    "13003": {
+        "type": "Gun",
+        "romaji": "Kitaadachi-Gun",
+        "kanji": "北足立郡"
+    },
+    "13004": {
+        "type": "Gun",
+        "romaji": "Kitakatsushika-Gun",
+        "kanji": "北葛飾郡"
+    },
+    "13006": {
+        "type": "Gun",
+        "romaji": "Kodama-Gun",
+        "kanji": "児玉郡"
+    },
+    "13007": {
+        "type": "Gun",
+        "romaji": "Chichibu-Gun",
+        "kanji": "秩父郡"
+    },
+    "13008": {
+        "type": "Gun",
+        "romaji": "Hiki-Gun",
+        "kanji": "比企郡"
+    },
+    "13009": {
+        "type": "Gun",
+        "romaji": "Minamisaitama-Gun",
+        "kanji": "南埼玉郡"
+    },
+    "14001": {
+        "type": "Gun",
+        "romaji": "Inashiki-Gun",
+        "kanji": "稲敷郡"
+    },
+    "14003": {
+        "type": "Gun",
+        "romaji": "Kitasoma-Gun",
+        "kanji": "北相馬郡"
+    },
+    "14004": {
+        "type": "Gun",
+        "romaji": "Kuji-Gun",
+        "kanji": "久慈郡"
+    },
+    "14005": {
+        "type": "Gun",
+        "romaji": "Sashima-Gun",
+        "kanji": "猿島郡"
+    },
+    "14008": {
+        "type": "Gun",
+        "romaji": "Naka-Gun",
+        "kanji": "那珂郡"
+    },
+    "14012": {
+        "type": "Gun",
+        "romaji": "Higashiibaraki-Gun",
+        "kanji": "東茨城郡"
+    },
+    "14014": {
+        "type": "Gun",
+        "romaji": "Yuki-Gun",
+        "kanji": "結城郡"
+    },
+    "15004": {
+        "type": "Gun",
+        "romaji": "Kawachi-Gun",
+        "kanji": "河内郡"
+    },
+    "15005": {
+        "type": "Gun",
+        "romaji": "Shioya-Gun",
+        "kanji": "塩谷郡"
+    },
+    "15006": {
+        "type": "Gun",
+        "romaji": "Shimotsuga-Gun",
+        "kanji": "下都賀郡"
+    },
+    "15007": {
+        "type": "Gun",
+        "romaji": "Nasu-Gun",
+        "kanji": "那須郡"
+    },
+    "15008": {
+        "type": "Gun",
+        "romaji": "Haga-Gun",
+        "kanji": "芳賀郡"
+    },
+    "16001": {
+        "type": "Gun",
+        "romaji": "Agatsuma-Gun",
+        "kanji": "吾妻郡"
+    },
+    "16003": {
+        "type": "Gun",
+        "romaji": "Ora-Gun",
+        "kanji": "邑楽郡"
+    },
+    "16004": {
+        "type": "Gun",
+        "romaji": "Kanra-Gun",
+        "kanji": "甘楽郡"
+    },
+    "16005": {
+        "type": "Gun",
+        "romaji": "Kitagumma-Gun",
+        "kanji": "北群馬郡"
+    },
+    "16007": {
+        "type": "Gun",
+        "romaji": "Sawa-Gun",
+        "kanji": "佐波郡"
+    },
+    "16009": {
+        "type": "Gun",
+        "romaji": "Tano-Gun",
+        "kanji": "多野郡"
+    },
+    "16010": {
+        "type": "Gun",
+        "romaji": "Tone-Gun",
+        "kanji": "利根郡"
+    },
+    "17002": {
+        "type": "Gun",
+        "romaji": "Kitatsuru-Gun",
+        "kanji": "北都留郡"
+    },
+    "17003": {
+        "type": "Gun",
+        "romaji": "Nakakoma-Gun",
+        "kanji": "中巨摩郡"
+    },
+    "17004": {
+        "type": "Gun",
+        "romaji": "Nishiyatsushiro-Gun",
+        "kanji": "西八代郡"
+    },
+    "17007": {
+        "type": "Gun",
+        "romaji": "Minamikoma-Gun",
+        "kanji": "南巨摩郡"
+    },
+    "17008": {
+        "type": "Gun",
+        "romaji": "Minamitsuru-Gun",
+        "kanji": "南都留郡"
+    },
+    "18006": {
+        "type": "Gun",
+        "romaji": "Kamo-Gun",
+        "kanji": "賀茂郡"
+    },
+    "18008": {
+        "type": "Gun",
+        "romaji": "Shuchi-Gun",
+        "kanji": "周智郡"
+    },
+    "18009": {
+        "type": "Gun",
+        "romaji": "Sunto-Gun",
+        "kanji": "駿東郡"
+    },
+    "18010": {
+        "type": "Gun",
+        "romaji": "Tagata-Gun",
+        "kanji": "田方郡"
+    },
+    "18011": {
+        "type": "Gun",
+        "romaji": "Haibara-Gun",
+        "kanji": "榛原郡"
+    },
+    "19001": {
+        "type": "Gun",
+        "romaji": "Anpachi-Gun",
+        "kanji": "安八郡"
+    },
+    "19003": {
+        "type": "Gun",
+        "romaji": "Ibi-Gun",
+        "kanji": "揖斐郡"
+    },
+    "19005": {
+        "type": "Gun",
+        "romaji": "Ono-Gun",
+        "kanji": "大野郡"
+    },
+    "19007": {
+        "type": "Gun",
+        "romaji": "Kani-Gun",
+        "kanji": "可児郡"
+    },
+    "19008": {
+        "type": "Gun",
+        "romaji": "Kamo-Gun",
+        "kanji": "加茂郡"
+    },
+    "19011": {
+        "type": "Gun",
+        "romaji": "Hashima-Gun",
+        "kanji": "羽島郡"
+    },
+    "19012": {
+        "type": "Gun",
+        "romaji": "Fuwa-Gun",
+        "kanji": "不破郡"
+    },
+    "19015": {
+        "type": "Gun",
+        "romaji": "Motosu-Gun",
+        "kanji": "本巣郡"
+    },
+    "19017": {
+        "type": "Gun",
+        "romaji": "Yoro-Gun",
+        "kanji": "養老郡"
+    },
+    "20001": {
+        "type": "Gun",
+        "romaji": "Aichi-Gun",
+        "kanji": "愛知郡"
+    },
+    "20003": {
+        "type": "Gun",
+        "romaji": "Ama-Gun",
+        "kanji": "海部郡"
+    },
+    "20004": {
+        "type": "Gun",
+        "romaji": "Kitashitara-Gun",
+        "kanji": "北設楽郡"
+    },
+    "20005": {
+        "type": "Gun",
+        "romaji": "Chita-Gun",
+        "kanji": "知多郡"
+    },
+    "20007": {
+        "type": "Gun",
+        "romaji": "Nishikasugai-Gun",
+        "kanji": "西春日井郡"
+    },
+    "20009": {
+        "type": "Gun",
+        "romaji": "Niwa-Gun",
+        "kanji": "丹羽郡"
+    },
+    "20010": {
+        "type": "Gun",
+        "romaji": "Nukata-Gun",
+        "kanji": "額田郡"
+    },
+    "21006": {
+        "type": "Gun",
+        "romaji": "Inabe-Gun",
+        "kanji": "員弁郡"
+    },
+    "21008": {
+        "type": "Gun",
+        "romaji": "Kitamuro-Gun",
+        "kanji": "北牟婁郡"
+    },
+    "21009": {
+        "type": "Gun",
+        "romaji": "Kuwana-Gun",
+        "kanji": "桑名郡"
+    },
+    "21012": {
+        "type": "Gun",
+        "romaji": "Taki-Gun",
+        "kanji": "多気郡"
+    },
+    "21014": {
+        "type": "Gun",
+        "romaji": "Mie-Gun",
+        "kanji": "三重郡"
+    },
+    "21015": {
+        "type": "Gun",
+        "romaji": "Minamimuro-Gun",
+        "kanji": "南牟婁郡"
+    },
+    "21016": {
+        "type": "Gun",
+        "romaji": "Watarai-Gun",
+        "kanji": "度会郡"
+    },
+    "22003": {
+        "type": "Gun",
+        "romaji": "Otokuni-Gun",
+        "kanji": "乙訓郡"
+    },
+    "22006": {
+        "type": "Gun",
+        "romaji": "Kuse-Gun",
+        "kanji": "久世郡"
+    },
+    "22008": {
+        "type": "Gun",
+        "romaji": "Soraku-Gun",
+        "kanji": "相楽郡"
+    },
+    "22010": {
+        "type": "Gun",
+        "romaji": "Tsuzuki-Gun",
+        "kanji": "綴喜郡"
+    },
+    "22012": {
+        "type": "Gun",
+        "romaji": "Funai-Gun",
+        "kanji": "船井郡"
+    },
+    "22014": {
+        "type": "Gun",
+        "romaji": "Yoza-Gun",
+        "kanji": "与謝郡"
+    },
+    "23002": {
+        "type": "Gun",
+        "romaji": "Inukami-Gun",
+        "kanji": "犬上郡"
+    },
+    "23003": {
+        "type": "Gun",
+        "romaji": "Echi-Gun",
+        "kanji": "愛知郡"
+    },
+    "23004": {
+        "type": "Gun",
+        "romaji": "Gamou-Gun",
+        "kanji": "蒲生郡"
+    },
+    "24001": {
+        "type": "Gun",
+        "romaji": "Ikoma-Gun",
+        "kanji": "生駒郡"
+    },
+    "24002": {
+        "type": "Gun",
+        "romaji": "Uda-Gun",
+        "kanji": "宇陀郡"
+    },
+    "24004": {
+        "type": "Gun",
+        "romaji": "Kitakatsuragi-Gun",
+        "kanji": "北葛城郡"
+    },
+    "24005": {
+        "type": "Gun",
+        "romaji": "Shiki-Gun",
+        "kanji": "磯城郡"
+    },
+    "24007": {
+        "type": "Gun",
+        "romaji": "Takaichi-Gun",
+        "kanji": "高市郡"
+    },
+    "24009": {
+        "type": "Gun",
+        "romaji": "Yamabe-Gun",
+        "kanji": "山辺郡"
+    },
+    "24010": {
+        "type": "Gun",
+        "romaji": "Yoshino-Gun",
+        "kanji": "吉野郡"
+    },
+    "25002": {
+        "type": "Gun",
+        "romaji": "Sennan-Gun",
+        "kanji": "泉南郡"
+    },
+    "25003": {
+        "type": "Gun",
+        "romaji": "Senboku-Gun",
+        "kanji": "泉北郡"
+    },
+    "25004": {
+        "type": "Gun",
+        "romaji": "Toyono-Gun",
+        "kanji": "豊能郡"
+    },
+    "25006": {
+        "type": "Gun",
+        "romaji": "Mishima-Gun",
+        "kanji": "三島郡"
+    },
+    "25007": {
+        "type": "Gun",
+        "romaji": "Minamikawachi-Gun",
+        "kanji": "南河内郡"
+    },
+    "26001": {
+        "type": "Gun",
+        "romaji": "Arida-Gun",
+        "kanji": "有田郡"
+    },
+    "26002": {
+        "type": "Gun",
+        "romaji": "Ito-Gun",
+        "kanji": "伊都郡"
+    },
+    "26003": {
+        "type": "Gun",
+        "romaji": "Kaiso-Gun",
+        "kanji": "海草郡"
+    },
+    "26005": {
+        "type": "Gun",
+        "romaji": "Nishimuro-Gun",
+        "kanji": "西牟婁郡"
+    },
+    "26006": {
+        "type": "Gun",
+        "romaji": "Higashimuro-Gun",
+        "kanji": "東牟婁郡"
+    },
+    "26007": {
+        "type": "Gun",
+        "romaji": "Hidaka-Gun",
+        "kanji": "日高郡"
+    },
+    "27001": {
+        "type": "Gun",
+        "romaji": "Akou-Gun",
+        "kanji": "赤穂郡"
+    },
+    "27005": {
+        "type": "Gun",
+        "romaji": "Ibo-Gun",
+        "kanji": "揖保郡"
+    },
+    "27007": {
+        "type": "Gun",
+        "romaji": "Kako-Gun",
+        "kanji": "加古郡"
+    },
+    "27010": {
+        "type": "Gun",
+        "romaji": "Kawabe-Gun",
+        "kanji": "川辺郡"
+    },
+    "27011": {
+        "type": "Gun",
+        "romaji": "Kanzaki-Gun",
+        "kanji": "神崎郡"
+    },
+    "27013": {
+        "type": "Gun",
+        "romaji": "Sayo-Gun",
+        "kanji": "佐用郡"
+    },
+    "27016": {
+        "type": "Gun",
+        "romaji": "Taka-Gun",
+        "kanji": "多可郡"
+    },
+    "27020": {
+        "type": "Gun",
+        "romaji": "Mikata-Gun",
+        "kanji": "美方郡"
+    },
+    "28003": {
+        "type": "Gun",
+        "romaji": "Shimoniikawa-Gun",
+        "kanji": "下新川郡"
+    },
+    "28004": {
+        "type": "Gun",
+        "romaji": "Nakaniikawa-Gun",
+        "kanji": "中新川郡"
+    },
+    "29002": {
+        "type": "Gun",
+        "romaji": "Imadate-Gun",
+        "kanji": "今立郡"
+    },
+    "29003": {
+        "type": "Gun",
+        "romaji": "Oi-Gun",
+        "kanji": "大飯郡"
+    },
+    "29008": {
+        "type": "Gun",
+        "romaji": "Nanjo-Gun",
+        "kanji": "南条郡"
+    },
+    "29009": {
+        "type": "Gun",
+        "romaji": "Nyuu-Gun",
+        "kanji": "丹生郡"
+    },
+    "29010": {
+        "type": "Gun",
+        "romaji": "Mikata-Gun",
+        "kanji": "三方郡"
+    },
+    "29011": {
+        "type": "Gun",
+        "romaji": "Yoshida-Gun",
+        "kanji": "吉田郡"
+    },
+    "29012": {
+        "type": "Gun",
+        "romaji": "Mikatakaminaka-Gun",
+        "kanji": "三方上中郡"
+    },
+    "30003": {
+        "type": "Gun",
+        "romaji": "Kashima-Gun",
+        "kanji": "鹿島郡"
+    },
+    "30004": {
+        "type": "Gun",
+        "romaji": "Kahoku-Gun",
+        "kanji": "河北郡"
+    },
+    "30006": {
+        "type": "Gun",
+        "romaji": "Nomi-Gun",
+        "kanji": "能美郡"
+    },
+    "30007": {
+        "type": "Gun",
+        "romaji": "Hakui-Gun",
+        "kanji": "羽咋郡"
+    },
+    "30009": {
+        "type": "Gun",
+        "romaji": "Housu-Gun",
+        "kanji": "鳳珠郡"
+    },
+    "31001": {
+        "type": "Gun",
+        "romaji": "Aida-Gun",
+        "kanji": "英田郡"
+    },
+    "31003": {
+        "type": "Gun",
+        "romaji": "Asakuchi-Gun",
+        "kanji": "浅口郡"
+    },
+    "31006": {
+        "type": "Gun",
+        "romaji": "Oda-Gun",
+        "kanji": "小田郡"
+    },
+    "31007": {
+        "type": "Gun",
+        "romaji": "Katsuta-Gun",
+        "kanji": "勝田郡"
+    },
+    "31010": {
+        "type": "Gun",
+        "romaji": "Kume-Gun",
+        "kanji": "久米郡"
+    },
+    "31015": {
+        "type": "Gun",
+        "romaji": "Tsukubo-Gun",
+        "kanji": "都窪郡"
+    },
+    "31016": {
+        "type": "Gun",
+        "romaji": "Tomata-Gun",
+        "kanji": "苫田郡"
+    },
+    "31017": {
+        "type": "Gun",
+        "romaji": "Maniwa-Gun",
+        "kanji": "真庭郡"
+    },
+    "31019": {
+        "type": "Gun",
+        "romaji": "Wake-Gun",
+        "kanji": "和気郡"
+    },
+    "31020": {
+        "type": "Gun",
+        "romaji": "Kaga-Gun",
+        "kanji": "加賀郡"
+    },
+    "32003": {
+        "type": "Gun",
+        "romaji": "Iishi-Gun",
+        "kanji": "飯石郡"
+    },
+    "32004": {
+        "type": "Gun",
+        "romaji": "Ochi-Gun",
+        "kanji": "邑智郡"
+    },
+    "32006": {
+        "type": "Gun",
+        "romaji": "Oki-Gun",
+        "kanji": "隠岐郡"
+    },
+    "32008": {
+        "type": "Gun",
+        "romaji": "Kanoashi-Gun",
+        "kanji": "鹿足郡"
+    },
+    "32012": {
+        "type": "Gun",
+        "romaji": "Nita-Gun",
+        "kanji": "仁多郡"
+    },
+    "33002": {
+        "type": "Gun",
+        "romaji": "Abu-Gun",
+        "kanji": "阿武郡"
+    },
+    "33003": {
+        "type": "Gun",
+        "romaji": "Oshima-Gun",
+        "kanji": "大島郡"
+    },
+    "33005": {
+        "type": "Gun",
+        "romaji": "Kuga-Gun",
+        "kanji": "玖珂郡"
+    },
+    "33006": {
+        "type": "Gun",
+        "romaji": "Kumage-Gun",
+        "kanji": "熊毛郡"
+    },
+    "34001": {
+        "type": "Gun",
+        "romaji": "Iwami-Gun",
+        "kanji": "岩美郡"
+    },
+    "34003": {
+        "type": "Gun",
+        "romaji": "Saihaku-Gun",
+        "kanji": "西伯郡"
+    },
+    "34004": {
+        "type": "Gun",
+        "romaji": "Tohaku-Gun",
+        "kanji": "東伯郡"
+    },
+    "34005": {
+        "type": "Gun",
+        "romaji": "Hino-Gun",
+        "kanji": "日野郡"
+    },
+    "34006": {
+        "type": "Gun",
+        "romaji": "Yazu-Gun",
+        "kanji": "八頭郡"
+    },
+    "35001": {
+        "type": "Gun",
+        "romaji": "Aki-Gun",
+        "kanji": "安芸郡"
+    },
+    "35007": {
+        "type": "Gun",
+        "romaji": "Jinseki-Gun",
+        "kanji": "神石郡"
+    },
+    "35008": {
+        "type": "Gun",
+        "romaji": "Sera-Gun",
+        "kanji": "世羅郡"
+    },
+    "35010": {
+        "type": "Gun",
+        "romaji": "Toyota-Gun",
+        "kanji": "豊田郡"
+    },
+    "35016": {
+        "type": "Gun",
+        "romaji": "Yamagata-Gun",
+        "kanji": "山県郡"
+    },
+    "36001": {
+        "type": "Gun",
+        "romaji": "Ayauta-Gun",
+        "kanji": "綾歌郡"
+    },
+    "36003": {
+        "type": "Gun",
+        "romaji": "Kagawa-Gun",
+        "kanji": "香川郡"
+    },
+    "36004": {
+        "type": "Gun",
+        "romaji": "Kita-Gun",
+        "kanji": "木田郡"
+    },
+    "36005": {
+        "type": "Gun",
+        "romaji": "Syozu-Gun",
+        "kanji": "小豆郡"
+    },
+    "36006": {
+        "type": "Gun",
+        "romaji": "Nakatado-Gun",
+        "kanji": "仲多度郡"
+    },
+    "37002": {
+        "type": "Gun",
+        "romaji": "Itano-Gun",
+        "kanji": "板野郡"
+    },
+    "37004": {
+        "type": "Gun",
+        "romaji": "Kaifu-Gun",
+        "kanji": "海部郡"
+    },
+    "37005": {
+        "type": "Gun",
+        "romaji": "Katsuura-Gun",
+        "kanji": "勝浦郡"
+    },
+    "37006": {
+        "type": "Gun",
+        "romaji": "Naka-Gun",
+        "kanji": "那賀郡"
+    },
+    "37007": {
+        "type": "Gun",
+        "romaji": "Myozai-Gun",
+        "kanji": "名西郡"
+    },
+    "37008": {
+        "type": "Gun",
+        "romaji": "Myodo-Gun",
+        "kanji": "名東郡"
+    },
+    "37009": {
+        "type": "Gun",
+        "romaji": "Mima-Gun",
+        "kanji": "美馬郡"
+    },
+    "37010": {
+        "type": "Gun",
+        "romaji": "Miyoshi-Gun",
+        "kanji": "三好郡"
+    },
+    "38001": {
+        "type": "Gun",
+        "romaji": "Iyo-Gun",
+        "kanji": "伊予郡"
+    },
+    "38003": {
+        "type": "Gun",
+        "romaji": "Ochi-Gun",
+        "kanji": "越智郡"
+    },
+    "38005": {
+        "type": "Gun",
+        "romaji": "Kamiukena-Gun",
+        "kanji": "上浮穴郡"
+    },
+    "38006": {
+        "type": "Gun",
+        "romaji": "Kita-Gun",
+        "kanji": "喜多郡"
+    },
+    "38007": {
+        "type": "Gun",
+        "romaji": "Kitauwa-Gun",
+        "kanji": "北宇和郡"
+    },
+    "38010": {
+        "type": "Gun",
+        "romaji": "Nishiuwa-Gun",
+        "kanji": "西宇和郡"
+    },
+    "38012": {
+        "type": "Gun",
+        "romaji": "Minamiuwa-Gun",
+        "kanji": "南宇和郡"
+    },
+    "39001": {
+        "type": "Gun",
+        "romaji": "Agawa-Gun",
+        "kanji": "吾川郡"
+    },
+    "39002": {
+        "type": "Gun",
+        "romaji": "Aki-Gun",
+        "kanji": "安芸郡"
+    },
+    "39004": {
+        "type": "Gun",
+        "romaji": "Takaoka-Gun",
+        "kanji": "高岡郡"
+    },
+    "39005": {
+        "type": "Gun",
+        "romaji": "Tosa-Gun",
+        "kanji": "土佐郡"
+    },
+    "39006": {
+        "type": "Gun",
+        "romaji": "Nagaoka-Gun",
+        "kanji": "長岡郡"
+    },
+    "39007": {
+        "type": "Gun",
+        "romaji": "Hata-Gun",
+        "kanji": "幡多郡"
+    },
+    "40001": {
+        "type": "Gun",
+        "romaji": "Asakura-Gun",
+        "kanji": "朝倉郡"
+    },
+    "40004": {
+        "type": "Gun",
+        "romaji": "Onga-Gun",
+        "kanji": "遠賀郡"
+    },
+    "40005": {
+        "type": "Gun",
+        "romaji": "Kasuya-Gun",
+        "kanji": "糟屋郡"
+    },
+    "40006": {
+        "type": "Gun",
+        "romaji": "Kaho-Gun",
+        "kanji": "嘉穂郡"
+    },
+    "40007": {
+        "type": "Gun",
+        "romaji": "Kurate-Gun",
+        "kanji": "鞍手郡"
+    },
+    "40009": {
+        "type": "Gun",
+        "romaji": "Tagawa-Gun",
+        "kanji": "田川郡"
+    },
+    "40011": {
+        "type": "Gun",
+        "romaji": "Chikujo-Gun",
+        "kanji": "築上郡"
+    },
+    "40012": {
+        "type": "Gun",
+        "romaji": "Mii-Gun",
+        "kanji": "三井郡"
+    },
+    "40014": {
+        "type": "Gun",
+        "romaji": "Mizuma-Gun",
+        "kanji": "三潴郡"
+    },
+    "40015": {
+        "type": "Gun",
+        "romaji": "Miyako-Gun",
+        "kanji": "京都郡"
+    },
+    "40018": {
+        "type": "Gun",
+        "romaji": "Yame-Gun",
+        "kanji": "八女郡"
+    },
+    "41002": {
+        "type": "Gun",
+        "romaji": "Kanzaki-Gun",
+        "kanji": "神埼郡"
+    },
+    "41003": {
+        "type": "Gun",
+        "romaji": "Kishima-Gun",
+        "kanji": "杵島郡"
+    },
+    "41005": {
+        "type": "Gun",
+        "romaji": "Nishimatsuura-Gun",
+        "kanji": "西松浦郡"
+    },
+    "41006": {
+        "type": "Gun",
+        "romaji": "Higashimatsuura-Gun",
+        "kanji": "東松浦郡"
+    },
+    "41007": {
+        "type": "Gun",
+        "romaji": "Fujitsu-Gun",
+        "kanji": "藤津郡"
+    },
+    "41008": {
+        "type": "Gun",
+        "romaji": "Miyaki-Gun",
+        "kanji": "三養基郡"
+    },
+    "42004": {
+        "type": "Gun",
+        "romaji": "Kitamatsuura-Gun",
+        "kanji": "北松浦郡"
+    },
+    "42006": {
+        "type": "Gun",
+        "romaji": "Nishisonogi-Gun",
+        "kanji": "西彼杵郡"
+    },
+    "42007": {
+        "type": "Gun",
+        "romaji": "Higashisonogi-Gun",
+        "kanji": "東彼杵郡"
+    },
+    "42009": {
+        "type": "Gun",
+        "romaji": "Minamimatsuura-Gun",
+        "kanji": "南松浦郡"
+    },
+    "43001": {
+        "type": "Gun",
+        "romaji": "Ashikita-Gun",
+        "kanji": "葦北郡"
+    },
+    "43002": {
+        "type": "Gun",
+        "romaji": "Aso-Gun",
+        "kanji": "阿蘇郡"
+    },
+    "43003": {
+        "type": "Gun",
+        "romaji": "Amakusa-Gun",
+        "kanji": "天草郡"
+    },
+    "43005": {
+        "type": "Gun",
+        "romaji": "Kamimashiki-Gun",
+        "kanji": "上益城郡"
+    },
+    "43007": {
+        "type": "Gun",
+        "romaji": "Kikuchi-Gun",
+        "kanji": "菊池郡"
+    },
+    "43008": {
+        "type": "Gun",
+        "romaji": "Kuma-Gun",
+        "kanji": "球磨郡"
+    },
+    "43009": {
+        "type": "Gun",
+        "romaji": "Shimomashiki-Gun",
+        "kanji": "下益城郡"
+    },
+    "43010": {
+        "type": "Gun",
+        "romaji": "Tamana-Gun",
+        "kanji": "玉名郡"
+    },
+    "43012": {
+        "type": "Gun",
+        "romaji": "Yatsushiro-Gun",
+        "kanji": "八代郡"
+    },
+    "44005": {
+        "type": "Gun",
+        "romaji": "kusu-Gun",
+        "kanji": "玖珠郡"
+    },
+    "44009": {
+        "type": "Gun",
+        "romaji": "Hayami-Gun",
+        "kanji": "速見郡"
+    },
+    "44010": {
+        "type": "Gun",
+        "romaji": "Higashikunisaki-Gun",
+        "kanji": "東国東郡"
+    },
+    "45001": {
+        "type": "Gun",
+        "romaji": "Kitamorokata-Gun",
+        "kanji": "北諸県郡"
+    },
+    "45002": {
+        "type": "Gun",
+        "romaji": "Koyu-Gun",
+        "kanji": "児湯郡"
+    },
+    "45003": {
+        "type": "Gun",
+        "romaji": "Nishiusuki-Gun",
+        "kanji": "西臼杵郡"
+    },
+    "45004": {
+        "type": "Gun",
+        "romaji": "Nishimorokata-Gun",
+        "kanji": "西諸県郡"
+    },
+    "45005": {
+        "type": "Gun",
+        "romaji": "Higashiusuki-Gun",
+        "kanji": "東臼杵郡"
+    },
+    "45006": {
+        "type": "Gun",
+        "romaji": "Higashimorokata-Gun",
+        "kanji": "東諸県郡"
+    },
+    "46001": {
+        "type": "Gun",
+        "romaji": "Aira-Gun",
+        "kanji": "姶良郡"
+    },
+    "46003": {
+        "type": "Gun",
+        "romaji": "Izumi-Gun",
+        "kanji": "出水郡"
+    },
+    "46005": {
+        "type": "Gun",
+        "romaji": "Oshima-Gun",
+        "kanji": "大島郡"
+    },
+    "46006": {
+        "type": "Gun",
+        "romaji": "Kagoshima-Gun",
+        "kanji": "鹿児島郡"
+    },
+    "46008": {
+        "type": "Gun",
+        "romaji": "Kimotsuki-Gun",
+        "kanji": "肝属郡"
+    },
+    "46009": {
+        "type": "Gun",
+        "romaji": "Kumage-Gun",
+        "kanji": "熊毛郡"
+    },
+    "46010": {
+        "type": "Gun",
+        "romaji": "Satsuma-Gun",
+        "kanji": "薩摩郡"
+    },
+    "46011": {
+        "type": "Gun",
+        "romaji": "Soo-Gun",
+        "kanji": "曽於郡"
+    },
+    "47001": {
+        "type": "Gun",
+        "romaji": "Kunigami-Gun",
+        "kanji": "国頭郡"
+    },
+    "47002": {
+        "type": "Gun",
+        "romaji": "Shimajiri-Gun",
+        "kanji": "島尻郡"
+    },
+    "47003": {
+        "type": "Gun",
+        "romaji": "Nakagami-Gun",
+        "kanji": "中頭郡"
+    },
+    "47004": {
+        "type": "Gun",
+        "romaji": "Miyako-Gun",
+        "kanji": "宮古郡"
+    },
+    "47005": {
+        "type": "Gun",
+        "romaji": "Yaeyama-Gun",
+        "kanji": "八重山郡"
+    },
+    "010101": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "010102": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "010103": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "010104": {
+        "type": "Ku",
+        "romaji": "Shiroishi-Ku",
+        "kanji": "白石区"
+    },
+    "010105": {
+        "type": "Ku",
+        "romaji": "Toyohira-Ku",
+        "kanji": "豊平区"
+    },
+    "010106": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "010107": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "010108": {
+        "type": "Ku",
+        "romaji": "Atsubetsu-Ku",
+        "kanji": "厚別区"
+    },
+    "010109": {
+        "type": "Ku",
+        "romaji": "Teine-Ku",
+        "kanji": "手稲区"
+    },
+    "010110": {
+        "type": "Ku",
+        "romaji": "Kiyota-Ku",
+        "kanji": "清田区"
+    },
+    "060101": {
+        "type": "Ku",
+        "romaji": "Aoba-Ku",
+        "kanji": "青葉区"
+    },
+    "060102": {
+        "type": "Ku",
+        "romaji": "Miyagino-Ku",
+        "kanji": "宮城野区"
+    },
+    "060103": {
+        "type": "Ku",
+        "romaji": "Wakabayashi-Ku",
+        "kanji": "若林区"
+    },
+    "060104": {
+        "type": "Ku",
+        "romaji": "Taihaku-Ku",
+        "kanji": "太白区"
+    },
+    "060105": {
+        "type": "Ku",
+        "romaji": "Izumi-Ku",
+        "kanji": "泉区"
+    },
+    "080101": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "080102": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "080103": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "080104": {
+        "type": "Ku",
+        "romaji": "Konan-Ku",
+        "kanji": "江南区"
+    },
+    "080105": {
+        "type": "Ku",
+        "romaji": "Akiha-Ku",
+        "kanji": "秋葉区"
+    },
+    "080106": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "080107": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "080108": {
+        "type": "Ku",
+        "romaji": "Nishikan-Ku",
+        "kanji": "西蒲区"
+    },
+    "110101": {
+        "type": "Ku",
+        "romaji": "Tsurumi-Ku",
+        "kanji": "鶴見区"
+    },
+    "110102": {
+        "type": "Ku",
+        "romaji": "Kanagawa-Ku",
+        "kanji": "神奈川区"
+    },
+    "110103": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "110104": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "110105": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "110106": {
+        "type": "Ku",
+        "romaji": "Hodogaya-Ku",
+        "kanji": "保土ケ谷区"
+    },
+    "110107": {
+        "type": "Ku",
+        "romaji": "Isogo-Ku",
+        "kanji": "磯子区"
+    },
+    "110108": {
+        "type": "Ku",
+        "romaji": "Kanazawa-Ku",
+        "kanji": "金沢区"
+    },
+    "110109": {
+        "type": "Ku",
+        "romaji": "Kohoku-Ku",
+        "kanji": "港北区"
+    },
+    "110110": {
+        "type": "Ku",
+        "romaji": "Totsuka-Ku",
+        "kanji": "戸塚区"
+    },
+    "110111": {
+        "type": "Ku",
+        "romaji": "Konan-Ku",
+        "kanji": "港南区"
+    },
+    "110112": {
+        "type": "Ku",
+        "romaji": "Asahi-Ku",
+        "kanji": "旭区"
+    },
+    "110113": {
+        "type": "Ku",
+        "romaji": "Midori-Ku",
+        "kanji": "緑区"
+    },
+    "110114": {
+        "type": "Ku",
+        "romaji": "Seya-Ku",
+        "kanji": "瀬谷区"
+    },
+    "110115": {
+        "type": "Ku",
+        "romaji": "Sakae-Ku",
+        "kanji": "栄区"
+    },
+    "110116": {
+        "type": "Ku",
+        "romaji": "Izumi-Ku",
+        "kanji": "泉区"
+    },
+    "110117": {
+        "type": "Ku",
+        "romaji": "Aoba-Ku",
+        "kanji": "青葉区"
+    },
+    "110118": {
+        "type": "Ku",
+        "romaji": "Tsuzuki-Ku",
+        "kanji": "都筑区"
+    },
+    "110301": {
+        "type": "Ku",
+        "romaji": "Kawasaki-Ku",
+        "kanji": "川崎区"
+    },
+    "110302": {
+        "type": "Ku",
+        "romaji": "Saiwai-Ku",
+        "kanji": "幸区"
+    },
+    "110303": {
+        "type": "Ku",
+        "romaji": "Nakahara-Ku",
+        "kanji": "中原区"
+    },
+    "110304": {
+        "type": "Ku",
+        "romaji": "Takatsu-Ku",
+        "kanji": "高津区"
+    },
+    "110305": {
+        "type": "Ku",
+        "romaji": "Tama-Ku",
+        "kanji": "多摩区"
+    },
+    "110306": {
+        "type": "Ku",
+        "romaji": "Miyamae-Ku",
+        "kanji": "宮前区"
+    },
+    "110307": {
+        "type": "Ku",
+        "romaji": "Asao-Ku",
+        "kanji": "麻生区"
+    },
+    "111001": {
+        "type": "Ku",
+        "romaji": "Midori-Ku",
+        "kanji": "緑区"
+    },
+    "111002": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "111003": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "120101": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "120102": {
+        "type": "Ku",
+        "romaji": "Hanamigawa-Ku",
+        "kanji": "花見川区"
+    },
+    "120103": {
+        "type": "Ku",
+        "romaji": "Inage-Ku",
+        "kanji": "稲毛区"
+    },
+    "120104": {
+        "type": "Ku",
+        "romaji": "Wakaba-Ku",
+        "kanji": "若葉区"
+    },
+    "120105": {
+        "type": "Ku",
+        "romaji": "Midori-Ku",
+        "kanji": "緑区"
+    },
+    "120106": {
+        "type": "Ku",
+        "romaji": "Mihama-Ku",
+        "kanji": "美浜区"
+    },
+    "134401": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "134402": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "134403": {
+        "type": "Ku",
+        "romaji": "Omiya-Ku",
+        "kanji": "大宮区"
+    },
+    "134404": {
+        "type": "Ku",
+        "romaji": "Minuma-Ku",
+        "kanji": "見沼区"
+    },
+    "134405": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "134406": {
+        "type": "Ku",
+        "romaji": "Sakura-Ku",
+        "kanji": "桜区"
+    },
+    "134407": {
+        "type": "Ku",
+        "romaji": "Urawa-Ku",
+        "kanji": "浦和区"
+    },
+    "134408": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "134409": {
+        "type": "Ku",
+        "romaji": "Midori-Ku",
+        "kanji": "緑区"
+    },
+    "134410": {
+        "type": "Ku",
+        "romaji": "Iwatsuki-Ku",
+        "kanji": "岩槻区"
+    },
+    "180101": {
+        "type": "Ku",
+        "romaji": "Aoi-Ku",
+        "kanji": "葵区"
+    },
+    "180102": {
+        "type": "Ku",
+        "romaji": "Suruga-Ku",
+        "kanji": "駿河区"
+    },
+    "180103": {
+        "type": "Ku",
+        "romaji": "Shimizu-Ku",
+        "kanji": "清水区"
+    },
+    "180201": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "180202": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "180203": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "180204": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "180205": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "180206": {
+        "type": "Ku",
+        "romaji": "Hamakita-Ku",
+        "kanji": "浜北区"
+    },
+    "180207": {
+        "type": "Ku",
+        "romaji": "Tenryu-Ku",
+        "kanji": "天竜区"
+    },
+    "200101": {
+        "type": "Ku",
+        "romaji": "Chikusa-Ku",
+        "kanji": "千種区"
+    },
+    "200102": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "200103": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "200104": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "200105": {
+        "type": "Ku",
+        "romaji": "Nakamura-Ku",
+        "kanji": "中村区"
+    },
+    "200106": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "200107": {
+        "type": "Ku",
+        "romaji": "Showa-Ku",
+        "kanji": "昭和区"
+    },
+    "200108": {
+        "type": "Ku",
+        "romaji": "Mizuho-Ku",
+        "kanji": "瑞穂区"
+    },
+    "200109": {
+        "type": "Ku",
+        "romaji": "Atsuta-Ku",
+        "kanji": "熱田区"
+    },
+    "200110": {
+        "type": "Ku",
+        "romaji": "Nakagawa-Ku",
+        "kanji": "中川区"
+    },
+    "200111": {
+        "type": "Ku",
+        "romaji": "Minato-Ku",
+        "kanji": "港区"
+    },
+    "200112": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "200113": {
+        "type": "Ku",
+        "romaji": "Moriyama-Ku",
+        "kanji": "守山区"
+    },
+    "200114": {
+        "type": "Ku",
+        "romaji": "Midori-Ku",
+        "kanji": "緑区"
+    },
+    "200115": {
+        "type": "Ku",
+        "romaji": "Meito-Ku",
+        "kanji": "名東区"
+    },
+    "200116": {
+        "type": "Ku",
+        "romaji": "Tenpaku-Ku",
+        "kanji": "天白区"
+    },
+    "220101": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "220102": {
+        "type": "Ku",
+        "romaji": "Kamigyo-Ku",
+        "kanji": "上京区"
+    },
+    "220103": {
+        "type": "Ku",
+        "romaji": "Sakyo-Ku",
+        "kanji": "左京区"
+    },
+    "220104": {
+        "type": "Ku",
+        "romaji": "Nakagyo-Ku",
+        "kanji": "中京区"
+    },
+    "220105": {
+        "type": "Ku",
+        "romaji": "Higashiyama-Ku",
+        "kanji": "東山区"
+    },
+    "220106": {
+        "type": "Ku",
+        "romaji": "Shimogyo-Ku",
+        "kanji": "下京区"
+    },
+    "220107": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "220108": {
+        "type": "Ku",
+        "romaji": "Ukyo-Ku",
+        "kanji": "右京区"
+    },
+    "220109": {
+        "type": "Ku",
+        "romaji": "Fushimi-Ku",
+        "kanji": "伏見区"
+    },
+    "220110": {
+        "type": "Ku",
+        "romaji": "Yamashina-Ku",
+        "kanji": "山科区"
+    },
+    "220111": {
+        "type": "Ku",
+        "romaji": "Nishikyo-Ku",
+        "kanji": "西京区"
+    },
+    "250101": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "250102": {
+        "type": "Ku",
+        "romaji": "Miyakojima-Ku",
+        "kanji": "都島区"
+    },
+    "250103": {
+        "type": "Ku",
+        "romaji": "Fukushima-Ku",
+        "kanji": "福島区"
+    },
+    "250104": {
+        "type": "Ku",
+        "romaji": "Konohana-Ku",
+        "kanji": "此花区"
+    },
+    "250106": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "250107": {
+        "type": "Ku",
+        "romaji": "Minato-Ku",
+        "kanji": "港区"
+    },
+    "250108": {
+        "type": "Ku",
+        "romaji": "Taisho-Ku",
+        "kanji": "大正区"
+    },
+    "250109": {
+        "type": "Ku",
+        "romaji": "Tennoji-Ku",
+        "kanji": "天王寺区"
+    },
+    "250111": {
+        "type": "Ku",
+        "romaji": "Naniwa-Ku",
+        "kanji": "浪速区"
+    },
+    "250113": {
+        "type": "Ku",
+        "romaji": "Nishiyodogawa-Ku",
+        "kanji": "西淀川区"
+    },
+    "250114": {
+        "type": "Ku",
+        "romaji": "Higashiyodogawa-Ku",
+        "kanji": "東淀川区"
+    },
+    "250115": {
+        "type": "Ku",
+        "romaji": "Higashinari-Ku",
+        "kanji": "東成区"
+    },
+    "250116": {
+        "type": "Ku",
+        "romaji": "Ikuno-Ku",
+        "kanji": "生野区"
+    },
+    "250117": {
+        "type": "Ku",
+        "romaji": "Asahi-Ku",
+        "kanji": "旭区"
+    },
+    "250118": {
+        "type": "Ku",
+        "romaji": "Joto-Ku",
+        "kanji": "城東区"
+    },
+    "250119": {
+        "type": "Ku",
+        "romaji": "Abeno-Ku",
+        "kanji": "阿倍野区"
+    },
+    "250120": {
+        "type": "Ku",
+        "romaji": "Sumiyoshi-Ku",
+        "kanji": "住吉区"
+    },
+    "250121": {
+        "type": "Ku",
+        "romaji": "Higashisumiyoshi-Ku",
+        "kanji": "東住吉区"
+    },
+    "250122": {
+        "type": "Ku",
+        "romaji": "Nishinari-Ku",
+        "kanji": "西成区"
+    },
+    "250123": {
+        "type": "Ku",
+        "romaji": "Yodogawa-Ku",
+        "kanji": "淀川区"
+    },
+    "250124": {
+        "type": "Ku",
+        "romaji": "Tsurumi-Ku",
+        "kanji": "鶴見区"
+    },
+    "250125": {
+        "type": "Ku",
+        "romaji": "Suminoe-Ku",
+        "kanji": "住之江区"
+    },
+    "250126": {
+        "type": "Ku",
+        "romaji": "Hirano-Ku",
+        "kanji": "平野区"
+    },
+    "250127": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "250201": {
+        "type": "Ku",
+        "romaji": "Sakai-Ku",
+        "kanji": "堺区"
+    },
+    "250202": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "250203": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "250204": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "250205": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "250206": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "250207": {
+        "type": "Ku",
+        "romaji": "Mihara-Ku",
+        "kanji": "美原区"
+    },
+    "270101": {
+        "type": "Ku",
+        "romaji": "Higashinada-Ku",
+        "kanji": "東灘区"
+    },
+    "270102": {
+        "type": "Ku",
+        "romaji": "Nada-Ku",
+        "kanji": "灘区"
+    },
+    "270103": {
+        "type": "Ku",
+        "romaji": "Hyogo-Ku",
+        "kanji": "兵庫区"
+    },
+    "270104": {
+        "type": "Ku",
+        "romaji": "Nagata-Ku",
+        "kanji": "長田区"
+    },
+    "270105": {
+        "type": "Ku",
+        "romaji": "Suma-Ku",
+        "kanji": "須磨区"
+    },
+    "270106": {
+        "type": "Ku",
+        "romaji": "Tarumi-Ku",
+        "kanji": "垂水区"
+    },
+    "270107": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "270108": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "270109": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "310101": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    },
+    "310102": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "310103": {
+        "type": "Ku",
+        "romaji": "Hinagashi-Ku",
+        "kanji": "東区"
+    },
+    "310104": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "350101": {
+        "type": "Ku",
+        "romaji": "Naka-Ku",
+        "kanji": "中区"
+    },
+    "350102": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "350103": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "350104": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "350105": {
+        "type": "Ku",
+        "romaji": "Asaminami-Ku",
+        "kanji": "安佐南区"
+    },
+    "350106": {
+        "type": "Ku",
+        "romaji": "Asakita-Ku",
+        "kanji": "安佐北区"
+    },
+    "350107": {
+        "type": "Ku",
+        "romaji": "Aki-Ku",
+        "kanji": "安芸区"
+    },
+    "350108": {
+        "type": "Ku",
+        "romaji": "Saeki-Ku",
+        "kanji": "佐伯区"
+    },
+    "400101": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "400102": {
+        "type": "Ku",
+        "romaji": "Hakata-Ku",
+        "kanji": "博多区"
+    },
+    "400103": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "400104": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "400105": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "400106": {
+        "type": "Ku",
+        "romaji": "Jonan-Ku",
+        "kanji": "城南区"
+    },
+    "400107": {
+        "type": "Ku",
+        "romaji": "Sawara-Ku",
+        "kanji": "早良区"
+    },
+    "402101": {
+        "type": "Ku",
+        "romaji": "Moji-Ku",
+        "kanji": "門司区"
+    },
+    "402102": {
+        "type": "Ku",
+        "romaji": "Wakamatsu-Ku",
+        "kanji": "若松区"
+    },
+    "402103": {
+        "type": "Ku",
+        "romaji": "Tobata-Ku",
+        "kanji": "戸畑区"
+    },
+    "402104": {
+        "type": "Ku",
+        "romaji": "Kokurakita-Ku",
+        "kanji": "小倉北区"
+    },
+    "402105": {
+        "type": "Ku",
+        "romaji": "Kokuraminami-Ku",
+        "kanji": "小倉南区"
+    },
+    "402106": {
+        "type": "Ku",
+        "romaji": "Yahatahigashi-Ku",
+        "kanji": "八幡東区"
+    },
+    "402107": {
+        "type": "Ku",
+        "romaji": "Yahatanishi-Ku",
+        "kanji": "八幡西区"
+    },
+    "430101": {
+        "type": "Ku",
+        "romaji": "Chuo-Ku",
+        "kanji": "中央区"
+    },
+    "430102": {
+        "type": "Ku",
+        "romaji": "Higashi-Ku",
+        "kanji": "東区"
+    },
+    "430103": {
+        "type": "Ku",
+        "romaji": "Nishi-Ku",
+        "kanji": "西区"
+    },
+    "430104": {
+        "type": "Ku",
+        "romaji": "Minami-Ku",
+        "kanji": "南区"
+    },
+    "430105": {
+        "type": "Ku",
+        "romaji": "Kita-Ku",
+        "kanji": "北区"
+    }
+}

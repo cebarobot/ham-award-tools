@@ -1,0 +1,237 @@
+{
+    "01": {
+        "type": "Prefecture",
+        "romaji": "Hokkaido",
+        "kanji": "北海道"
+    },
+    "02": {
+        "type": "Prefecture",
+        "romaji": "Aomori-Ken",
+        "kanji": "青森県"
+    },
+    "03": {
+        "type": "Prefecture",
+        "romaji": "Iwate-Ken",
+        "kanji": "岩手県"
+    },
+    "04": {
+        "type": "Prefecture",
+        "romaji": "Akita-Ken",
+        "kanji": "秋田県"
+    },
+    "05": {
+        "type": "Prefecture",
+        "romaji": "Yamagata-Ken",
+        "kanji": "山形県"
+    },
+    "06": {
+        "type": "Prefecture",
+        "romaji": "Miyagi-Ken",
+        "kanji": "宮城県"
+    },
+    "07": {
+        "type": "Prefecture",
+        "romaji": "Fukushima-Ken",
+        "kanji": "福島県"
+    },
+    "08": {
+        "type": "Prefecture",
+        "romaji": "Niigata-Ken",
+        "kanji": "新潟県"
+    },
+    "09": {
+        "type": "Prefecture",
+        "romaji": "Nagano-Ken",
+        "kanji": "長野県"
+    },
+    "10": {
+        "type": "Prefecture",
+        "romaji": "Tokyo-To",
+        "kanji": "東京都"
+    },
+    "11": {
+        "type": "Prefecture",
+        "romaji": "Kanagawa-Ken",
+        "kanji": "神奈川県"
+    },
+    "12": {
+        "type": "Prefecture",
+        "romaji": "Chiba-Ken",
+        "kanji": "千葉県"
+    },
+    "13": {
+        "type": "Prefecture",
+        "romaji": "Saitama-Ken",
+        "kanji": "埼玉県"
+    },
+    "14": {
+        "type": "Prefecture",
+        "romaji": "Ibaraki-Ken",
+        "kanji": "茨城県"
+    },
+    "15": {
+        "type": "Prefecture",
+        "romaji": "Tochigi-Ken",
+        "kanji": "栃木県"
+    },
+    "16": {
+        "type": "Prefecture",
+        "romaji": "Gunma-Ken",
+        "kanji": "群馬県"
+    },
+    "17": {
+        "type": "Prefecture",
+        "romaji": "Yamanashi-Ken",
+        "kanji": "山梨県"
+    },
+    "18": {
+        "type": "Prefecture",
+        "romaji": "Shizuoka-Ken",
+        "kanji": "静岡県"
+    },
+    "19": {
+        "type": "Prefecture",
+        "romaji": "Gifu-Ken",
+        "kanji": "岐阜県"
+    },
+    "20": {
+        "type": "Prefecture",
+        "romaji": "Aichi-Ken",
+        "kanji": "愛知県"
+    },
+    "21": {
+        "type": "Prefecture",
+        "romaji": "Mie-Ken",
+        "kanji": "三重県"
+    },
+    "22": {
+        "type": "Prefecture",
+        "romaji": "Kyoto-Fu",
+        "kanji": "京都府"
+    },
+    "23": {
+        "type": "Prefecture",
+        "romaji": "Shiga-Ken",
+        "kanji": "滋賀県"
+    },
+    "24": {
+        "type": "Prefecture",
+        "romaji": "Nara-Ken",
+        "kanji": "奈良県"
+    },
+    "25": {
+        "type": "Prefecture",
+        "romaji": "Osaka-Fu",
+        "kanji": "大阪府"
+    },
+    "26": {
+        "type": "Prefecture",
+        "romaji": "Wakayama-Ken",
+        "kanji": "和歌山県"
+    },
+    "27": {
+        "type": "Prefecture",
+        "romaji": "Hyogo-Ken",
+        "kanji": "兵庫県"
+    },
+    "28": {
+        "type": "Prefecture",
+        "romaji": "Toyama-Ken",
+        "kanji": "富山県"
+    },
+    "29": {
+        "type": "Prefecture",
+        "romaji": "Fukui-Ken",
+        "kanji": "福井県"
+    },
+    "30": {
+        "type": "Prefecture",
+        "romaji": "Ishikawa-Ken",
+        "kanji": "石川県"
+    },
+    "31": {
+        "type": "Prefecture",
+        "romaji": "Okayama-Ken",
+        "kanji": "岡山県"
+    },
+    "32": {
+        "type": "Prefecture",
+        "romaji": "Shimane-Ken",
+        "kanji": "島根県"
+    },
+    "33": {
+        "type": "Prefecture",
+        "romaji": "Yamaguchi-Ken",
+        "kanji": "山口県"
+    },
+    "34": {
+        "type": "Prefecture",
+        "romaji": "Tottori-Ken",
+        "kanji": "鳥取県"
+    },
+    "35": {
+        "type": "Prefecture",
+        "romaji": "Hiroshima-Ken",
+        "kanji": "広島県"
+    },
+    "36": {
+        "type": "Prefecture",
+        "romaji": "Kagawa-Ken",
+        "kanji": "香川県"
+    },
+    "37": {
+        "type": "Prefecture",
+        "romaji": "Tokushima-Ken",
+        "kanji": "徳島県"
+    },
+    "38": {
+        "type": "Prefecture",
+        "romaji": "Ehime-Ken",
+        "kanji": "愛媛県"
+    },
+    "39": {
+        "type": "Prefecture",
+        "romaji": "Kochi-Ken",
+        "kanji": "高知県"
+    },
+    "40": {
+        "type": "Prefecture",
+        "romaji": "Fukuoka-Ken",
+        "kanji": "福岡県"
+    },
+    "41": {
+        "type": "Prefecture",
+        "romaji": "Saga-Ken",
+        "kanji": "佐賀県"
+    },
+    "42": {
+        "type": "Prefecture",
+        "romaji": "Nagasaki-Ken",
+        "kanji": "長崎県"
+    },
+    "43": {
+        "type": "Prefecture",
+        "romaji": "Kumamoto-Ken",
+        "kanji": "熊本県"
+    },
+    "44": {
+        "type": "Prefecture",
+        "romaji": "Oita-Ken",
+        "kanji": "大分県"
+    },
+    "45": {
+        "type": "Prefecture",
+        "romaji": "Miyazaki-Ken",
+        "kanji": "宮崎県"
+    },
+    "46": {
+        "type": "Prefecture",
+        "romaji": "Kagoshima-Ken",
+        "kanji": "鹿児島県"
+    },
+    "47": {
+        "type": "Prefecture",
+        "romaji": "Okinawa-Ken",
+        "kanji": "沖縄県"
+    }
+}
