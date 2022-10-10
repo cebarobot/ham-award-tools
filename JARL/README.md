@@ -15,7 +15,7 @@
 python cal_jarl.py <path-to-lotwreport.adi>
 ```
 
-随后程序会自动统计 WAPC 奖状情况，输出结果类似于：
+随后程序会自动统计 JARL 奖状情况，输出结果类似于：
 ```
 ----------JARL AWARDS STATUS----------
 JCC:  total 41
