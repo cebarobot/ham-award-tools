@@ -22,7 +22,7 @@ with open("jcc-list.txt", "r", encoding='shift_jis') as f:
                 this_no = res.group(2)
                 this_romaji = res.group(3)
                 this_kanji = res.group(4)
-                if this_no == '1001':
+                if this_no[0:4] == '1001':
                     # Tokyo 23 wards
                     no_list[this_no] = {
                         "type": "City",
