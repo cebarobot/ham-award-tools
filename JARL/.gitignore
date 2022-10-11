@@ -1,0 +1,8 @@
+# package
+build/
+dist/
+*.spec
+
+# run result
+*.adi
+*.csv

@@ -1,3 +1,4 @@
+import os
 import sys
 import adif_io
 import csv
@@ -42,7 +43,10 @@ def init_cnt(list):
     return cnt
 
 
-adif_file = sys.argv[1]
+if len(sys.argv) >= 2:
+    adif_file = sys.argv[1]
+else:
+    adif_file = input("Your ADIF File: ")
 
 qsos, header = adif_io.read_from_file(adif_file)
 
@@ -132,3 +136,5 @@ with open('wapc_checksheet_mode.csv', 'w', newline='', encoding='utf-8-sig') as 
 
 for x in mode_list:
     print("%s\t%d\t%d%%" % (x, cnt_mode[x], cnt_mode[x] * 100 / len(province_list)))
+
+# os.system("pause")

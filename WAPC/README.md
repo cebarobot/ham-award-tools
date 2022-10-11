@@ -9,7 +9,9 @@
 * 调整日期以包含全部 QSO；
 * 勾选“Include QSL details”选项。
 
-然后打开终端，运行下面命令。
+双击运行 `cal_wapc.exe` 可执行文件，将 ADIF 文件拖入窗口中，按回车键。
+
+或者，打开终端运行下面命令。
 ```sh
 python cal_wapc.py <path-to-lotwreport.adi>
 ```
@@ -34,3 +36,14 @@ DATA    24      70%
 
 此外，还会输出 `wapc_checksheet_band.csv`、`wapc_checksheet_mode.csv` 两个表格文件，分别为 WAPC 每波段和每模式的检查表。
 
+
+## 打包
+在 `py` 文件末尾添加：
+```python
+os.system("pause")
+```
+
+运行命令：
+```powershell
+pyinstaller -F cal_wapc.py
+```

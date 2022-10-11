@@ -1,11 +1,15 @@
 import sys
+import os
+from os import path
 import adif_io
 import csv
 import json
 
 NO_NAME_TYPE = 'kanji'
 
-with open("no-list.json", "r", encoding="utf-8") as f:
+path_to_no_list = path.abspath(path.join(path.dirname(__file__), 'no-list.json'))
+
+with open(path_to_no_list, "r", encoding="utf-8") as f:
     no_list = json.load(f)
 
 def get_district(no):
@@ -59,7 +63,10 @@ jcc = {}
 jcg = {}
 aja = {}
 
-adif_file = sys.argv[1]
+if len(sys.argv) >= 2:
+    adif_file = sys.argv[1]
+else:
+    adif_file = input("Your ADIF File: ")
 
 qsos, header = adif_io.read_from_file(adif_file)
 
@@ -162,3 +169,5 @@ print("AJD:  %d / %d : %d%%" % (len(ajd), 10, len(ajd) * 100 / 10))
 print("WAJA: %d / %d : %d%%" % (len(waja), 47, len(waja) * 100 / 47))
 print("AJA:  total %d" % len(aja))
 print("--------------------------------------")
+
+# os.system("pause")
