@@ -71,11 +71,11 @@ else:
 qsos, header = adif_io.read_from_file(adif_file)
 
 for one_qso in qsos:
-    if one_qso['COUNTRY'] != "JAPAN":
+    if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
         continue
-    if not 'STATE' in one_qso:
+    if 'STATE' not in one_qso:
         continue
-    if not 'CNTY' in one_qso:
+    if 'CNTY' not in one_qso:
         continue
 
     this_call = one_qso['CALL']
@@ -94,6 +94,11 @@ for one_qso in qsos:
             ajd[district_call] = one_qso
         if not this_pref in waja:
             waja[this_pref] = one_qso
+
+    if this_no not in no_list:
+        continue
+
+    # TODO: check delete JCC/JCG/Ku with delete Date
 
     this_no_info = no_list[this_no]
     this_no_type = this_no_info['type']
