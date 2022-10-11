@@ -46,7 +46,7 @@ def init_cnt(list):
 if len(sys.argv) >= 2:
     adif_file = sys.argv[1]
 else:
-    adif_file = input("Your ADIF File: ")
+    adif_file = input("Your ADIF File: ").strip('\'\"')
 
 qsos, header = adif_io.read_from_file(adif_file)
 
