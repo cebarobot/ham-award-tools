@@ -86,7 +86,7 @@ for one_qso in qsos:
     if this_call[0] == "J":
         district_call = this_call[2]
     else:
-        adistrict_call = '1'
+        district_call = '1'
     district_no = get_district(one_qso['STATE'])
 
     if district_call == district_no:
