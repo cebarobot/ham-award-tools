@@ -71,17 +71,15 @@ else:
 qsos, header = adif_io.read_from_file(adif_file)
 
 for one_qso in qsos:
-    if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
-        continue
-    if 'STATE' not in one_qso:
-        continue
-    if 'CNTY' not in one_qso:
-        continue
-
     this_call = one_qso['CALL']
     this_band = one_qso['BAND']
+
+    if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
+        continue
+
+    if 'STATE' not in one_qso:
+        continue
     this_pref = one_qso['STATE']
-    this_no = one_qso['CNTY']
 
     if this_call[0] == "J":
         district_call = this_call[2]
@@ -90,10 +88,14 @@ for one_qso in qsos:
     district_no = get_district(one_qso['STATE'])
 
     if district_call == district_no:
-        if not district_call in ajd:
+        if district_call not in ajd:
             ajd[district_call] = one_qso
-        if not this_pref in waja:
+        if this_pref not in waja:
             waja[this_pref] = one_qso
+
+    if 'CNTY' not in one_qso:
+        continue
+    this_no = one_qso['CNTY']
 
     if this_no not in no_list:
         continue
