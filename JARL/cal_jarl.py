@@ -50,12 +50,16 @@ def get_no_name(no):
 
 
 qsl_list_header = ['No.', 'Callsign', 'Date', 'Band', 'Mode', 'Remarks']
+aja_list_header = ['City/Gun/Ku', 'Band', 'Callsign', 'Date', 'Mode', 'Remarks']
 
 def get_info_for_qsl_list(idx, one_qso, remarks):
     if one_qso:
         return [idx, one_qso['CALL'], one_qso['QSO_DATE'], one_qso['BAND'], one_qso['MODE'], remarks]
     else:
         return [idx, '', '', '', '', remarks]
+
+def get_info_for_aja_list(no, one_qso, remarks):
+    return [no, one_qso['BAND'], one_qso['CALL'], one_qso['QSO_DATE'], one_qso['MODE'], remarks]
 
 ajd = {}
 waja = {}
@@ -118,11 +122,12 @@ for one_qso in qsos:
         if this_no not in jcg or jcg[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcg[this_no] = one_qso
 
-    if (this_band, this_no) not in aja or aja[(this_band, this_no)]['QSO_DATE'] > one_qso['QSO_DATE']:
-        aja[(this_band, this_no)] = one_qso
+    if (this_no, this_band) not in aja or aja[(this_no, this_band)]['QSO_DATE'] > one_qso['QSO_DATE']:
+        aja[(this_no, this_band)] = one_qso
 
 jcc = {k: jcc[k] for k in sorted(jcc)}
 jcg = {k: jcg[k] for k in sorted(jcg)}
+aja = {k: aja[k] for k in sorted(aja)}
 
 # AJD
 with open('checksheet_ajd.csv', 'w', newline='', encoding='utf-8-sig') as f:
@@ -172,11 +177,21 @@ with open('checksheet_jcg.csv', 'w', newline='', encoding='utf-8-sig') as f:
         csv_writer.writerow(this_row)
         idx += 1
 
+# AJA
+with open('checksheet_aja.csv', 'w', newline='', encoding='utf-8-sig') as f:
+    csv_writer = csv.writer(f, dialect='excel')
+    csv_writer.writerow(aja_list_header)
+    idx = 1
+    for this_aja in aja:
+        this_row = get_info_for_aja_list(this_aja[0], aja[this_aja], "%s" % (get_no_name(this_aja[0])))
+        csv_writer.writerow(this_row)
+        idx += 1
+
 print("----------JARL AWARDS STATUS----------")
-print("JCC:  total %d" % len(jcc))
-print("JCG:  total %d" % len(jcg))
 print("AJD:  %d / %d : %d%%" % (len(ajd), 10, len(ajd) * 100 / 10))
 print("WAJA: %d / %d : %d%%" % (len(waja), 47, len(waja) * 100 / 47))
+print("JCC:  total %d" % len(jcc))
+print("JCG:  total %d" % len(jcg))
 print("AJA:  total %d" % len(aja))
 print("--------------------------------------")
 
