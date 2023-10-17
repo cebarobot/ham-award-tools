@@ -67,6 +67,98 @@ jcc = {}
 jcg = {}
 aja = {}
 
+# Load list from CSV file
+## AJD
+try:
+    with open('checksheet_ajd.csv', 'r', newline='', encoding='utf-8-sig') as f:
+        csv_reader = csv.reader(f, dialect='excel')
+        for row in csv_reader:
+            if row[0] == 'No.' or row[1] == '':
+                continue
+            else:
+                this_ajd = row[5].split(' ')[1]
+                ajd[this_ajd] = {
+                    'CALL': row[1],
+                    'QSO_DATE': row[2],
+                    'BAND': row[3],
+                    'MODE': row[4]
+                }
+except FileNotFoundError as e:
+    print("checksheet_ajd.csv not found. Start new statistics.")
+
+## WAJA
+try:
+    with open('checksheet_waja.csv', 'r', newline='', encoding='utf-8-sig') as f:
+        csv_reader = csv.reader(f, dialect='excel')
+        for row in csv_reader:
+            if row[0] == 'No.' or row[1] == '':
+                continue
+            else:
+                this_pref = row[5].split(' ')[0]
+                waja[this_pref] = {
+                    'CALL': row[1],
+                    'QSO_DATE': row[2],
+                    'BAND': row[3],
+                    'MODE': row[4]
+                }
+except FileNotFoundError as e:
+    print("checksheet_waja.csv not found. Start new statistics.")
+
+## JCC
+try:
+    with open('checksheet_jcc.csv', 'r', newline='', encoding='utf-8-sig') as f:
+        csv_reader = csv.reader(f, dialect='excel')
+        for row in csv_reader:
+            if row[0] == 'No.' or row[1] == '':
+                continue
+            else:
+                this_jcc = row[5].split(' ')[0]
+                jcc[this_jcc] = {
+                    'CALL': row[1],
+                    'QSO_DATE': row[2],
+                    'BAND': row[3],
+                    'MODE': row[4]
+                }
+except FileNotFoundError as e:
+    print("checksheet_jcc.csv not found. Start new statistics.")
+
+## JCG
+try:
+    with open('checksheet_jcg.csv', 'r', newline='', encoding='utf-8-sig') as f:
+        csv_reader = csv.reader(f, dialect='excel')
+        for row in csv_reader:
+            if row[0] == 'No.' or row[1] == '':
+                continue
+            else:
+                this_jcg = row[5].split(' ')[0]
+                jcg[this_jcg] = {
+                    'CALL': row[1],
+                    'QSO_DATE': row[2],
+                    'BAND': row[3],
+                    'MODE': row[4]
+                }
+except FileNotFoundError as e:
+    print("checksheet_jcg.csv not found. Start new statistics.")
+
+## AJA
+try:
+    with open('checksheet_aja.csv', 'r', newline='', encoding='utf-8-sig') as f:
+        csv_reader = csv.reader(f, dialect='excel')
+        for row in csv_reader:
+            if row[0] == 'City/Gun/Ku' or row[2] == '':
+                continue
+            else:
+                this_no = row[0]
+                this_band = row[1]
+                aja[(this_no, this_band)] = {
+                    'BAND': row[1],
+                    'CALL': row[2],
+                    'QSO_DATE': row[3],
+                    'MODE': row[4]
+                }
+except FileNotFoundError as e:
+    print("checksheet_aja.csv not found. Start new statistics.")
+
 if len(sys.argv) >= 2:
     adif_file = sys.argv[1]
 else:
@@ -125,11 +217,8 @@ for one_qso in qsos:
     if (this_no, this_band) not in aja or aja[(this_no, this_band)]['QSO_DATE'] > one_qso['QSO_DATE']:
         aja[(this_no, this_band)] = one_qso
 
-jcc = {k: jcc[k] for k in sorted(jcc)}
-jcg = {k: jcg[k] for k in sorted(jcg)}
-aja = {k: aja[k] for k in sorted(aja)}
-
-# AJD
+# Print checksheet
+## AJD
 with open('checksheet_ajd.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
     csv_writer.writerow(qsl_list_header)
@@ -143,7 +232,7 @@ with open('checksheet_ajd.csv', 'w', newline='', encoding='utf-8-sig') as f:
         csv_writer.writerow(this_row)
         idx += 1
 
-# WAJA
+## WAJA
 with open('checksheet_waja.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
     csv_writer.writerow(qsl_list_header)
@@ -151,38 +240,38 @@ with open('checksheet_waja.csv', 'w', newline='', encoding='utf-8-sig') as f:
     for d in range(1, 48):
         this_pref = "%02d" % d
         if this_pref in waja:
-            this_row = get_info_for_qsl_list(idx, waja[this_pref], "%s (%s)" % (get_no_name(this_pref), this_pref))
+            this_row = get_info_for_qsl_list(idx, waja[this_pref], "%s %s" % (this_pref, get_no_name(this_pref)))
         else:
-            this_row = get_info_for_qsl_list(idx, False, "%s (%s)" % (get_no_name(this_pref), this_pref))
+            this_row = get_info_for_qsl_list(idx, False, "%s %s" % (this_pref, get_no_name(this_pref)))
         csv_writer.writerow(this_row)
         idx += 1
 
-# JCC
+## JCC
 with open('checksheet_jcc.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
     csv_writer.writerow(qsl_list_header)
     idx = 1
-    for this_jcc in jcc:
-        this_row = get_info_for_qsl_list(idx, jcc[this_jcc], "%s (%s)" % (get_no_name(this_jcc), this_jcc))
+    for this_jcc in sorted(jcc):
+        this_row = get_info_for_qsl_list(idx, jcc[this_jcc], "%s %s" % (this_jcc, get_no_name(this_jcc)))
         csv_writer.writerow(this_row)
         idx += 1
 
-# JCG
+## JCG
 with open('checksheet_jcg.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
     csv_writer.writerow(qsl_list_header)
     idx = 1
-    for this_jcg in jcg:
-        this_row = get_info_for_qsl_list(idx, jcg[this_jcg], "%s (%s)" % (get_no_name(this_jcg), this_jcg))
+    for this_jcg in sorted(jcg):
+        this_row = get_info_for_qsl_list(idx, jcg[this_jcg], "%s %s" % (this_jcg, get_no_name(this_jcg)))
         csv_writer.writerow(this_row)
         idx += 1
 
-# AJA
+## AJA
 with open('checksheet_aja.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
     csv_writer.writerow(aja_list_header)
     idx = 1
-    for this_aja in aja:
+    for this_aja in sorted(aja):
         this_row = get_info_for_aja_list(this_aja[0], aja[this_aja], "%s" % (get_no_name(this_aja[0])))
         csv_writer.writerow(this_row)
         idx += 1
