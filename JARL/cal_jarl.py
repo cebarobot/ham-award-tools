@@ -74,6 +74,9 @@ for one_qso in qsos:
     this_call = one_qso['CALL']
     this_band = one_qso['BAND']
 
+    if 'QSL_RCVD' not in one_qso or one_qso['QSL_RCVD'] != "Y":
+        continue
+
     if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
         continue
 
@@ -88,9 +91,9 @@ for one_qso in qsos:
     district_no = get_district(one_qso['STATE'])
 
     if district_call == district_no:
-        if district_call not in ajd:
+        if district_call not in ajd or ajd[district_call]['QSO_DATE'] > one_qso['QSO_DATE']:
             ajd[district_call] = one_qso
-        if this_pref not in waja:
+        if this_pref not in waja or waja[this_pref]['QSO_DATE'] > one_qso['QSO_DATE']:
             waja[this_pref] = one_qso
 
     if 'CNTY' not in one_qso:
@@ -106,16 +109,16 @@ for one_qso in qsos:
     this_no_type = this_no_info['type']
 
     if this_no_type == 'City':
-        if not this_no in jcc:
+        if this_no not in jcc or jcc[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcc[this_no] = one_qso
     elif this_no_type == 'Ku':
-        if not this_no[0:4] in jcc:
+        if this_no[0:4] not in jcc or jcc[this_no[0:4]]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcc[this_no[0:4]] = one_qso
     elif this_no_type == 'Gun':
-        if not this_no in jcg:
+        if this_no not in jcg or jcg[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcg[this_no] = one_qso
 
-    if not (this_band, this_no) in aja:
+    if (this_band, this_no) not in aja or aja[(this_band, this_no)]['QSO_DATE'] > one_qso['QSO_DATE']:
         aja[(this_band, this_no)] = one_qso
 
 jcc = {k: jcc[k] for k in sorted(jcc)}
