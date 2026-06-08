@@ -48,6 +48,14 @@ def get_no_name(no):
     return 'ERROR'
 
 
+def is_qsl_received(one_qso):
+    if 'QSL_RCVD' in one_qso and one_qso['QSL_RCVD'] == "Y":
+        return True
+    if 'EQSL_QSL_RCVD' in one_qso and one_qso['EQSL_QSL_RCVD'] == "Y":
+        return True
+    if 'LOTW_QSL_RCVD' in one_qso and one_qso['LOTW_QSL_RCVD'] == "Y":
+        return True
+    return False
 
 qsl_list_header = ['No.', 'Callsign', 'Date', 'Band', 'Mode', 'Remarks']
 aja_list_header = ['City/Gun/Ku', 'Band', 'Callsign', 'Date', 'Mode', 'Remarks']
@@ -170,7 +178,7 @@ for one_qso in qsos:
     this_call = one_qso['CALL']
     this_band = one_qso['BAND']
 
-    if 'QSL_RCVD' not in one_qso or one_qso['QSL_RCVD'] != "Y":
+    if not is_qsl_received(one_qso):
         continue
 
     if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
