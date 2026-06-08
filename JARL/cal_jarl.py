@@ -57,6 +57,12 @@ def is_qsl_received(one_qso):
         return True
     return False
 
+def is_in_japan(one_qso):
+    if 'DXCC' in one_qso and one_qso['DXCC'] in ['339', '177', '192']:
+        return True
+    return False
+
+
 qsl_list_header = ['No.', 'Callsign', 'Date', 'Band', 'Mode', 'Remarks']
 aja_list_header = ['City/Gun/Ku', 'Band', 'Callsign', 'Date', 'Mode', 'Remarks']
 
@@ -181,7 +187,7 @@ for one_qso in qsos:
     if not is_qsl_received(one_qso):
         continue
 
-    if 'COUNTRY' not in one_qso or one_qso['COUNTRY'] != "JAPAN":
+    if not is_in_japan(one_qso):
         continue
 
     if 'STATE' not in one_qso:
