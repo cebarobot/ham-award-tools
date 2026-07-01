@@ -1,0 +1,83 @@
+name: Build Windows Executables
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-jarl:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install adif_io pyinstaller
+
+      - name: Build cal_jarl.exe
+        working-directory: JARL
+        run: |
+          # Append os.system("pause") as required by the packaging guide
+          Add-Content -Path cal_jarl.py -Value "os.system('pause')"
+          pyinstaller --add-data 'no-list.json;.' -F cal_jarl.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cal_jarl
+          path: JARL/dist/cal_jarl.exe
+
+  build-wapc:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install adif_io pyinstaller
+
+      - name: Build cal_wapc.exe
+        working-directory: WAPC
+        run: |
+          # Append os.system("pause") as required by the packaging guide
+          Add-Content -Path cal_wapc.py -Value "os.system('pause')"
+          pyinstaller -F cal_wapc.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cal_wapc
+          path: WAPC/dist/cal_wapc.exe
+
+  release:
+    name: Create GitHub Release
+    needs: [build-jarl, build-wapc]
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            cal_jarl/cal_jarl.exe
+            cal_wapc/cal_wapc.exe
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
