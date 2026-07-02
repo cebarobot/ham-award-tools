@@ -1,3 +1,10 @@
+# DEPRECATED: This script was used to generate no-list.json from JARL's
+# Shift-JIS text files (jcc-list.txt, jcg-list.txt, ku-list.txt).
+#
+# As of 2026-07, cal_jarl.py reads no_list.json + pref_list.json directly.
+#
+# This file is kept for historical reference only.
+
 import re
 import json
 

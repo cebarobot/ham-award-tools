@@ -28,7 +28,7 @@ jobs:
         run: |
           # Append os.system("pause") as required by the packaging guide
           Add-Content -Path cal_jarl.py -Value "os.system('pause')"
-          pyinstaller --add-data 'no-list.json;.' -F cal_jarl.py
+          pyinstaller --add-data 'no_list.json;.' --add-data 'pref_list.json;.' -F cal_jarl.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7

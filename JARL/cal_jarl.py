@@ -5,12 +5,15 @@ import adif_io
 import csv
 import json
 
-NO_NAME_TYPE = 'kanji'
 
-path_to_no_list = path.abspath(path.join(path.dirname(__file__), 'no-list.json'))
+path_to_no_list = path.abspath(path.join(path.dirname(__file__), 'no_list.json'))
+path_to_pref_list   = path.abspath(path.join(path.dirname(__file__), 'pref_list.json'))
 
 with open(path_to_no_list, "r", encoding="utf-8") as f:
     no_list = json.load(f)
+
+with open(path_to_pref_list, "r", encoding="utf-8") as f:
+    pref_list = json.load(f)
 
 def get_district(no):
     id = int(no)
@@ -35,17 +38,49 @@ def get_district(no):
     elif id >= 40 and id <= 47:
         return '6'
 
-def get_no_name(no):
-    if no not in no_list:
-        return 'ERROR'
-    no_info = no_list[no]
-    if no_info['type'] == 'Prefecture':
-        return no_info[NO_NAME_TYPE]
-    elif no_info['type'] == 'City' or no_info['type'] == 'Gun':
-        return get_no_name(no[0:2]) + ' ' + no_info[NO_NAME_TYPE]
-    elif no_info['type'] == 'Ku':
-        return get_no_name(no[0:4]) + ' ' + no_info[NO_NAME_TYPE]
+def get_pref_name(no):
+    if no in pref_list:
+        return pref_list[no]['kanji']
     return 'ERROR'
+
+
+def gun_name_with_suffix(name):
+    if ' (' in name:
+        return name.replace(' (', '郡 (')
+    else:
+        return name + '郡'
+
+
+def get_no_name_list(no):
+    if no not in no_list:
+        return []
+    
+    origin_name = no_list[no]['ja_name']
+    name = [
+        get_pref_name(no[0:2]),
+    ]
+
+    if len(no) == 4:  # city
+        if no == '1001':    # Tokyo 23 wards
+            name = [origin_name]
+        else:
+            name.append(origin_name + '市')
+
+    elif len(no) == 5:  # gun
+        name.append(gun_name_with_suffix(origin_name))
+
+    elif len(no) == 6:  # ku
+        if no[0:4] == '1001':    # Tokyo 23 wards
+            name.append(origin_name + '区')
+        else:
+            name = get_no_name_list(no[0:4])
+            name.append(origin_name + '区')
+    
+    return name
+
+
+def get_no_name(no):
+    return ' '.join(get_no_name_list(no))
 
 
 def is_qsl_received(one_qso):
@@ -218,13 +253,13 @@ for one_qso in qsos:
     this_no_info = no_list[this_no]
     this_no_type = this_no_info['type']
 
-    if this_no_type == 'City':
+    if this_no_type in ('city', 'designated city'):
         if this_no not in jcc or jcc[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcc[this_no] = one_qso
-    elif this_no_type == 'Ku':
+    elif this_no_type == 'ku':
         if this_no[0:4] not in jcc or jcc[this_no[0:4]]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcc[this_no[0:4]] = one_qso
-    elif this_no_type == 'Gun':
+    elif this_no_type == 'gun':
         if this_no not in jcg or jcg[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcg[this_no] = one_qso
 
@@ -254,9 +289,9 @@ with open('checksheet_waja.csv', 'w', newline='', encoding='utf-8-sig') as f:
     for d in range(1, 48):
         this_pref = "%02d" % d
         if this_pref in waja:
-            this_row = get_info_for_qsl_list(idx, waja[this_pref], "%s %s" % (this_pref, get_no_name(this_pref)))
+            this_row = get_info_for_qsl_list(idx, waja[this_pref], "%s %s" % (this_pref, get_pref_name(no=this_pref)))
         else:
-            this_row = get_info_for_qsl_list(idx, False, "%s %s" % (this_pref, get_no_name(this_pref)))
+            this_row = get_info_for_qsl_list(idx, False, "%s %s" % (this_pref, get_pref_name(this_pref)))
         csv_writer.writerow(this_row)
         idx += 1
 

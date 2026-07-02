@@ -36,9 +36,7 @@ AJA:  total 50
 
 ## 其他
 
-`gen_list.py` 用于格式化 JARL 提供的 JCC、JCG、Ku 列表信息，生成 `no-list.json` 这个 JSON 格式的数据文件供统计脚本调用。
-
-`pref-list.json` 为都道府县的数据文件，这个是手动整理的。
+`pref_list.json` 为都道府县的数据文件；`no_list.json` 是市、区、郡的数据文件。
 
 ## 打包
 在 `py` 文件末尾添加：
