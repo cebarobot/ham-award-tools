@@ -110,6 +110,23 @@ def get_info_for_qsl_list(idx, one_qso, remarks):
 def get_info_for_aja_list(no, one_qso, remarks):
     return [no, one_qso['BAND'], one_qso['CALL'], one_qso['QSO_DATE'], one_qso['MODE'], remarks]
 
+
+def is_after_date(qso_date, entity_date):
+    """Return True if qso_date is strictly after entity_date.
+    Both are YYYYMMDD strings; entity_date may be empty."""
+    if not entity_date:
+        return False
+    return qso_date > entity_date
+
+
+def is_on_or_after_date(qso_date, entity_date):
+    """Return True if qso_date is on or after entity_date.
+    Both are YYYYMMDD strings; entity_date may be empty."""
+    if not entity_date:
+        return False
+    return qso_date >= entity_date
+
+
 ajd = {}
 waja = {}
 jcc = {}
@@ -248,10 +265,17 @@ for one_qso in qsos:
     if this_no not in no_list:
         continue
 
-    # TODO: check delete JCC/JCG/Ku with delete Date
-
     this_no_info = no_list[this_no]
     this_no_type = this_no_info['type']
+
+    # Skip QSOs for deleted entities when contact is after deletion date
+    if this_no_info.get('deleted') and is_after_date(
+            one_qso['QSO_DATE'], this_no_info.get('deleted_date', '')):
+        print(f"WARNING: QSO with {one_qso['CALL']} on {one_qso['QSO_DATE']}, "
+              f"{this_no} {get_no_name(this_no)} "
+              f"is deleted on {this_no_info['deleted_date']}, skipped",
+              file=sys.stderr)
+        continue
 
     if this_no_type in ('city', 'designated city'):
         if this_no not in jcc or jcc[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
@@ -263,8 +287,19 @@ for one_qso in qsos:
         if this_no not in jcg or jcg[this_no]['QSO_DATE'] > one_qso['QSO_DATE']:
             jcg[this_no] = one_qso
 
-    if (this_no, this_band) not in aja or aja[(this_no, this_band)]['QSO_DATE'] > one_qso['QSO_DATE']:
-        aja[(this_no, this_band)] = one_qso
+    # Task 3: designated city — count JCC normally, but skip AJA if QSO is on
+    # or after the designation date
+    if this_no_type == 'designated city' and is_on_or_after_date(
+            one_qso['QSO_DATE'], this_no_info.get('designated_city_date', '')):
+        print(f"WARNING: QSO with {one_qso['CALL']} on {one_qso['QSO_DATE']}, "
+              f"{this_no} {get_no_name(this_no)} "
+              f"became designated city on {this_no_info['designated_city_date']}, "
+              f"use ku number for AJA",
+              file=sys.stderr)
+    else:
+        if (this_no, this_band) not in aja or \
+                aja[(this_no, this_band)]['QSO_DATE'] > one_qso['QSO_DATE']:
+            aja[(this_no, this_band)] = one_qso
 
 # Print checksheet
 ## AJD
@@ -301,7 +336,9 @@ with open('checksheet_jcc.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer.writerow(qsl_list_header)
     idx = 1
     for this_jcc in sorted(jcc):
-        this_row = get_info_for_qsl_list(idx, jcc[this_jcc], "%s %s" % (this_jcc, get_no_name(this_jcc)))
+        mark = ' *' if no_list.get(this_jcc, {}).get('deleted') else ''
+        this_row = get_info_for_qsl_list(idx, jcc[this_jcc],
+                                         "%s %s%s" % (this_jcc, get_no_name(this_jcc), mark))
         csv_writer.writerow(this_row)
         idx += 1
 
@@ -311,7 +348,9 @@ with open('checksheet_jcg.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer.writerow(qsl_list_header)
     idx = 1
     for this_jcg in sorted(jcg):
-        this_row = get_info_for_qsl_list(idx, jcg[this_jcg], "%s %s" % (this_jcg, get_no_name(this_jcg)))
+        mark = ' *' if no_list.get(this_jcg, {}).get('deleted') else ''
+        this_row = get_info_for_qsl_list(idx, jcg[this_jcg],
+                                         "%s %s%s" % (this_jcg, get_no_name(this_jcg), mark))
         csv_writer.writerow(this_row)
         idx += 1
 
@@ -321,7 +360,9 @@ with open('checksheet_aja.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer.writerow(aja_list_header)
     idx = 1
     for this_aja in sorted(aja):
-        this_row = get_info_for_aja_list(this_aja[0], aja[this_aja], "%s" % (get_no_name(this_aja[0])))
+        mark = ' *' if no_list.get(this_aja[0], {}).get('deleted') else ''
+        this_row = get_info_for_aja_list(this_aja[0], aja[this_aja],
+                                         "%s%s" % (get_no_name(this_aja[0]), mark))
         csv_writer.writerow(this_row)
         idx += 1
 
