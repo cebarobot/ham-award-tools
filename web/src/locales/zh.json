@@ -52,6 +52,10 @@
     "close": "关闭",
     "save": "保存",
     "cancel": "取消",
-    "loading": "加载中..."
+    "loading": "加载中...",
+    "processing": "处理中...",
+    "clear": "清除",
+    "statistics": "统计",
+    "csvDownload": "CSV 下载"
   }
 }
