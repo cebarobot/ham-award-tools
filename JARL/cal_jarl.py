@@ -4,6 +4,7 @@ from os import path
 import adif_io
 import csv
 import json
+from collections import defaultdict
 
 
 path_to_no_list = path.abspath(path.join(path.dirname(__file__), 'no_list.json'))
@@ -125,6 +126,69 @@ def is_on_or_after_date(qso_date, entity_date):
     if not entity_date:
         return False
     return qso_date >= entity_date
+
+
+# ── Band mapping for AJA output ─────────────────────────────────────────────
+
+# ADIF wavelength band -> frequency label (ordered, 15 bands)
+BAND_MAP = {
+    '160m': '1.9MHz',
+    '80m': '3.5MHz',
+    '40m': '7MHz',
+    '30m': '10MHz',
+    '20m': '14MHz',
+    '17m': '18MHz',
+    '15m': '21MHz',
+    '12m': '24MHz',
+    '10m': '28MHz',
+    '6m': '50MHz',
+    '2m': '144MHz',
+    '70cm': '430MHz',
+    '23cm': '1200MHz',
+    '13cm': '2400MHz',
+    '6cm': '5600MHz',
+}
+
+# Entities to skip when counting AJA (major designated cities)
+# AJA_SKIP_LIST = ['1001', '1101', '2001', '2201', '2501', '2701', '4021'] # For Japanese version
+AJA_SKIP_LIST = ['1001'] # For English version
+
+
+def format_date_ymd(date_str):
+    """Convert YYYYMMDD to YYYY-MM-DD for display."""
+    if not date_str or len(date_str) != 8:
+        return date_str
+    return date_str[:4] + '-' + date_str[4:6] + '-' + date_str[6:8]
+
+
+def format_entity_name_for_aja(no):
+    """Format entity display name for AJA wide-format output.
+
+    Reuses get_no_name_list() for core name logic, then:
+    - Strips the prefecture name (handled separately in column 1).
+    - Joins remaining parts with a half-width space.
+    - Appends date annotations in unified ' (YYYY-MM-DD)' format.
+    """
+    if no not in no_list:
+        return no
+
+    name_parts = get_no_name_list(no)
+    # Remove prefecture name (first element); keep the rest as entity name
+    if len(name_parts) > 1:
+        entity_parts = name_parts[1:]
+    else:
+        entity_parts = name_parts
+
+    name = ' '.join(entity_parts)
+
+    # Append annotation for deleted / designated-city dates
+    info = no_list[no]
+    if info.get('deleted') and info.get('deleted_date'):
+        name += '*' + format_date_ymd(info['deleted_date'])
+    elif info.get('type') == 'designated city' and info.get('designated_city_date'):
+        name += '*' + format_date_ymd(info['designated_city_date'])
+
+    return name
 
 
 ajd = {}
@@ -289,7 +353,10 @@ for one_qso in qsos:
 
     # Task 3: designated city — count JCC normally, but skip AJA if QSO is on
     # or after the designation date
-    if this_no_type == 'designated city' and is_on_or_after_date(
+    # Task 4: also skip AJA for entities in the hard skip list
+    if this_no in AJA_SKIP_LIST:
+        pass  # silently skip AJA for these entities
+    elif this_no_type == 'designated city' and is_on_or_after_date(
             one_qso['QSO_DATE'], this_no_info.get('designated_city_date', '')):
         print(f"WARNING: QSO with {one_qso['CALL']} on {one_qso['QSO_DATE']}, "
               f"{this_no} {get_no_name(this_no)} "
@@ -365,6 +432,102 @@ with open('checksheet_aja.csv', 'w', newline='', encoding='utf-8-sig') as f:
                                          "%s%s" % (get_no_name(this_aja[0]), mark))
         csv_writer.writerow(this_row)
         idx += 1
+
+## AJA wide-format export (statistics view only)
+with open('aja_list.csv', 'w', newline='', encoding='utf-8-sig') as f:
+    csv_writer = csv.writer(f, dialect='excel')
+
+    # Row 1: band labels — ,JCC/JCG/Ku,,,1.9MHz,,3.5MHz,...
+    header1 = ['', 'JCC/JCG/Ku', '', '']
+    for freq in BAND_MAP.values():
+        header1.extend([freq, ''])
+    csv_writer.writerow(header1)
+
+    # Row 2: sub-headers — ,Name,,Number,Mode,Callsign,Mode,Callsign,...
+    header2 = ['', 'Name', '', 'Number']
+    for _ in BAND_MAP:
+        header2.extend(['Mode', 'Callsign'])
+    csv_writer.writerow(header2)
+
+    # Row 3: sub-sub-headers — ,,,,check,Date,check,Date,...
+    header3 = ['', '', '', '']
+    for _ in BAND_MAP:
+        header3.extend(['check', 'Date'])
+    csv_writer.writerow(header3)
+
+    # Data rows: iterate all entities in no_list order
+    last_pref = None
+    for no, info in no_list.items():
+        if no == '_meta':
+            continue
+        no_type = info.get('type', '')
+        if no_type not in ('city', 'designated city', 'gun', 'ku'):
+            continue
+        if no in AJA_SKIP_LIST:
+            continue
+
+        this_pref = no[:2]
+
+        # Prefecture name column: only on first entity of each prefecture
+        if this_pref != last_pref:
+            pref_col = get_pref_name(this_pref) + ' ' + this_pref
+            last_pref = this_pref
+        else:
+            pref_col = ''
+
+        entity_name = format_entity_name_for_aja(no)
+
+        # Build band data: (mode, callsign) for row 1; (check, date) for row 2
+        row1_bands = []
+        row2_bands = []
+        for band in BAND_MAP:
+            key = (no, band)
+            if key in aja:
+                qso = aja[key]
+                row1_bands.extend([qso['MODE'], qso['CALL']])
+                row2_bands.extend(['', qso['QSO_DATE']])
+            else:
+                row1_bands.extend(['', ''])
+                row2_bands.extend(['', ''])
+
+        # Row 1: entity identity + mode/callsign
+        csv_writer.writerow(['', pref_col, entity_name, no] + row1_bands)
+        # Row 2: check/date
+        csv_writer.writerow(['', '', '', ''] + row2_bands)
+
+## AJA total table (band × entity type statistics, computed from aja dict)
+band_jcc = defaultdict(set)
+band_jcg = defaultdict(set)
+band_ku  = defaultdict(set)
+
+for (no, band), qso in aja.items():
+    if band not in BAND_MAP:
+        continue
+    no_type = no_list.get(no, {}).get('type', '')
+    if no_type in ('city', 'designated city'):
+        band_jcc[band].add(no)
+    elif no_type == 'gun':
+        band_jcg[band].add(no)
+    elif no_type == 'ku':
+        band_ku[band].add(no)
+
+with open('aja_total_table.csv', 'w', newline='', encoding='utf-8-sig') as f:
+    csv_writer = csv.writer(f, dialect='excel')
+
+    header = ['Band'] + list(BAND_MAP.values()) + ['Total']
+    csv_writer.writerow(header)
+
+    jcc_counts = [len(band_jcc.get(band, set())) for band in BAND_MAP]
+    csv_writer.writerow(['JCC'] + jcc_counts + [sum(jcc_counts)])
+
+    jcg_counts = [len(band_jcg.get(band, set())) for band in BAND_MAP]
+    csv_writer.writerow(['JCG'] + jcg_counts + [sum(jcg_counts)])
+
+    ku_counts = [len(band_ku.get(band, set())) for band in BAND_MAP]
+    csv_writer.writerow(['Ku'] + ku_counts + [sum(ku_counts)])
+
+    total_per_band = [jcc_counts[i] + jcg_counts[i] + ku_counts[i] for i in range(len(BAND_MAP))]
+    csv_writer.writerow(['Total'] + total_per_band + [sum(total_per_band)])
 
 print("----------JARL AWARDS STATUS----------")
 print("AJD:  %d / %d : %d%%" % (len(ajd), 10, len(ajd) * 100 / 10))
