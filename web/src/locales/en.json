@@ -1,0 +1,57 @@
+{
+  "title": "Amateur Radio Award Statistics Tool",
+  "dropHint": "Drop ADIF file here",
+  "awards": {
+    "jcc": "JCC",
+    "jcg": "JCG",
+    "aja": "AJA",
+    "waca": "WACA",
+    "waga": "WAGA",
+    "ajd": "AJD",
+    "waja": "WAJA",
+    "wapc": "WAPC"
+  },
+  "csv": {
+    "download": "Download CSV",
+    "ajd": "AJD Checksheet",
+    "waja": "WAJA Checksheet",
+    "jcc": "JCC Checksheet",
+    "jcg": "JCG Checksheet",
+    "aja": "AJA Checksheet",
+    "ajaList": "AJA List",
+    "ajaTotal": "AJA Summary Table",
+    "wapcBand": "WAPC Band Checksheet",
+    "wapcMode": "WAPC Mode Checksheet"
+  },
+  "stats": {
+    "total": "Total",
+    "worked": "Worked",
+    "percentage": "Percentage",
+    "band": "Band",
+    "mode": "Mode"
+  },
+  "jccjcg": {
+    "showDeleted": "Show deleted JCC/JCG",
+    "awardHint": "{award}-{level} achieved",
+    "jccLevels": "JCC Levels: 100/200/300/400/500/600/700/800",
+    "jcgLevels": "JCG Levels: 100/200/300/400/500"
+  },
+  "aja": {
+    "basicAward": "Basic Award: 1000",
+    "stickerHint": "Stickers: every {interval}",
+    "below3000": "Below 3000: every 500",
+    "above3000": "Above 3000: every 150"
+  },
+  "wapc": {
+    "provinces": "Provinces",
+    "mixed": "Mixed",
+    "bands": "By Band",
+    "modes": "By Mode"
+  },
+  "common": {
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading..."
+  }
+}

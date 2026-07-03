@@ -1,0 +1,57 @@
+{
+  "title": "アマチュア無線アワード統計ツール",
+  "dropHint": "ADIFファイルをここにドロップ",
+  "awards": {
+    "jcc": "JCC",
+    "jcg": "JCG",
+    "aja": "AJA",
+    "waca": "WACA",
+    "waga": "WAGA",
+    "ajd": "AJD",
+    "waja": "WAJA",
+    "wapc": "WAPC"
+  },
+  "csv": {
+    "download": "CSVダウンロード",
+    "ajd": "AJDチェックシート",
+    "waja": "WAJAチェックシート",
+    "jcc": "JCCチェックシート",
+    "jcg": "JCGチェックシート",
+    "aja": "AJAチェックシート",
+    "ajaList": "AJA一覧表",
+    "ajaTotal": "AJA集計表",
+    "wapcBand": "WAPCバンドチェックシート",
+    "wapcMode": "WAPCモードチェックシート"
+  },
+  "stats": {
+    "total": "総数",
+    "worked": "交信済み",
+    "percentage": "割合",
+    "band": "バンド",
+    "mode": "モード"
+  },
+  "jccjcg": {
+    "showDeleted": "削除済みJCC/JCGを表示",
+    "awardHint": "{award}-{level} 達成",
+    "jccLevels": "JCCレベル: 100/200/300/400/500/600/700/800",
+    "jcgLevels": "JCGレベル: 100/200/300/400/500"
+  },
+  "aja": {
+    "basicAward": "基本アワード: 1000",
+    "stickerHint": "ステッカー: {interval}ごと",
+    "below3000": "3000未満: 500ごと",
+    "above3000": "3000以上: 150ごと"
+  },
+  "wapc": {
+    "provinces": "省",
+    "mixed": "混合モード",
+    "bands": "バンド別",
+    "modes": "モード別"
+  },
+  "common": {
+    "close": "閉じる",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "loading": "読み込み中..."
+  }
+}

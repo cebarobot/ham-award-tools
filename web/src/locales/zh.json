@@ -1,0 +1,57 @@
+{
+  "title": "业余无线电奖状统计工具",
+  "dropHint": "将 ADIF 文件拖放到此处",
+  "awards": {
+    "jcc": "JCC",
+    "jcg": "JCG",
+    "aja": "AJA",
+    "waca": "WACA",
+    "waga": "WAGA",
+    "ajd": "AJD",
+    "waja": "WAJA",
+    "wapc": "WAPC"
+  },
+  "csv": {
+    "download": "下载 CSV",
+    "ajd": "AJD 检查表",
+    "waja": "WAJA 检查表",
+    "jcc": "JCC 检查表",
+    "jcg": "JCG 检查表",
+    "aja": "AJA 检查表",
+    "ajaList": "AJA 一览表",
+    "ajaTotal": "AJA 汇总表",
+    "wapcBand": "WAPC 波段检查表",
+    "wapcMode": "WAPC 模式检查表"
+  },
+  "stats": {
+    "total": "总数",
+    "worked": "已通联",
+    "percentage": "百分比",
+    "band": "波段",
+    "mode": "模式"
+  },
+  "jccjcg": {
+    "showDeleted": "显示已删除的 JCC/JCG",
+    "awardHint": "已达成 {award}-{level}",
+    "jccLevels": "JCC 等级：100/200/300/400/500/600/700/800",
+    "jcgLevels": "JCG 等级：100/200/300/400/500"
+  },
+  "aja": {
+    "basicAward": "基础奖状：1000",
+    "stickerHint": "贴纸：每 {interval} 个",
+    "below3000": "3000 以下每 500 一个贴纸",
+    "above3000": "3000 以上每 150 一个贴纸"
+  },
+  "wapc": {
+    "provinces": "省份",
+    "mixed": "混合模式",
+    "bands": "按波段",
+    "modes": "按模式"
+  },
+  "common": {
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "loading": "加载中..."
+  }
+}
