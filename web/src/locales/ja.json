@@ -2,6 +2,7 @@
   "title": "アマチュア無線アワード統計ツール",
   "dropHint": "ADIFファイルをここにドロップ",
   "awards": {
+    "summary": "概要",
     "jcc": "JCC",
     "jcg": "JCG",
     "aja": "AJA",
@@ -32,9 +33,27 @@
   },
   "jccjcg": {
     "showDeleted": "削除済みJCC/JCGを表示",
+    "notWorked": "未交信",
     "awardHint": "{award}-{level} 達成",
     "jccLevels": "JCCレベル: 100/200/300/400/500/600/700/800",
-    "jcgLevels": "JCGレベル: 100/200/300/400/500"
+    "jcgLevels": "JCGレベル: 100/200/300/400/500",
+    "countIncludesDeleted": "件数には削除済みエンティティを含みます",
+    "progressExcludesDeleted": "進捗には削除済みエンティティを含みません",
+    "achieved": "達成済み",
+    "noneYet": "まだ達成したレベルはありません",
+    "legend": "凡例",
+    "workedDeleted": "交信済みかつ削除済み",
+    "deleted": "削除済み",
+    "active": "有効",
+    "code": "番号",
+    "name": "名称",
+    "status": "状態",
+    "deletedOn": "削除日",
+    "callsign": "コールサイン",
+    "date": "日付",
+    "time": "時刻",
+    "band": "バンド",
+    "mode": "モード"
   },
   "aja": {
     "basicAward": "基本アワード: 1000",
@@ -52,6 +71,10 @@
     "close": "閉じる",
     "save": "保存",
     "cancel": "キャンセル",
-    "loading": "読み込み中..."
+    "loading": "読み込み中...",
+    "processing": "処理中...",
+    "clear": "クリア",
+    "statistics": "統計",
+    "csvDownload": "CSVダウンロード"
   }
 }

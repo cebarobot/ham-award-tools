@@ -1,4 +1,5 @@
 import type { Qso, QsoSlot, WapcResult } from '../types'
+import { toQsoSlot } from './jarl'
 
 const DXCC_CHINA = '318'
 const DXCC_OTHER: Record<string, string> = {
@@ -54,12 +55,7 @@ export function computeWapc(qsos: Qso[]): WapcResult {
     if (!province) continue
     if (!PROVINCES.includes(province)) continue
 
-    const slot: QsoSlot = {
-      CALL: qso.CALL,
-      QSO_DATE: qso.QSO_DATE,
-      BAND: qso.BAND,
-      MODE: qso.MODE,
-    }
+    const slot: QsoSlot = toQsoSlot(qso)
 
     if (!mixed[province]) {
       mixed[province] = slot

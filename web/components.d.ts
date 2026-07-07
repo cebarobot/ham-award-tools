@@ -11,6 +11,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    EntityPill: typeof import('./src/components/EntityPill.vue')['default']
+    JccJcgView: typeof import('./src/components/JccJcgView.vue')['default']
+    PrefectureBlock: typeof import('./src/components/PrefectureBlock.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

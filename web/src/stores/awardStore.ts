@@ -1,17 +1,17 @@
 import { defineStore } from 'pinia'
-import { reactive, computed } from 'vue'
+import { computed, ref } from 'vue'
 import type { AwardResults } from '../types'
 
 export const useAwardStore = defineStore('award', () => {
-  const results = reactive<AwardResults | null>(null)
-  const loaded = computed(() => results !== null)
+  const results = ref<AwardResults | null>(null)
+  const loaded = computed(() => results.value !== null)
 
   function setResults(r: AwardResults) {
-    Object.assign(results, r)
+    results.value = r
   }
 
   function clear() {
-    results = null
+    results.value = null
   }
 
   return { results, loaded, setResults, clear }

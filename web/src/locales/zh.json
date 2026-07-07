@@ -2,6 +2,7 @@
   "title": "业余无线电奖状统计工具",
   "dropHint": "将 ADIF 文件拖放到此处",
   "awards": {
+    "summary": "概览",
     "jcc": "JCC",
     "jcg": "JCG",
     "aja": "AJA",
@@ -32,9 +33,27 @@
   },
   "jccjcg": {
     "showDeleted": "显示已删除的 JCC/JCG",
+    "notWorked": "未通联",
     "awardHint": "已达成 {award}-{level}",
     "jccLevels": "JCC 等级：100/200/300/400/500/600/700/800",
-    "jcgLevels": "JCG 等级：100/200/300/400/500"
+    "jcgLevels": "JCG 等级：100/200/300/400/500",
+    "countIncludesDeleted": "统计数量包含已删除实体",
+    "progressExcludesDeleted": "进度条不包含已删除实体",
+    "achieved": "已达成",
+    "noneYet": "尚未达成等级",
+    "legend": "图例",
+    "workedDeleted": "已通联且已删除",
+    "deleted": "已删除",
+    "active": "有效",
+    "code": "编号",
+    "name": "名称",
+    "status": "状态",
+    "deletedOn": "删除日期",
+    "callsign": "呼号",
+    "date": "日期",
+    "time": "时间",
+    "band": "波段",
+    "mode": "模式"
   },
   "aja": {
     "basicAward": "基础奖状：1000",

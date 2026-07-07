@@ -1,5 +1,5 @@
 import type { Qso, QsoSlot } from '../types'
-import { NO_LIST, isQslReceived, isInJapan, isAfterDate, isEarlierQso } from './jarl'
+import { NO_LIST, isQslReceived, isInJapan, isAfterDate, isEarlierQso, toQsoSlot } from './jarl'
 
 export function computeJcg(qsos: Qso[]): Record<string, QsoSlot> {
   const result: Record<string, QsoSlot> = {}
@@ -21,12 +21,7 @@ export function computeJcg(qsos: Qso[]): Record<string, QsoSlot> {
     }
 
     if (isEarlierQso(qso, result[no] || null)) {
-      result[no] = {
-        CALL: qso.CALL,
-        QSO_DATE: qso.QSO_DATE,
-        BAND: qso.BAND,
-        MODE: qso.MODE,
-      }
+      result[no] = toQsoSlot(qso)
     }
   }
 

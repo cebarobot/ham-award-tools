@@ -74,6 +74,17 @@ describe('JCC (cities)', () => {
     expect(r.jcc.data['0101']).toBeTruthy()
   })
 
+  it('should keep the earlier QSO when the date is the same', () => {
+    const qsos: Qso[] = [
+      qso({ CNTY: '0104', QSO_DATE: '20220101', TIME_ON: '103000', CALL: 'JA1LATE' }),
+      qso({ CNTY: '0104', QSO_DATE: '20220101', TIME_ON: '091500', CALL: 'JA1EARLY' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.jcc.data['0104']?.CALL).toBe('JA1EARLY')
+    expect(r.jcc.data['0104']?.TIME_ON).toBe('091500')
+  })
+
   it('should skip QSOs after deletion date', () => {
     const qsos: Qso[] = [
       qso({ CNTY: '0132', QSO_DATE: '20200101' }), // Kameda deleted 19731130, after → skip

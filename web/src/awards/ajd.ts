@@ -1,5 +1,5 @@
 import type { Qso, QsoSlot } from '../types'
-import { isQslReceived, isInJapan, getDistrict, isEarlierQso } from './jarl'
+import { isQslReceived, isInJapan, getDistrict, isEarlierQso, toQsoSlot } from './jarl'
 
 export function computeAjd(qsos: Qso[]): Record<string, QsoSlot> {
   const result: Record<string, QsoSlot> = {}
@@ -16,12 +16,7 @@ export function computeAjd(qsos: Qso[]): Record<string, QsoSlot> {
     if (callChar !== district) continue
 
     if (isEarlierQso(qso, result[district] || null)) {
-      result[district] = {
-        CALL: qso.CALL,
-        QSO_DATE: qso.QSO_DATE,
-        BAND: qso.BAND,
-        MODE: qso.MODE,
-      }
+      result[district] = toQsoSlot(qso)
     }
   }
 

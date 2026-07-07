@@ -42,6 +42,7 @@ export interface PrefInfo {
 export interface QsoSlot {
   CALL: string
   QSO_DATE: string
+  TIME_ON: string
   BAND: string
   MODE: string
 }
@@ -50,6 +51,7 @@ export interface AjaSlot {
   BAND: string
   CALL: string
   QSO_DATE: string
+  TIME_ON: string
   MODE: string
 }
 
@@ -59,7 +61,7 @@ export interface JccJcgResult {
 }
 
 export interface AjaResult {
-  data: Map<string, QsoSlot>
+  data: Map<string, AjaSlot>
   count: number
   byBandType: {
     jcc: Record<string, number>

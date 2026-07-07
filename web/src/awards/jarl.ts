@@ -2,7 +2,11 @@ import noList from '../data/no_list.json'
 import prefList from '../data/pref_list.json'
 import type { EntityInfo, PrefInfo, Qso, QsoSlot } from '../types'
 
-export const NO_LIST = noList as Record<string, EntityInfo>
+const noListEntities = Object.fromEntries(
+  Object.entries(noList).filter(([key]) => key !== '_meta'),
+) as Record<string, EntityInfo>
+
+export const NO_LIST = noListEntities
 export const PREF_LIST = prefList as Record<string, PrefInfo>
 
 export const BAND_MAP: Record<string, string> = {
@@ -107,7 +111,10 @@ export function isOnOrAfterDate(qsoDate: string, entityDate: string): boolean {
 
 export function isEarlierQso(a: Qso, b: QsoSlot | null): boolean {
   if (!b) return true
-  return a.QSO_DATE < b.QSO_DATE
+
+  const aStamp = `${a.QSO_DATE}${a.TIME_ON || ''}`
+  const bStamp = `${b.QSO_DATE}${b.TIME_ON || ''}`
+  return aStamp < bStamp
 }
 
 export function formatDateYmd(dateStr: string): string {
@@ -140,6 +147,7 @@ export function toQsoSlot(qso: Qso): QsoSlot {
   return {
     CALL: qso.CALL,
     QSO_DATE: qso.QSO_DATE,
+    TIME_ON: qso.TIME_ON,
     BAND: qso.BAND,
     MODE: qso.MODE,
   }

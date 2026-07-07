@@ -1,4 +1,4 @@
-import type { AwardResults, QsoSlot, AjaSlot } from '../types'
+import type { AwardResults, QsoSlot } from '../types'
 import { NO_LIST, BAND_ORDER, getNoName, getPrefName, formatEntityNameForAja } from '../awards/jarl'
 
 const QSL_HEADER = 'No.,Callsign,Date,Band,Mode,Remarks'
@@ -88,7 +88,7 @@ export function generateAjaCsv(results: AwardResults): string {
 
 export function generateAjaListCsv(results: AwardResults): string {
   const rows: string[][] = []
-  const freqLabels = BAND_ORDER.map((b) => BAND_ORDER.includes(b) ? BAND_ORDER.includes(b) : b)
+  const freqLabels = [...BAND_ORDER]
 
   const header1 = ['', 'JCC/JCG/Ku', '', '', ...freqLabels.flatMap((f) => [f, ''])]
   const header2 = ['', 'Name', '', 'Number', ...BAND_ORDER.flatMap(() => ['Mode', 'Callsign'])]
@@ -141,7 +141,7 @@ export function generateAjaTotalTableCsv(results: AwardResults): string {
   const jcgRow = ['JCG', ...BAND_ORDER.map((b) => String(jcg[b] || 0)), String(Object.values(jcg).reduce((a, b) => a + b, 0))]
   const kuRow = ['Ku', ...BAND_ORDER.map((b) => String(ku[b] || 0)), String(Object.values(ku).reduce((a, b) => a + b, 0))]
 
-  const totalPerBand = BAND_ORDER.map((b, i) => {
+  const totalPerBand = BAND_ORDER.map((_, i) => {
     return Number(jccRow[i + 1]) + Number(jcgRow[i + 1]) + Number(kuRow[i + 1])
   })
   const totalRow = ['Total', ...totalPerBand.map(String), String(totalPerBand.reduce((a, b) => a + b, 0))]

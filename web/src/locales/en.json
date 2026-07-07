@@ -2,6 +2,7 @@
   "title": "Amateur Radio Award Statistics Tool",
   "dropHint": "Drop ADIF file here",
   "awards": {
+    "summary": "Summary",
     "jcc": "JCC",
     "jcg": "JCG",
     "aja": "AJA",
@@ -32,9 +33,27 @@
   },
   "jccjcg": {
     "showDeleted": "Show deleted JCC/JCG",
+    "notWorked": "Not worked",
     "awardHint": "{award}-{level} achieved",
     "jccLevels": "JCC Levels: 100/200/300/400/500/600/700/800",
-    "jcgLevels": "JCG Levels: 100/200/300/400/500"
+    "jcgLevels": "JCG Levels: 100/200/300/400/500",
+    "countIncludesDeleted": "Counts include deleted entities",
+    "progressExcludesDeleted": "Progress excludes deleted entities",
+    "achieved": "Achieved",
+    "noneYet": "No level reached yet",
+    "legend": "Legend",
+    "workedDeleted": "Worked and deleted",
+    "deleted": "Deleted",
+    "active": "Active",
+    "code": "Code",
+    "name": "Name",
+    "status": "Status",
+    "deletedOn": "Deleted on",
+    "callsign": "Callsign",
+    "date": "Date",
+    "time": "Time",
+    "band": "Band",
+    "mode": "Mode"
   },
   "aja": {
     "basicAward": "Basic Award: 1000",
@@ -52,6 +71,10 @@
     "close": "Close",
     "save": "Save",
     "cancel": "Cancel",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "clear": "Clear",
+    "statistics": "Statistics",
+    "csvDownload": "CSV Download"
   }
 }

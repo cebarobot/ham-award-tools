@@ -44,6 +44,7 @@ export function computeAja(qsos: Qso[]): {
         BAND: band,
         CALL: qso.CALL,
         QSO_DATE: qso.QSO_DATE,
+        TIME_ON: qso.TIME_ON,
         MODE: qso.MODE,
       })
       entitySet.add(no)

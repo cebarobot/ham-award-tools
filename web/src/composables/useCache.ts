@@ -15,29 +15,34 @@ async function getDb() {
   })
 }
 
-let cachedCount = -1
 let cachedQsos: Qso[] | null = null
+
+export function normalizeQso(qso: Qso): Qso {
+  return Object.fromEntries(
+    Object.entries(qso).filter(([, value]) => typeof value === 'string'),
+  ) as Qso
+}
 
 export function useCache() {
   async function loadAll(): Promise<Qso[]> {
-    if (cachedQsos) return cachedQsos
+    if (cachedQsos) return cachedQsos.map(normalizeQso)
     const db = await getDb()
-    cachedQsos = await db.getAll(STORE_NAME)
-    cachedCount = cachedQsos.length
-    return cachedQsos
+    const storedQsos = await db.getAll(STORE_NAME) as Qso[]
+    cachedQsos = storedQsos.map(normalizeQso)
+    return cachedQsos.map(normalizeQso)
   }
 
   async function saveAll(qsos: Qso[]): Promise<void> {
     const db = await getDb()
     const tx = db.transaction(STORE_NAME, 'readwrite')
     const store = tx.objectStore(STORE_NAME)
+    const plainQsos = qsos.map(normalizeQso)
     await store.clear()
-    for (const qso of qsos) {
+    for (const qso of plainQsos) {
       await store.add(qso)
     }
     await tx.done
-    cachedQsos = [...qsos]
-    cachedCount = qsos.length
+    cachedQsos = plainQsos.map(normalizeQso)
   }
 
   function mergeQsos(existing: Qso[], incoming: Qso[]): Qso[] {
@@ -78,7 +83,6 @@ export function useCache() {
     await tx.objectStore(STORE_NAME).clear()
     await tx.done
     cachedQsos = null
-    cachedCount = 0
   }
 
   return { loadAll, saveAll, mergeQsos, clearAll }
