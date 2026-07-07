@@ -4,6 +4,9 @@ import { useStats } from './composables/useStats'
 import { useCsvExport } from './composables/useCsvExport'
 import { computed, onMounted, ref } from 'vue'
 import JccJcgView from './components/JccJcgView.vue'
+import AjaView from './components/AjaView.vue'
+import AjdWajaView from './components/AjdWajaView.vue'
+import WapcView from './components/WapcView.vue'
 
 const { t, locale } = useI18n()
 const { stats, loading, error, fileName, init, processFile, clearAll } = useStats()
@@ -78,7 +81,7 @@ const tabs = computed(() => [
       </div>
     </header>
 
-    <main class="flex-1 max-w-4xl mx-auto w-full p-4 space-y-6">
+    <main class="flex-1 max-w-7xl mx-auto w-full p-4 space-y-6">
       <div
         class="border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors"
         :class="[
@@ -124,51 +127,51 @@ const tabs = computed(() => [
         </nav>
 
         <template v-if="activeTab === 'summary'">
-          <section class="border rounded-lg p-4">
-            <h2 class="text-sm font-medium text-gray-500 mb-3">{{ t('common.statistics') }}</h2>
-            <div class="grid grid-cols-3 sm:grid-cols-4 gap-3 text-center">
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.ajdCount }}/10</div>
-                <div class="text-xs text-gray-500">{{ t('awards.ajd') }}</div>
+          <section class="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm">
+            <h2 class="mb-4 text-sm font-semibold tracking-[0.18em] text-slate-500">{{ t('common.statistics') }}</h2>
+            <div class="grid gap-3 text-center sm:grid-cols-2 lg:grid-cols-4">
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.ajdCount }}/10</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.ajd') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.wajaCount }}/47</div>
-                <div class="text-xs text-gray-500">{{ t('awards.waja') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.wajaCount }}/47</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.waja') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.jcc.count }}</div>
-                <div class="text-xs text-gray-500">{{ t('awards.jcc') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.jcc.count }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.jcc') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.jcg.count }}</div>
-                <div class="text-xs text-gray-500">{{ t('awards.jcg') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.jcg.count }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.jcg') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.aja.count }}</div>
-                <div class="text-xs text-gray-500">{{ t('awards.aja') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.aja.count }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.aja') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.wapc.mixedCount }}/34</div>
-                <div class="text-xs text-gray-500">{{ t('awards.wapc') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.wapc.mixedCount }}/34</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.wapc') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.waca.count }}</div>
-                <div class="text-xs text-gray-500">{{ t('awards.waca') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.waca.count }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.waca') }}</div>
               </div>
-              <div class="p-2 bg-gray-50 dark:bg-gray-800 rounded">
-                <div class="text-lg font-bold">{{ stats.waga.count }}</div>
-                <div class="text-xs text-gray-500">{{ t('awards.waga') }}</div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.waga.count }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.waga') }}</div>
               </div>
             </div>
           </section>
 
-          <section class="border rounded-lg p-4">
-            <h2 class="text-sm font-medium text-gray-500 mb-3">{{ t('csv.download') }}</h2>
+          <section class="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm">
+            <h2 class="mb-4 text-sm font-semibold tracking-[0.18em] text-slate-500">{{ t('csv.download') }}</h2>
             <div class="flex flex-wrap gap-2">
               <button
                 v-for="csv in csvEntries"
                 :key="csv.key"
-                class="text-sm px-3 py-1.5 rounded border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                class="rounded-full border border-slate-300 px-3 py-1.5 text-sm text-slate-700 transition-colors hover:bg-slate-100"
                 @click="downloadCsv(`checksheet_${csv.key}.csv`, csv.generate())"
               >
                 {{ t(`csv.${csv.labelKey}`) }}
@@ -179,17 +182,11 @@ const tabs = computed(() => [
 
         <JccJcgView v-if="activeTab === 'jccjcg'" :stats="stats" />
 
-        <div v-if="activeTab === 'aja'" class="border rounded-lg p-8 text-center text-gray-500">
-          AJA view — coming in Phase 5
-        </div>
+        <AjaView v-if="activeTab === 'aja'" :stats="stats" />
 
-        <div v-if="activeTab === 'ajdwaja'" class="border rounded-lg p-8 text-center text-gray-500">
-          AJD/WAJA view — coming in Phase 6
-        </div>
+        <AjdWajaView v-if="activeTab === 'ajdwaja'" :stats="stats" />
 
-        <div v-if="activeTab === 'wapc'" class="border rounded-lg p-8 text-center text-gray-500">
-          WAPC view — coming in Phase 6
-        </div>
+        <WapcView v-if="activeTab === 'wapc'" :stats="stats" />
       </div>
     </main>
   </div>

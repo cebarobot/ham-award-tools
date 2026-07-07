@@ -1,6 +1,6 @@
 {
   "title": "アマチュア無線アワード統計ツール",
-  "dropHint": "ADIFファイルをここにドロップ",
+  "dropHint": "ADIF ファイルをここにドロップ",
   "awards": {
     "summary": "概要",
     "jcc": "JCC",
@@ -13,16 +13,16 @@
     "wapc": "WAPC"
   },
   "csv": {
-    "download": "CSVダウンロード",
-    "ajd": "AJDチェックシート",
-    "waja": "WAJAチェックシート",
-    "jcc": "JCCチェックシート",
-    "jcg": "JCGチェックシート",
-    "aja": "AJAチェックシート",
-    "ajaList": "AJA一覧表",
-    "ajaTotal": "AJA集計表",
-    "wapcBand": "WAPCバンドチェックシート",
-    "wapcMode": "WAPCモードチェックシート"
+    "download": "CSV ダウンロード",
+    "ajd": "AJD チェックシート",
+    "waja": "WAJA チェックシート",
+    "jcc": "JCC チェックシート",
+    "jcg": "JCG チェックシート",
+    "aja": "AJA チェックシート",
+    "ajaList": "AJA 一覧表",
+    "ajaTotal": "AJA 集計表",
+    "wapcBand": "WAPC バンドチェックシート",
+    "wapcMode": "WAPC モードチェックシート"
   },
   "stats": {
     "total": "総数",
@@ -32,11 +32,11 @@
     "mode": "モード"
   },
   "jccjcg": {
-    "showDeleted": "削除済みJCC/JCGを表示",
+    "showDeleted": "削除済み JCC/JCG を表示",
     "notWorked": "未交信",
     "awardHint": "{award}-{level} 達成",
-    "jccLevels": "JCCレベル: 100/200/300/400/500/600/700/800",
-    "jcgLevels": "JCGレベル: 100/200/300/400/500",
+    "jccLevels": "JCC レベル：100/200/300/400/500/600/700/800",
+    "jcgLevels": "JCG レベル：100/200/300/400/500",
     "countIncludesDeleted": "件数には削除済みエンティティを含みます",
     "progressExcludesDeleted": "進捗には削除済みエンティティを含みません",
     "achieved": "達成済み",
@@ -56,16 +56,39 @@
     "mode": "モード"
   },
   "aja": {
-    "basicAward": "基本アワード: 1000",
+    "basicAward": "基本アワード：1000",
     "stickerHint": "ステッカー: {interval}ごと",
-    "below3000": "3000未満: 500ごと",
-    "above3000": "3000以上: 150ごと"
+    "below3000": "3000 未満：500 ごと",
+    "above3000": "3000 以上：150 ごと",
+    "achievedBasic": "基本アワード達成済み",
+    "notYetBasic": "基本アワードはまだ未達成です",
+    "nextTarget": "次の目標",
+    "stickerMilestones": "達成済みステッカー",
+    "noStickerYet": "まだステッカー条件に到達していません",
+    "totalTable": "AJA 集計表",
+    "matrix": "AJA バンドマトリクス",
+    "workedBandsOnly": "マトリクスには交信済みバンドのみ表示します",
+    "deletedRowsHint": "削除済みの市・郡・区は常に表示し、斜線を付けます",
+    "totalByType": "JCC/JCG/Ku ごとの集計",
+    "total": "合計",
+    "noWorkedBands": "表示できる AJA バンドはまだありません",
+    "prefecture": "都道府県",
+    "entity": "市・郡・区",
+    "number": "番号"
+  },
+  "ajdwaja": {
+    "area": "エリア {no}",
+    "notWorked": "未交信"
   },
   "wapc": {
     "provinces": "省",
     "mixed": "混合モード",
     "bands": "バンド別",
-    "modes": "モード別"
+    "modes": "モード別",
+    "provinceGrid": "省一覧",
+    "bandMatrix": "バンドマトリクス",
+    "modeMatrix": "モードマトリクス",
+    "notWorked": "未交信"
   },
   "common": {
     "close": "閉じる",
@@ -75,6 +98,6 @@
     "processing": "処理中...",
     "clear": "クリア",
     "statistics": "統計",
-    "csvDownload": "CSVダウンロード"
+    "csvDownload": "CSV ダウンロード"
   }
 }

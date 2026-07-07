@@ -59,13 +59,36 @@
     "basicAward": "Basic Award: 1000",
     "stickerHint": "Stickers: every {interval}",
     "below3000": "Below 3000: every 500",
-    "above3000": "Above 3000: every 150"
+    "above3000": "Above 3000: every 150",
+    "achievedBasic": "Basic award achieved",
+    "notYetBasic": "Basic award not reached yet",
+    "nextTarget": "Next target",
+    "stickerMilestones": "Achieved stickers",
+    "noStickerYet": "No sticker milestone reached yet",
+    "totalTable": "AJA summary table",
+    "matrix": "AJA band matrix",
+    "workedBandsOnly": "The matrix only shows bands with worked QSOs",
+    "deletedRowsHint": "Deleted city/gun/ku rows are always shown with stripes",
+    "totalByType": "Grouped totals for JCC, JCG, and Ku",
+    "total": "Total",
+    "noWorkedBands": "There are no AJA bands to display yet",
+    "prefecture": "Prefecture",
+    "entity": "Entity",
+    "number": "No."
+  },
+  "ajdwaja": {
+    "area": "Area {no}",
+    "notWorked": "Not worked"
   },
   "wapc": {
     "provinces": "Provinces",
     "mixed": "Mixed",
     "bands": "By Band",
-    "modes": "By Mode"
+    "modes": "By Mode",
+    "provinceGrid": "Province grid",
+    "bandMatrix": "Band matrix",
+    "modeMatrix": "Mode matrix",
+    "notWorked": "Not worked"
   },
   "common": {
     "close": "Close",

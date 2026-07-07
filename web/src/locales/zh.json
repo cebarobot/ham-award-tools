@@ -59,13 +59,36 @@
     "basicAward": "基础奖状：1000",
     "stickerHint": "贴纸：每 {interval} 个",
     "below3000": "3000 以下每 500 一个贴纸",
-    "above3000": "3000 以上每 150 一个贴纸"
+    "above3000": "3000 以上每 150 一个贴纸",
+    "achievedBasic": "已达成基础奖状",
+    "notYetBasic": "尚未达成基础奖状",
+    "nextTarget": "下一个目标",
+    "stickerMilestones": "已达成贴纸",
+    "noStickerYet": "尚未达到贴纸门槛",
+    "totalTable": "AJA 汇总表",
+    "matrix": "AJA 波段矩阵",
+    "workedBandsOnly": "矩阵仅显示已通联过的波段",
+    "deletedRowsHint": "已删除的市/区/郡始终显示并带底纹",
+    "totalByType": "按 JCC/JCG/Ku 分类汇总",
+    "total": "总计",
+    "noWorkedBands": "还没有任何可显示的 AJA 波段",
+    "prefecture": "都道府县",
+    "entity": "市/区/郡",
+    "number": "编号"
+  },
+  "ajdwaja": {
+    "area": "Area {no}",
+    "notWorked": "未通联"
   },
   "wapc": {
     "provinces": "省份",
     "mixed": "混合模式",
     "bands": "按波段",
-    "modes": "按模式"
+    "modes": "按模式",
+    "provinceGrid": "省份总览",
+    "bandMatrix": "波段矩阵",
+    "modeMatrix": "模式矩阵",
+    "notWorked": "未通联"
   },
   "common": {
     "close": "关闭",

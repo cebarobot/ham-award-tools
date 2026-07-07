@@ -11,10 +11,14 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AjaMatrixTable: typeof import('./src/components/AjaMatrixTable.vue')['default']
+    AjaView: typeof import('./src/components/AjaView.vue')['default']
+    AjdWajaView: typeof import('./src/components/AjdWajaView.vue')['default']
     EntityPill: typeof import('./src/components/EntityPill.vue')['default']
     JccJcgView: typeof import('./src/components/JccJcgView.vue')['default']
     PrefectureBlock: typeof import('./src/components/PrefectureBlock.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    WapcView: typeof import('./src/components/WapcView.vue')['default']
   }
 }
