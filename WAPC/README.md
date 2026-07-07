@@ -20,15 +20,15 @@ python cal_wapc.py <path-to-lotwreport.adi>
 ```
 WAPC Award Statistics
 MIXED   24      70%
-160M    0       0%
-80M     0       0%
-40M     16      47%
-30M     1       2%
-20M     9       26%
-17M     3       8%
-15M     9       26%
-12M     0       0%
-10M     0       0%
+160m    0       0%
+80m     0       0%
+40m     16      47%
+30m     1       2%
+20m     9       26%
+17m     3       8%
+15m     9       26%
+12m     0       0%
+10m     0       0%
 CW      0       0%
 PHONE   0       0%
 DATA    24      70%

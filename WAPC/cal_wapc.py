@@ -18,12 +18,21 @@ province_list = [
 ]
 
 band_list = [
-    '160M', '80M', '40M', '30M', '20M', '17M', '15M', '12M', '10M'
+    '160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m'
 ]
 
-mode_list = [
+mode_group_list = [
     'CW', 'PHONE', 'DATA'
 ]
+
+root_mode_groups = {
+    'AM': 'PHONE',
+    'CW': 'CW',
+    'DIGITALVOICE': 'PHONE',
+    'FM': 'PHONE',
+    'SSB': 'PHONE',
+    'VOI': 'PHONE',
+}
 
 def init_slot(list=[]):
     slot = dict()
@@ -52,11 +61,11 @@ qsos, header = adif_io.read_from_file(adif_file)
 
 slot_mix = init_slot()
 slot_band = init_slot(band_list)
-slot_mode = init_slot(mode_list)
+slot_mode = init_slot(mode_group_list)
 
 cnt_mix = 0
 cnt_band = init_cnt(band_list)
-cnt_mode = init_cnt(mode_list)
+cnt_mode = init_cnt(mode_group_list)
 
 for one_qso in qsos:
     # print(one_qso)
@@ -67,27 +76,27 @@ for one_qso in qsos:
         continue
 
     if one_qso['DXCC'] == dxcc_china and 'STATE' in one_qso:
-        this_province = one_qso['STATE']
+        this_province = one_qso['STATE'].upper()
     elif one_qso['DXCC'] in dxcc_other:
         this_province = dxcc_other[one_qso['DXCC']]
 
-    if not this_province:
+    if not this_province or this_province not in province_list:
         continue
 
     qso_info = {
         'CALL': one_qso['CALL'],
         'QSO_DATE': one_qso['QSO_DATE'],
-        'TIME_ON': one_qso['TIME_ON'],
-        'BAND': one_qso['BAND'],
-        'MODE': one_qso['MODE'],
-        'MODE_GROUP': one_qso['APP_LOTW_MODEGROUP'],
+        'TIME_ON': one_qso.get('TIME_ON', ''),
+        'BAND': one_qso['BAND'].lower(),
+        'MODE': one_qso['MODE'].upper(),
+        'MODE_GROUP': root_mode_groups.get(one_qso['MODE'].upper(), 'DATA')
     }
 
     if not slot_mix[this_province]:
         slot_mix[this_province] = qso_info
     if qso_info['BAND'] in band_list and not slot_band[this_province][qso_info['BAND']]:
         slot_band[this_province][qso_info['BAND']] = qso_info
-    if qso_info['MODE_GROUP'] in mode_list and not slot_mode[this_province][qso_info['MODE_GROUP']]:
+    if not slot_mode[this_province][qso_info['MODE_GROUP']]:
         slot_mode[this_province][qso_info['MODE_GROUP']] = qso_info
 
 print("WAPC Award Statistics")
@@ -121,11 +130,11 @@ for x in band_list:
 
 with open('wapc_checksheet_mode.csv', 'w', newline='', encoding='utf-8-sig') as f:
     csv_writer = csv.writer(f, dialect='excel')
-    csv_writer.writerow(['Province'] + mode_list)
+    csv_writer.writerow(['Province'] + mode_group_list)
     for this_province in province_list:
         row = [this_province]
         
-        for this_mode in mode_list:
+        for this_mode in mode_group_list:
             if slot_mode[this_province][this_mode]:
                 row.append(slot_mode[this_province][this_mode]['CALL'])
                 cnt_mode[this_mode] += 1
@@ -134,7 +143,7 @@ with open('wapc_checksheet_mode.csv', 'w', newline='', encoding='utf-8-sig') as 
 
         csv_writer.writerow(row)
 
-for x in mode_list:
+for x in mode_group_list:
     print("%s\t%d\t%d%%" % (x, cnt_mode[x], cnt_mode[x] * 100 / len(province_list)))
 
 # os.system("pause")
