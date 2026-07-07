@@ -149,7 +149,7 @@ export function generateAjaTotalTableCsv(results: AwardResults): string {
   return makeCsv(header, [jccRow, jcgRow, kuRow, totalRow])
 }
 
-const BANDS_WAPC = ['160M', '80M', '40M', '30M', '20M', '17M', '15M', '12M', '10M']
+const BANDS_WAPC = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m']
 const MODES_WAPC = ['CW', 'PHONE', 'DATA']
 
 export function generateWapcBandCsv(results: AwardResults): string {

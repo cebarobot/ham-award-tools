@@ -15,9 +15,19 @@ const PROVINCES = [
   'XZ', 'TW', 'HK', 'MO',
 ]
 
-const BANDS = ['160M', '80M', '40M', '30M', '20M', '17M', '15M', '12M', '10M']
+const BANDS = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m'] as const
 
-const MODES = ['CW', 'PHONE', 'DATA']
+const MODES = ['CW', 'PHONE', 'DATA'] as const
+type WapcModeGroup = (typeof MODES)[number]
+
+const ROOT_MODE_GROUPS: Record<string, WapcModeGroup> = {
+  AM: 'PHONE',
+  CW: 'CW',
+  DIGITALVOICE: 'PHONE',
+  FM: 'PHONE',
+  SSB: 'PHONE',
+  VOI: 'PHONE',
+}
 
 function initSlots(): Record<string, QsoSlot | null> {
   const slots: Record<string, QsoSlot | null> = {}
@@ -25,7 +35,7 @@ function initSlots(): Record<string, QsoSlot | null> {
   return slots
 }
 
-function initSlotsNested(list: string[]): Record<string, Record<string, QsoSlot | null>> {
+function initSlotsNested(list: readonly string[]): Record<string, Record<string, QsoSlot | null>> {
   const slots: Record<string, Record<string, QsoSlot | null>> = {}
   for (const p of PROVINCES) {
     slots[p] = {}
@@ -47,27 +57,31 @@ export function computeWapc(qsos: Qso[]): WapcResult {
     let province: string | null = null
 
     if (qso.DXCC === DXCC_CHINA && qso.STATE) {
-      province = qso.STATE
+      province = qso.STATE.toUpperCase()
     } else if (qso.DXCC in DXCC_OTHER) {
       province = DXCC_OTHER[qso.DXCC]
     }
 
-    if (!province) continue
-    if (!PROVINCES.includes(province)) continue
+    if (!province || !PROVINCES.includes(province)) continue
 
-    const slot: QsoSlot = toQsoSlot(qso)
+    const slotBand = qso.BAND.toLowerCase()
+    const slotMode = qso.MODE.toUpperCase()
+    const modeGroup = ROOT_MODE_GROUPS[slotMode] || 'DATA'
+    const slot: QsoSlot = {
+      ...toQsoSlot(qso),
+      BAND: slotBand,
+      MODE: slotMode,
+    }
 
     if (!mixed[province]) {
       mixed[province] = slot
     }
 
-    const qsoBand = qso.BAND
-    if (qsoBand in band[province] && !band[province][qsoBand]) {
-      band[province][qsoBand] = slot
+    if (BANDS.includes(slotBand as (typeof BANDS)[number]) && !band[province][slotBand]) {
+      band[province][slotBand] = slot
     }
 
-    const modeGroup = qso.APP_LOTW_MODEGROUP
-    if (modeGroup && modeGroup in mode[province] && !mode[province][modeGroup]) {
+    if (!mode[province][modeGroup]) {
       mode[province][modeGroup] = slot
     }
   }

@@ -213,6 +213,53 @@ describe('WAPC (China provinces)', () => {
     const r = computeAllAwards(qsos)
     expect(r.wapc.mixedCount).toBe(3)
   })
+
+  it('should normalize band values to lowercase for the band matrix', () => {
+    const qsos: Qso[] = [
+      qso({ DXCC: '318', STATE: 'BJ', BAND: '20M' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wapc.band['BJ']['20m']?.CALL).toBe('JE8ABC')
+    expect(r.wapc.band['BJ']['20m']?.BAND).toBe('20m')
+    expect(r.wapc.bandCounts['20m']).toBe(1)
+  })
+
+  it('should derive mode groups from root MODE values and uppercase the stored MODE', () => {
+    const qsos: Qso[] = [
+      qso({ DXCC: '318', STATE: 'BJ', MODE: 'SSB', APP_LOTW_MODEGROUP: 'DATA' }),
+      qso({ DXCC: '318', STATE: 'SH', MODE: 'ft8', APP_LOTW_MODEGROUP: 'PHONE', CALL: 'JA1DATA' }),
+      qso({ DXCC: '318', STATE: 'TJ', MODE: 'CW', APP_LOTW_MODEGROUP: 'DATA', CALL: 'JA1CW' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wapc.mode['BJ']['PHONE']?.CALL).toBe('JE8ABC')
+    expect(r.wapc.mode['BJ']['PHONE']?.MODE).toBe('SSB')
+    expect(r.wapc.mode['SH']['DATA']?.CALL).toBe('JA1DATA')
+    expect(r.wapc.mode['SH']['DATA']?.MODE).toBe('FT8')
+    expect(r.wapc.mode['TJ']['CW']?.CALL).toBe('JA1CW')
+    expect(r.wapc.modeCounts['DATA']).toBe(1)
+    expect(r.wapc.modeCounts['PHONE']).toBe(1)
+    expect(r.wapc.modeCounts['CW']).toBe(1)
+  })
+
+  it('should treat import-only and unknown MODE values as DATA', () => {
+    const qsos: Qso[] = [
+      qso({ DXCC: '318', STATE: 'GD', MODE: 'USB' }),
+      qso({ DXCC: '318', STATE: 'GX', MODE: 'PSK31', CALL: 'JA1PSK31' }),
+      qso({ DXCC: '318', STATE: 'CQ', MODE: 'NOT_A_REAL_MODE', CALL: 'JA1UNKNOWN' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wapc.mixed['GD']?.CALL).toBe('JE8ABC')
+    expect(r.wapc.mixed['GX']?.CALL).toBe('JA1PSK31')
+    expect(r.wapc.mode['GD']['DATA']?.CALL).toBe('JE8ABC')
+    expect(r.wapc.mode['GX']['DATA']?.CALL).toBe('JA1PSK31')
+    expect(r.wapc.mode['CQ']['DATA']?.CALL).toBe('JA1UNKNOWN')
+    expect(r.wapc.modeCounts['CW']).toBe(0)
+    expect(r.wapc.modeCounts['PHONE']).toBe(0)
+    expect(r.wapc.modeCounts['DATA']).toBe(3)
+  })
 })
 
 describe('Computed result completeness', () => {
