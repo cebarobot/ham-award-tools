@@ -10,7 +10,7 @@ const props = defineProps<{
 
 const { t, locale } = useI18n()
 
-const BAND_KEYS = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m']
+const BAND_KEYS = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m', '6m']
 const MODE_KEYS = ['CW', 'PHONE', 'DATA']
 
 const PROVINCES = [

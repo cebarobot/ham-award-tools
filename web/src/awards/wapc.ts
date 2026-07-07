@@ -15,7 +15,7 @@ const PROVINCES = [
   'XZ', 'TW', 'HK', 'MO',
 ]
 
-const BANDS = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m'] as const
+const BANDS = ['160m', '80m', '40m', '30m', '20m', '17m', '15m', '12m', '10m', '6m'] as const
 
 const MODES = ['CW', 'PHONE', 'DATA'] as const
 type WapcModeGroup = (typeof MODES)[number]
