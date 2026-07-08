@@ -204,6 +204,20 @@ describe('WAPC (China provinces)', () => {
     expect(r.wapc.mixed['BJ']).toBeTruthy()
   })
 
+  it('should only count QSL or LoTW confirmed QSOs', () => {
+    const qsos: Qso[] = [
+      qso({ DXCC: '318', STATE: 'BJ', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'Y', EQSL_QSL_RCVD: 'N' }),
+      qso({ DXCC: '318', STATE: 'SH', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'N', EQSL_QSL_RCVD: 'Y' }),
+      qso({ DXCC: '318', STATE: 'TJ', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'N', EQSL_QSL_RCVD: 'N' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wapc.mixedCount).toBe(1)
+    expect(r.wapc.mixed['BJ']).toBeTruthy()
+    expect(r.wapc.mixed['SH']).toBeNull()
+    expect(r.wapc.mixed['TJ']).toBeNull()
+  })
+
   it('should count TW/HK/MO by DXCC', () => {
     const qsos: Qso[] = [
       qso({ DXCC: '386', STATE: undefined }), // TW

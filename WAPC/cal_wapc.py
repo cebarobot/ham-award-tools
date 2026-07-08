@@ -34,6 +34,13 @@ root_mode_groups = {
     'VOI': 'PHONE',
 }
 
+def is_qsl_received(one_qso):
+    if one_qso.get('QSL_RCVD') == "Y":
+        return True
+    if one_qso.get('LOTW_QSL_RCVD') == "Y":
+        return True
+    return False
+
 def init_slot(list=[]):
     slot = dict()
     for province in province_list:
@@ -71,6 +78,9 @@ for one_qso in qsos:
     # print(one_qso)
 
     this_province = None
+
+    if not is_qsl_received(one_qso):
+        continue
 
     if 'DXCC' not in one_qso:
         continue

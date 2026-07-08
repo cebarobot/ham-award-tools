@@ -29,6 +29,12 @@ const ROOT_MODE_GROUPS: Record<string, WapcModeGroup> = {
   VOI: 'PHONE',
 }
 
+function isWapcQslReceived(qso: Qso): boolean {
+  if (qso.QSL_RCVD === 'Y') return true
+  if (qso.LOTW_QSL_RCVD === 'Y') return true
+  return false
+}
+
 function initSlots(): Record<string, QsoSlot | null> {
   const slots: Record<string, QsoSlot | null> = {}
   for (const p of PROVINCES) slots[p] = null
@@ -52,6 +58,7 @@ export function computeWapc(qsos: Qso[]): WapcResult {
   const mode = initSlotsNested(MODES)
 
   for (const qso of qsos) {
+    if (!isWapcQslReceived(qso)) continue
     if (!qso.DXCC) continue
 
     let province: string | null = null
