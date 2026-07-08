@@ -26,7 +26,7 @@
   },
   "stats": {
     "total": "Total",
-    "worked": "Worked",
+    "worked": "Worked and confirmed",
     "percentage": "Percentage",
     "band": "Band",
     "mode": "Mode"
@@ -42,7 +42,7 @@
     "achieved": "Achieved",
     "noneYet": "No level reached yet",
     "legend": "Legend",
-    "workedDeleted": "Worked and deleted",
+    "workedDeleted": "Worked, confirmed, and deleted",
     "deleted": "Deleted",
     "active": "Active",
     "code": "Code",
@@ -67,7 +67,7 @@
     "noStickerYet": "No sticker milestone reached yet",
     "totalTable": "AJA summary table",
     "matrix": "AJA band matrix",
-    "workedBandsOnly": "The matrix only shows bands with worked QSOs",
+    "workedBandsOnly": "The matrix only shows bands with worked and confirmed QSOs",
     "deletedRowsHint": "Deleted city/gun/ku rows are always shown with stripes",
     "totalByType": "Grouped totals for JCC, JCG, and Ku",
     "total": "Total",

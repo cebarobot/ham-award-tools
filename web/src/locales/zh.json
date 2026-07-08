@@ -26,7 +26,7 @@
   },
   "stats": {
     "total": "总数",
-    "worked": "已通联",
+    "worked": "已通联并确认",
     "percentage": "百分比",
     "band": "波段",
     "mode": "模式"
@@ -42,7 +42,7 @@
     "achieved": "已达成",
     "noneYet": "尚未达成等级",
     "legend": "图例",
-    "workedDeleted": "已通联且已删除",
+    "workedDeleted": "已通联并确认且已删除",
     "deleted": "已删除",
     "active": "有效",
     "code": "编号",
@@ -67,7 +67,7 @@
     "noStickerYet": "尚未达到贴纸门槛",
     "totalTable": "AJA 汇总表",
     "matrix": "AJA 波段矩阵",
-    "workedBandsOnly": "矩阵仅显示已通联过的波段",
+    "workedBandsOnly": "矩阵仅显示已通联并确认过的波段",
     "deletedRowsHint": "已删除的市/区/郡始终显示并带底纹",
     "totalByType": "按 JCC/JCG/Ku 分类汇总",
     "total": "总计",

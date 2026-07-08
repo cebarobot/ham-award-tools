@@ -26,7 +26,7 @@
   },
   "stats": {
     "total": "総数",
-    "worked": "交信済み",
+    "worked": "交信・確認済み",
     "percentage": "割合",
     "band": "バンド",
     "mode": "モード"
@@ -42,7 +42,7 @@
     "achieved": "達成済み",
     "noneYet": "まだ達成したレベルはありません",
     "legend": "凡例",
-    "workedDeleted": "交信済みかつ削除済み",
+    "workedDeleted": "交信・確認済みかつ削除済み",
     "deleted": "削除済み",
     "active": "有効",
     "code": "番号",
@@ -67,7 +67,7 @@
     "noStickerYet": "まだステッカー条件に到達していません",
     "totalTable": "AJA 集計表",
     "matrix": "AJA バンドマトリクス",
-    "workedBandsOnly": "マトリクスには交信済みバンドのみ表示します",
+    "workedBandsOnly": "マトリクスには交信・確認済みバンドのみ表示します",
     "deletedRowsHint": "削除済みの市・郡・区は常に表示し、斜線を付けます",
     "totalByType": "JCC/JCG/Ku ごとの集計",
     "total": "合計",
