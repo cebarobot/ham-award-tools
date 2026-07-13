@@ -7,14 +7,15 @@ import JccJcgView from './components/JccJcgView.vue'
 import AjaView from './components/AjaView.vue'
 import AjdWajaView from './components/AjdWajaView.vue'
 import WapcView from './components/WapcView.vue'
+import WcsaView from './components/WcsaView.vue'
 
 const { t, locale } = useI18n()
 const { stats, loading, error, fileName, init, processFile, clearAll } = useStats()
-const { downloadCsv, generateAjdCsv, generateWajaCsv, generateJccCsv, generateJcgCsv, generateAjaCsv, generateAjaListCsv, generateAjaTotalTableCsv, generateWapcBandCsv, generateWapcModeCsv } = useCsvExport()
+const { downloadCsv, generateAjdCsv, generateWajaCsv, generateJccCsv, generateJcgCsv, generateAjaCsv, generateAjaListCsv, generateAjaTotalTableCsv, generateWapcBandCsv, generateWapcModeCsv, generateWcsaCsv } = useCsvExport()
 
 const fileInput = ref<HTMLInputElement | null>(null)
 const isOver = ref(false)
-const activeTab = ref<'summary' | 'jccjcg' | 'aja' | 'ajdwaja' | 'wapc'>('summary')
+const activeTab = ref<'summary' | 'jccjcg' | 'aja' | 'ajdwaja' | 'wapc' | 'wcsa'>('summary')
 
 function triggerFileInput() {
   fileInput.value?.click()
@@ -37,7 +38,7 @@ function handleFileInput(e: Event) {
   if (file) processFile(file)
 }
 
-const csvEntries: Array<{ labelKey: keyof typeof import('./locales/zh.json')['csv']; key: string; generate: () => string }> = [
+const csvEntries: Array<{ labelKey: keyof typeof import('./locales/zh.json')['csv']; key: string; filename?: string; generate: () => string }> = [
   { labelKey: 'ajd', key: 'ajd', generate: () => generateAjdCsv(stats.value!) },
   { labelKey: 'waja', key: 'waja', generate: () => generateWajaCsv(stats.value!) },
   { labelKey: 'jcc', key: 'jcc', generate: () => generateJccCsv(stats.value!) },
@@ -47,6 +48,7 @@ const csvEntries: Array<{ labelKey: keyof typeof import('./locales/zh.json')['cs
   { labelKey: 'ajaTotal', key: 'ajaTotal', generate: () => generateAjaTotalTableCsv(stats.value!) },
   { labelKey: 'wapcBand', key: 'wapcBand', generate: () => generateWapcBandCsv(stats.value!) },
   { labelKey: 'wapcMode', key: 'wapcMode', generate: () => generateWapcModeCsv(stats.value!) },
+  { labelKey: 'wcsa', key: 'wcsa', filename: 'wcsa_checksheet.csv', generate: () => generateWcsaCsv(stats.value!) },
 ]
 
 const tabs = computed(() => [
@@ -55,6 +57,7 @@ const tabs = computed(() => [
   { key: 'aja' as const, label: t('awards.aja') },
   { key: 'ajdwaja' as const, label: `${t('awards.ajd')}/${t('awards.waja')}` },
   { key: 'wapc' as const, label: t('awards.wapc') },
+  { key: 'wcsa' as const, label: t('awards.wcsa') },
 ])
 </script>
 
@@ -162,6 +165,10 @@ const tabs = computed(() => [
                 <div class="text-lg font-bold text-slate-900">{{ stats.waga.count }}</div>
                 <div class="mt-1 text-xs text-slate-500">{{ t('awards.waga') }}</div>
               </div>
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-lg font-bold text-slate-900">{{ stats.wcsa.slotCount }}</div>
+                <div class="mt-1 text-xs text-slate-500">{{ t('awards.wcsa') }}</div>
+              </div>
             </div>
           </section>
 
@@ -172,7 +179,7 @@ const tabs = computed(() => [
                 v-for="csv in csvEntries"
                 :key="csv.key"
                 class="rounded-full border border-slate-300 px-3 py-1.5 text-sm text-slate-700 transition-colors hover:bg-slate-100"
-                @click="downloadCsv(`checksheet_${csv.key}.csv`, csv.generate())"
+                @click="downloadCsv(csv.filename || `checksheet_${csv.key}.csv`, csv.generate())"
               >
                 {{ t(`csv.${csv.labelKey}`) }}
               </button>
@@ -187,6 +194,8 @@ const tabs = computed(() => [
         <AjdWajaView v-if="activeTab === 'ajdwaja'" :stats="stats" />
 
         <WapcView v-if="activeTab === 'wapc'" :stats="stats" />
+
+        <WcsaView v-if="activeTab === 'wcsa'" :stats="stats" />
       </div>
     </main>
   </div>

@@ -10,7 +10,8 @@
     "waga": "WAGA",
     "ajd": "AJD",
     "waja": "WAJA",
-    "wapc": "WAPC"
+    "wapc": "WAPC",
+    "wcsa": "WCSA"
   },
   "csv": {
     "download": "下载 CSV",
@@ -22,7 +23,8 @@
     "ajaList": "AJA 一览表",
     "ajaTotal": "AJA 汇总表",
     "wapcBand": "WAPC 波段检查表",
-    "wapcMode": "WAPC 模式检查表"
+    "wapcMode": "WAPC 模式检查表",
+    "wcsa": "WCSA 检查表"
   },
   "stats": {
     "total": "总数",
@@ -89,6 +91,24 @@
     "bandMatrix": "波段矩阵",
     "modeMatrix": "模式矩阵",
     "notWorked": "未通联"
+  },
+  "wcsa": {
+    "schools": "学校",
+    "slots": "组合",
+    "schoolSlots": "学校",
+    "slotDetails": "组合明细",
+    "schoolCall": "学校呼号",
+    "schoolName": "学校名称",
+    "callsign": "通联呼号",
+    "date": "日期",
+    "band": "波段",
+    "mode": "模式",
+    "propagation": "传播",
+    "levels": {
+      "bronze": "铜奖",
+      "silver": "银奖",
+      "gold": "金奖"
+    }
   },
   "common": {
     "close": "关闭",

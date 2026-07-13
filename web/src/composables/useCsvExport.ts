@@ -185,6 +185,44 @@ export function generateWapcModeCsv(results: AwardResults): string {
   return makeCsv(header, rows)
 }
 
+export function generateWcsaCsv(results: AwardResults): string {
+  const header = ['School Call', 'School Name', 'Date', 'Time', 'Band', 'Mode', 'Prop Mode', 'Satellite', 'Callsign']
+  const rows = Array.from(results.wcsa.slots.values())
+  rows.sort((a, b) => {
+    const aKey = [
+      a.schoolCall,
+      a.qso.QSO_DATE,
+      a.qso.TIME_ON,
+      a.qso.BAND,
+      a.qso.MODE,
+      a.qso.PROP_MODE,
+      a.qso.SAT_NAME,
+    ].join('|')
+    const bKey = [
+      b.schoolCall,
+      b.qso.QSO_DATE,
+      b.qso.TIME_ON,
+      b.qso.BAND,
+      b.qso.MODE,
+      b.qso.PROP_MODE,
+      b.qso.SAT_NAME,
+    ].join('|')
+    return aKey.localeCompare(bKey)
+  })
+
+  return makeCsv(header, rows.map((slot) => [
+    slot.schoolCall,
+    slot.schoolName,
+    slot.qso.QSO_DATE,
+    slot.qso.TIME_ON,
+    slot.qso.BAND,
+    slot.qso.MODE,
+    slot.qso.PROP_MODE,
+    slot.qso.SAT_NAME,
+    slot.qso.CALL,
+  ]))
+}
+
 export function downloadCsv(filename: string, content: string): void {
   const blob = new Blob([content], { type: 'text/csv;charset=utf-8' })
   const url = URL.createObjectURL(blob)
@@ -208,6 +246,7 @@ export function useCsvExport() {
     generateAjaTotalTableCsv,
     generateWapcBandCsv,
     generateWapcModeCsv,
+    generateWcsaCsv,
     downloadCsv,
   }
 }

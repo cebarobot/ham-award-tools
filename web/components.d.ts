@@ -20,5 +20,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     WapcView: typeof import('./src/components/WapcView.vue')['default']
+    WcsaView: typeof import('./src/components/WcsaView.vue')['default']
   }
 }

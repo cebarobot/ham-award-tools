@@ -287,5 +287,110 @@ describe('Computed result completeness', () => {
     expect(r.waca.count).toBe(0)
     expect(r.waga.count).toBe(0)
     expect(r.wapc.mixedCount).toBe(0)
+    expect(r.wcsa.schoolCount).toBe(0)
+    expect(r.wcsa.slotCount).toBe(0)
+  })
+})
+
+describe('WCSA (Chinese schools)', () => {
+  it('should count paper QSL and LoTW but not eQSL', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', BAND: '20m', QSL_RCVD: 'Y' }),
+      qso({ CALL: 'BY1HT', BAND: '40m', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'Y' }),
+      qso({ CALL: 'BY6DX', BAND: '15m', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'N', EQSL_QSL_RCVD: 'Y' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.schoolCount).toBe(2)
+    expect(r.wcsa.slotCount).toBe(2)
+  })
+
+  it('should deduplicate normal slots by raw call, band, and mode', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', BAND: '20m', MODE: 'FT8', QSO_DATE: '20260102' }),
+      qso({ CALL: 'BY1QH', BAND: '20M', MODE: 'ft8', QSO_DATE: '20260101' }),
+      qso({ CALL: 'BY1QH', BAND: '40m', MODE: 'FT8', QSO_DATE: '20260103' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.schoolCount).toBe(1)
+    expect(r.wcsa.slotCount).toBe(2)
+    expect(r.wcsa.slots.get('BY1QH|20M|FT8')?.qso.QSO_DATE).toBe('20260101')
+  })
+
+  it('should use satellite and mode for SAT slots', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', PROP_MODE: 'SAT', SAT_NAME: 'IO-117', BAND: '70cm', MODE: 'FT4', QSO_DATE: '20260102' }),
+      qso({ CALL: 'BY1QH', PROP_MODE: 'SAT', SAT_NAME: 'io-117', BAND: '2m', MODE: 'FT4', QSO_DATE: '20260101' }),
+      qso({ CALL: 'BY1QH', PROP_MODE: 'SAT', SAT_NAME: 'FO-29', BAND: '2m', MODE: 'FT4', QSO_DATE: '20260103' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.slotCount).toBe(2)
+    expect(r.wcsa.slots.get('BY1QH|SAT|IO-117|FT4')?.qso.QSO_DATE).toBe('20260101')
+  })
+
+  it('should include EME and MS propagation mode in slot keys', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', PROP_MODE: 'EME', BAND: '2m', MODE: 'CW' }),
+      qso({ CALL: 'BY1QH', PROP_MODE: 'MS', BAND: '2m', MODE: 'CW', QSO_DATE: '20260102' }),
+      qso({ CALL: 'BY1QH', BAND: '2m', MODE: 'CW', QSO_DATE: '20260103' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.slotCount).toBe(3)
+    expect(r.wcsa.slots.has('BY1QH|2M|CW|EME')).toBe(true)
+    expect(r.wcsa.slots.has('BY1QH|2M|CW|MS')).toBe(true)
+    expect(r.wcsa.slots.has('BY1QH|2M|CW')).toBe(true)
+  })
+
+  it('should use raw call for slots and school call for school counts', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', BAND: '20m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1QH/P', BAND: '20m', MODE: 'FT8' }),
+      qso({ CALL: 'BA7/BY1QH', BAND: '20m', MODE: 'FT8' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.schoolCount).toBe(1)
+    expect(r.wcsa.slotCount).toBe(3)
+    expect(r.wcsa.slotCountsBySchool.BY1QH).toBe(3)
+    expect(r.wcsa.slots.has('BY1QH|20M|FT8')).toBe(true)
+    expect(r.wcsa.slots.has('BY1QH/P|20M|FT8')).toBe(true)
+    expect(r.wcsa.slots.has('BA7/BY1QH|20M|FT8')).toBe(true)
+  })
+
+  it('should evaluate Bronze, Silver, and Gold thresholds', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY1QH', BAND: '20m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1QH', BAND: '40m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1QH', BAND: '15m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1HT', BAND: '20m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1HT', BAND: '40m', MODE: 'FT8' }),
+      qso({ CALL: 'BY1HT', BAND: '15m', MODE: 'FT8' }),
+      qso({ CALL: 'BY6DX', BAND: '20m', MODE: 'FT8' }),
+      qso({ CALL: 'BY6DX', BAND: '40m', MODE: 'FT8' }),
+      qso({ CALL: 'BY6DX', BAND: '15m', MODE: 'FT8' }),
+      qso({ CALL: 'BY6DX', BAND: '10m', MODE: 'FT8' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    const levels = Object.fromEntries(r.wcsa.levels.map((level) => [level.name, level]))
+    expect(levels.Bronze.achieved).toBe(true)
+    expect(levels.Silver.achieved).toBe(true)
+    expect(levels.Gold.achieved).toBe(true)
+  })
+
+  it('should skip unknown, unconfirmed, and incomplete QSOs', () => {
+    const qsos: Qso[] = [
+      qso({ CALL: 'BY9NOPE' }),
+      qso({ CALL: 'BY1QH', QSL_RCVD: 'N', LOTW_QSL_RCVD: 'N' }),
+      qso({ CALL: 'BY1HT', BAND: '', MODE: 'FT8' }),
+      qso({ CALL: 'BY6DX', PROP_MODE: 'SAT', SAT_NAME: '', MODE: 'FT8' }),
+    ]
+
+    const r = computeAllAwards(qsos)
+    expect(r.wcsa.schoolCount).toBe(0)
+    expect(r.wcsa.slotCount).toBe(0)
   })
 })

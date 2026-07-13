@@ -10,7 +10,8 @@
     "waga": "WAGA",
     "ajd": "AJD",
     "waja": "WAJA",
-    "wapc": "WAPC"
+    "wapc": "WAPC",
+    "wcsa": "WCSA"
   },
   "csv": {
     "download": "Download CSV",
@@ -22,7 +23,8 @@
     "ajaList": "AJA List",
     "ajaTotal": "AJA Summary Table",
     "wapcBand": "WAPC Band Checksheet",
-    "wapcMode": "WAPC Mode Checksheet"
+    "wapcMode": "WAPC Mode Checksheet",
+    "wcsa": "WCSA Checksheet"
   },
   "stats": {
     "total": "Total",
@@ -89,6 +91,24 @@
     "bandMatrix": "Band matrix",
     "modeMatrix": "Mode matrix",
     "notWorked": "Not worked"
+  },
+  "wcsa": {
+    "schools": "Schools",
+    "slots": "Slots",
+    "schoolSlots": "School slots",
+    "slotDetails": "Slot details",
+    "schoolCall": "School call",
+    "schoolName": "School name",
+    "callsign": "Callsign",
+    "date": "Date",
+    "band": "Band",
+    "mode": "Mode",
+    "propagation": "Propagation",
+    "levels": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold"
+    }
   },
   "common": {
     "close": "Close",

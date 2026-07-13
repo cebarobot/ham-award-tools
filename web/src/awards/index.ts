@@ -7,6 +7,7 @@ import { computeAja } from './aja'
 import { computeWaca } from './waca'
 import { computeWaga } from './waga'
 import { computeWapc } from './wapc'
+import { computeWcsa } from './wcsa'
 
 export function computeAllAwards(qsos: Qso[]): AwardResults {
   const ajdData = computeAjd(qsos)
@@ -17,6 +18,7 @@ export function computeAllAwards(qsos: Qso[]): AwardResults {
   const wacaData = computeWaca(qsos)
   const wagaData = computeWaga(qsos)
   const wapcResult = computeWapc(qsos)
+  const wcsaResult = computeWcsa(qsos)
 
   return {
     ajd: ajdData,
@@ -33,5 +35,6 @@ export function computeAllAwards(qsos: Qso[]): AwardResults {
     waca: { data: wacaData, count: Object.keys(wacaData).length },
     waga: { data: wagaData, count: Object.keys(wagaData).length },
     wapc: wapcResult,
+    wcsa: wcsaResult,
   }
 }

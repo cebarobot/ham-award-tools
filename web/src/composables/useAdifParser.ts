@@ -6,6 +6,7 @@ const KNOWN_FIELDS = new Set([
   'DXCC', 'STATE', 'CNTY',
   'QSL_RCVD', 'EQSL_QSL_RCVD', 'LOTW_QSL_RCVD',
   'APP_LOTW_MODEGROUP', 'GRIDSQUARE', 'IOTA', 'CQZ', 'ITUZ', 'CONT',
+  'PROP_MODE', 'SAT_NAME',
 ])
 
 export function parseAdifText(text: string): Qso[] {

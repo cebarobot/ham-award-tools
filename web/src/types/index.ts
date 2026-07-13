@@ -16,6 +16,8 @@ export interface Qso {
   CQZ?: string
   ITUZ?: string
   CONT?: string
+  PROP_MODE?: string
+  SAT_NAME?: string
   [key: string]: string | undefined
 }
 
@@ -79,6 +81,30 @@ export interface WapcResult {
   modeCounts: Record<string, number>
 }
 
+export interface WcsaSlot {
+  schoolCall: string
+  schoolName: string
+  qso: QsoSlot & {
+    PROP_MODE: string
+    SAT_NAME: string
+  }
+}
+
+export interface WcsaLevel {
+  name: 'Bronze' | 'Silver' | 'Gold'
+  requiredSchools: number
+  requiredSlots: number
+  achieved: boolean
+}
+
+export interface WcsaResult {
+  slots: Map<string, WcsaSlot>
+  schoolCount: number
+  slotCount: number
+  levels: WcsaLevel[]
+  slotCountsBySchool: Record<string, number>
+}
+
 export interface AwardResults {
   ajd: Record<string, QsoSlot>
   ajdCount: number
@@ -90,4 +116,5 @@ export interface AwardResults {
   waca: JccJcgResult
   waga: JccJcgResult
   wapc: WapcResult
+  wcsa: WcsaResult
 }

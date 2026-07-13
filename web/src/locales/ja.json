@@ -10,7 +10,8 @@
     "waga": "WAGA",
     "ajd": "AJD",
     "waja": "WAJA",
-    "wapc": "WAPC"
+    "wapc": "WAPC",
+    "wcsa": "WCSA"
   },
   "csv": {
     "download": "CSV ダウンロード",
@@ -22,7 +23,8 @@
     "ajaList": "AJA 一覧表",
     "ajaTotal": "AJA 集計表",
     "wapcBand": "WAPC バンドチェックシート",
-    "wapcMode": "WAPC モードチェックシート"
+    "wapcMode": "WAPC モードチェックシート",
+    "wcsa": "WCSA チェックシート"
   },
   "stats": {
     "total": "総数",
@@ -89,6 +91,24 @@
     "bandMatrix": "バンドマトリクス",
     "modeMatrix": "モードマトリクス",
     "notWorked": "未交信"
+  },
+  "wcsa": {
+    "schools": "学校",
+    "slots": "スロット",
+    "schoolSlots": "学校",
+    "slotDetails": "スロット詳細",
+    "schoolCall": "学校コール",
+    "schoolName": "学校名",
+    "callsign": "コールサイン",
+    "date": "日付",
+    "band": "バンド",
+    "mode": "モード",
+    "propagation": "伝搬",
+    "levels": {
+      "bronze": "銅賞",
+      "silver": "銀賞",
+      "gold": "金賞"
+    }
   },
   "common": {
     "close": "閉じる",
