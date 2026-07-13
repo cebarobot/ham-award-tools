@@ -82,7 +82,7 @@ jobs:
         run: |
           # Append os.system("pause") as required by the packaging guide
           Add-Content -Path cal_wcsa.py -Value "import os; os.system('pause')"
-          pyinstaller --add-data '../data/wcsa.json;data' -F cal_wcsa.py
+          python -m PyInstaller --add-data '../data/wcsa.json;data' -F cal_wcsa.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
