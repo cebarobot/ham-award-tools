@@ -1,7 +1,23 @@
 .venv
 .vscode
+__pycache__/
+*.pyc
 
 AGENTS.md
 task.md
 plan.md
 log.md
+
+# run result
+checksheet_aja.csv
+checksheet_ajd.csv
+checksheet_jcc.csv
+checksheet_jcg.csv
+checksheet_waja.csv
+aja_list.csv
+aja_total_table.csv
+
+wapc_checksheet_band.csv
+wapc_checksheet_mode.csv
+
+wcsa_checksheet.csv

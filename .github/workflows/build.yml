@@ -63,9 +63,36 @@ jobs:
           name: cal_wapc
           path: WAPC/dist/cal_wapc.exe
 
+  build-wcsa:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install adif_io pyinstaller
+
+      - name: Build cal_wcsa.exe
+        working-directory: python
+        run: |
+          # Append os.system("pause") as required by the packaging guide
+          Add-Content -Path cal_wcsa.py -Value "import os; os.system('pause')"
+          pyinstaller --add-data '../data/wcsa.json;data' -F cal_wcsa.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: cal_wcsa
+          path: python/dist/cal_wcsa.exe
+
   release:
     name: Create GitHub Release
-    needs: [build-jarl, build-wapc]
+    needs: [build-jarl, build-wapc, build-wcsa]
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
@@ -78,6 +105,7 @@ jobs:
           files: |
             cal_jarl/cal_jarl.exe
             cal_wapc/cal_wapc.exe
+            cal_wcsa/cal_wcsa.exe
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
