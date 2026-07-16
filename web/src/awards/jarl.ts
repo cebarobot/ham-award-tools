@@ -80,6 +80,9 @@ function gunNameWithSuffix(name: string): string {
   if (name.includes(' (')) {
     return name.replace(' (', '郡 (')
   }
+  if (name.includes('支庁')) {
+    return name
+  }
   return name + '郡'
 }
 

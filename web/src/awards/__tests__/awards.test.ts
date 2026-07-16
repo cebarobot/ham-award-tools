@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { computeAllAwards } from '..'
 import type { Qso } from '../../types'
-import { NO_LIST, PREF_LIST } from '../jarl'
+import { getNoName, NO_LIST, PREF_LIST } from '../jarl'
 
 function qso(overrides: Partial<Qso> = {}): Qso {
   return {
@@ -34,6 +34,10 @@ describe('JARL shared utilities', () => {
     expect(r.aja.data.has('10007:40m')).toBe(true)
     expect(ogasawara.STATE).toBeUndefined()
     expect(ogasawara.CNTY).toBeUndefined()
+  })
+
+  it('should not append gun suffix to shicho entity names', () => {
+    expect(getNoName('10007')).toBe('東京都 小笠原支庁')
   })
 })
 

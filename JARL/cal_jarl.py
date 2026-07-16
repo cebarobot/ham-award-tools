@@ -48,6 +48,8 @@ def get_pref_name(no):
 def gun_name_with_suffix(name):
     if ' (' in name:
         return name.replace(' (', '郡 (')
+    elif '支庁' in name:
+        return name
     else:
         return name + '郡'
 
