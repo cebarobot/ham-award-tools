@@ -1,12 +1,13 @@
 import type { Qso, QsoSlot } from '../types'
-import { isQslReceived, isInJapan, getDistrict, isEarlierQso, toQsoSlot } from './jarl'
+import { isQslReceived, isInJapan, applyOgasawaraMapping, getDistrict, isEarlierQso, toQsoSlot } from './jarl'
 
 export function computeWaja(qsos: Qso[]): Record<string, QsoSlot> {
   const result: Record<string, QsoSlot> = {}
 
-  for (const qso of qsos) {
-    if (!isQslReceived(qso)) continue
-    if (!isInJapan(qso)) continue
+  for (const originQso of qsos) {
+    if (!isQslReceived(originQso)) continue
+    if (!isInJapan(originQso)) continue
+    const qso = applyOgasawaraMapping(originQso)
     if (!qso.STATE) continue
 
     const pref = qso.STATE

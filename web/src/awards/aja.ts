@@ -1,7 +1,7 @@
 import type { Qso, AjaSlot, EntityInfo } from '../types'
 import {
   NO_LIST, BAND_ORDER,
-  isQslReceived, isInJapan, isAfterDate, isOnOrAfterDate, isEarlierQso,
+  isQslReceived, isInJapan, applyOgasawaraMapping, isAfterDate, isOnOrAfterDate, isEarlierQso,
 } from './jarl'
 
 const AJA_SKIP_LIST = new Set(['1001'])
@@ -13,9 +13,10 @@ export function computeAja(qsos: Qso[]): {
   const data = new Map<string, AjaSlot>()
   const entitySet = new Set<string>()
 
-  for (const qso of qsos) {
-    if (!isQslReceived(qso)) continue
-    if (!isInJapan(qso)) continue
+  for (const originQso of qsos) {
+    if (!isQslReceived(originQso)) continue
+    if (!isInJapan(originQso)) continue
+    const qso = applyOgasawaraMapping(originQso)
     if (!qso.CNTY) continue
 
     const no = qso.CNTY

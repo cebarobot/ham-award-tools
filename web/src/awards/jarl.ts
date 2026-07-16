@@ -40,6 +40,20 @@ export function isInJapan(qso: Qso): boolean {
   return qso.DXCC === '339' || qso.DXCC === '177' || qso.DXCC === '192'
 }
 
+const OGASAWARA_DXCC = new Set(['177', '192'])
+const OGASAWARA_PREF = '10'
+const OGASAWARA_CNTY = '10007'
+
+export function applyOgasawaraMapping(qso: Qso): Qso {
+  if (!qso.DXCC || !OGASAWARA_DXCC.has(qso.DXCC)) return qso
+
+  return {
+    ...qso,
+    STATE: OGASAWARA_PREF,
+    CNTY: OGASAWARA_CNTY,
+  }
+}
+
 export function getDistrict(prefNo: string): string {
   const id = parseInt(prefNo, 10)
   if (id === 1) return '8'

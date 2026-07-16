@@ -21,6 +21,20 @@ describe('JARL shared utilities', () => {
     expect(Object.keys(NO_LIST).length).toBeGreaterThan(1700)
     expect(Object.keys(PREF_LIST).length).toBe(47)
   })
+
+  it('should map Ogasawara DXCC entities to Tokyo and Ogasawara-gun', () => {
+    const ogasawara = qso({ DXCC: '177', CALL: 'JD1ABC' })
+    const minamiTorishima = qso({ DXCC: '192', CALL: 'JD1DEF', BAND: '40m' })
+    const r = computeAllAwards([ogasawara, minamiTorishima])
+
+    expect(r.ajd['1']).toBeTruthy()
+    expect(r.waja['10']).toBeTruthy()
+    expect(r.jcg.data['10007']).toBeTruthy()
+    expect(r.aja.data.has('10007:20m')).toBe(true)
+    expect(r.aja.data.has('10007:40m')).toBe(true)
+    expect(ogasawara.STATE).toBeUndefined()
+    expect(ogasawara.CNTY).toBeUndefined()
+  })
 })
 
 describe('AJD (10 call areas)', () => {

@@ -99,6 +99,15 @@ def is_in_japan(one_qso):
     return False
 
 
+def apply_ogasawara_mapping(one_qso):
+    if one_qso.get('DXCC') in ['177', '192']:  # Minamitorishima and Ogasawara
+        normalized_qso = dict(one_qso)
+        normalized_qso['STATE'] = '10'  # Tokyo
+        normalized_qso['CNTY'] = '10007'  # Ogasawara
+        return normalized_qso
+    return one_qso
+
+
 qsl_list_header = ['No.', 'Callsign', 'Date', 'Band', 'Mode', 'Remarks']
 aja_list_header = ['City/Gun/Ku', 'Band', 'Callsign', 'Date', 'Mode', 'Remarks']
 
@@ -305,6 +314,8 @@ for one_qso in qsos:
 
     if not is_in_japan(one_qso):
         continue
+
+    one_qso = apply_ogasawara_mapping(one_qso)
 
     if 'STATE' not in one_qso:
         continue
