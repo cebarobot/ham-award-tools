@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { BAND_MAP, BAND_ORDER, NO_LIST, PREF_LIST, formatDateYmd } from '../awards/jarl'
-import type { AjaSlot, AwardResults, EntityInfo } from '../types'
+import { BAND_MAP, BAND_ORDER, NO_LIST, PREF_LIST, getNoName, getNoRomajiName } from '../awards/jarl'
+import type { AjaSlot, AwardResults } from '../types'
 import AjaMatrixTable from './AjaMatrixTable.vue'
 
 const props = defineProps<{
@@ -26,27 +26,11 @@ const bandColumns = computed(() => workedBandKeys.value.map((band) => ({
   label: BAND_MAP[band] || band,
 })))
 
-function getEntityLabel(no: string, entity: EntityInfo): string {
+function getEntityLabel(no: string): string {
   if (locale.value === 'en') {
-    let label = entity.name
-    if (entity.deleted && entity.deleted_date) {
-      label += ` *${formatDateYmd(entity.deleted_date)}`
-    }
-    return label
+    return getNoRomajiName(no)
   }
-
-  const prefName = PREF_LIST[no.substring(0, 2)]?.kanji || no.substring(0, 2)
-  if (entity.type === 'city' || entity.type === 'designated city') {
-    const suffix = no === '1001' ? '' : '市'
-    return `${prefName} ${entity.ja_name}${suffix}`
-  }
-  if (entity.type === 'gun') {
-    const suffix = entity.ja_name.includes(' (') ? entity.ja_name.replace(' (', '郡 (') : `${entity.ja_name}郡`
-    return `${prefName} ${suffix}`
-  }
-  const parent = NO_LIST[no.substring(0, 4)]
-  const parentName = parent ? `${parent.ja_name}市` : no.substring(0, 4)
-  return `${prefName} ${parentName} ${entity.ja_name}区`
+  return getNoName(no)
 }
 
 const matrixRows = computed(() => {
@@ -71,7 +55,7 @@ const matrixRows = computed(() => {
         prefNo,
         prefName: locale.value === 'en' ? pref?.romaji || prefNo : pref?.kanji || prefNo,
         no,
-        name: getEntityLabel(no, entity),
+        name: getEntityLabel(no),
         deleted: entity.deleted,
         deletedDate: entity.deleted_date,
         cells,

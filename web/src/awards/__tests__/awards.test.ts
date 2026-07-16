@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { computeAllAwards } from '..'
 import type { Qso } from '../../types'
-import { getNoName, NO_LIST, PREF_LIST } from '../jarl'
+import { getNoName, getNoRomajiName, NO_LIST, PREF_LIST } from '../jarl'
 
 function qso(overrides: Partial<Qso> = {}): Qso {
   return {
@@ -38,6 +38,11 @@ describe('JARL shared utilities', () => {
 
   it('should not append gun suffix to shicho entity names', () => {
     expect(getNoName('10007')).toBe('東京都 小笠原支庁')
+  })
+
+  it('should build romaji entity names from the shared entity-name helper', () => {
+    expect(getNoRomajiName('10007')).toBe('Tokyo-To Ogasawara-Shicho')
+    expect(getNoRomajiName('010101')).toBe('Hokkaido Sapporo Chuo')
   })
 })
 

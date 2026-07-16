@@ -76,6 +76,13 @@ export function getPrefName(no: string): string {
   return 'ERROR'
 }
 
+export function getPrefRomajiName(no: string): string {
+  if (no in PREF_LIST) {
+    return PREF_LIST[no].romaji
+  }
+  return 'ERROR'
+}
+
 function gunNameWithSuffix(name: string): string {
   if (name.includes(' (')) {
     return name.replace(' (', '郡 (')
@@ -114,6 +121,36 @@ function getNoNameList(no: string): string[] {
 
 export function getNoName(no: string): string {
   return getNoNameList(no).join(' ')
+}
+
+function getNoRomajiNameList(no: string): string[] {
+  if (!(no in NO_LIST)) return []
+
+  const originName = NO_LIST[no].name
+  const name: string[] = [getPrefRomajiName(no.substring(0, 2))]
+
+  if (no.length === 4) {
+    if (no === '1001') {
+      return [originName]
+    }
+    name.push(originName)
+  } else if (no.length === 5) {
+    name.push(originName)
+  } else if (no.length === 6) {
+    if (no.substring(0, 4) === '1001') {
+      name.push(originName)
+    } else {
+      const parent = getNoRomajiNameList(no.substring(0, 4))
+      parent.push(originName)
+      return parent
+    }
+  }
+
+  return name
+}
+
+export function getNoRomajiName(no: string): string {
+  return getNoRomajiNameList(no).join(' ')
 }
 
 export function isAfterDate(qsoDate: string, entityDate: string): boolean {
